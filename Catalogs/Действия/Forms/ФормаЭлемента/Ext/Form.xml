@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаВыполнитьДействие" id="41">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ВыполнитьДействие</CommandName>
+				<ExtendedTooltip name="ФормаВыполнитьДействиеРасширеннаяПодсказка" id="42"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Оборудование" id="7">
+			<DataPath>Объект.Оборудование</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОборудованиеКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ОборудованиеРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<CheckBoxField name="ОбработкаДоОтправкиКомандАктивна" id="46">
+			<DataPath>Объект.ОбработкаДоОтправкиКомандАктивна</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ОбработкаДоОтправкиКомандАктивнаКонтекстноеМеню" id="47"/>
+			<ExtendedTooltip name="ОбработкаДоОтправкиКомандАктивнаРасширеннаяПодсказка" id="48"/>
+		</CheckBoxField>
+		<InputField name="ВыполняемаяОбработкаДоОтправкиКоманд" id="43">
+			<DataPath>Объект.ВыполняемаяОбработкаДоОтправкиКоманд</DataPath>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доступна переменная "Оборудование"</v8:content>
+				</v8:item>
+			</ToolTip>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<Height>7</Height>
+			<ContextMenu name="ВыполняемаяОбработкаДоОтправкиКомандКонтекстноеМеню" id="44"/>
+			<ExtendedTooltip name="ВыполняемаяОбработкаДоОтправкиКомандРасширеннаяПодсказка" id="45"/>
+		</InputField>
+		<Table name="ОтправляемыеКоманды" id="10">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>Объект.ОтправляемыеКоманды</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ОтправляемыеКомандыКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="ОтправляемыеКомандыКоманднаяПанель" id="12"/>
+			<ExtendedTooltip name="ОтправляемыеКомандыРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="ОтправляемыеКомандыСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>ОтправляемыеКоманды</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ОтправляемыеКомандыСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ОтправляемыеКомандыСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ОтправляемыеКомандыСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>ОтправляемыеКоманды</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ОтправляемыеКомандыСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ОтправляемыеКомандыСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ОтправляемыеКомандыУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>ОтправляемыеКоманды</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ОтправляемыеКомандыУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ОтправляемыеКомандыУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ОтправляемыеКомандыНомерСтроки" id="23">
+					<DataPath>Объект.ОтправляемыеКоманды.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОтправляемыеКомандыНомерСтрокиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ОтправляемыеКомандыНомерСтрокиРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<InputField name="ОтправляемыеКомандыНомерПина" id="26">
+					<DataPath>Объект.ОтправляемыеКоманды.НомерПина</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОтправляемыеКомандыНомерПинаКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ОтправляемыеКомандыНомерПинаРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="ОтправляемыеКомандыКоманда" id="29">
+					<DataPath>Объект.ОтправляемыеКоманды.Команда</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОтправляемыеКомандыКомандаКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ОтправляемыеКомандыКомандаРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="ОтправляемыеКомандыАргумент" id="32">
+					<DataPath>Объект.ОтправляемыеКоманды.Аргумент</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОтправляемыеКомандыАргументКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ОтправляемыеКомандыАргументРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="ОтправляемыеКомандыДопАргументNET" id="35">
+					<DataPath>Объект.ОтправляемыеКоманды.ДопАргументNET</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОтправляемыеКомандыДопАргументNETКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ОтправляемыеКомандыДопАргументNETРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<CheckBoxField name="ОтправляемыеКомандыОжидатьЗавершенияКоманды" id="38">
+					<DataPath>Объект.ОтправляемыеКоманды.ОжидатьЗавершенияКоманды</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ОтправляемыеКомандыОжидатьЗавершенияКомандыКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ОтправляемыеКомандыОжидатьЗавершенияКомандыРасширеннаяПодсказка" id="40"/>
+				</CheckBoxField>
+			</ChildItems>
+		</Table>
+		<CheckBoxField name="ОбработкаПослеОтправкиКомандАктивна" id="52">
+			<DataPath>Объект.ОбработкаПослеОтправкиКомандАктивна</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ОбработкаПослеОтправкиКомандАктивнаКонтекстноеМеню" id="53"/>
+			<ExtendedTooltip name="ОбработкаПослеОтправкиКомандАктивнаРасширеннаяПодсказка" id="54"/>
+		</CheckBoxField>
+		<InputField name="ВыполняемаяОбработкаПослеОтправкиКоманд" id="49">
+			<DataPath>Объект.ВыполняемаяОбработкаПослеОтправкиКоманд</DataPath>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доступна переменная "Оборудование"</v8:content>
+				</v8:item>
+			</ToolTip>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<Height>7</Height>
+			<ContextMenu name="ВыполняемаяОбработкаПослеОтправкиКомандКонтекстноеМеню" id="50"/>
+			<ExtendedTooltip name="ВыполняемаяОбработкаПослеОтправкиКомандРасширеннаяПодсказка" id="51"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Действия</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВыполнитьДействие" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить действие</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить действие</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьДействие</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Оборудование" id="1">
+			<DataPath>Объект.Оборудование</DataPath>
+			<ContextMenu name="ОборудованиеКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ОборудованиеРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<UsualGroup name="Группа6" id="43">
+			<Group>Horizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="44"/>
+			<ChildItems>
+				<Button name="Выполнить" id="4">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Выполнить</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выполнить итерацию</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ВыполнитьРасширеннаяПодсказка" id="5"/>
+				</Button>
+				<Button name="Инициализация" id="81">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Инициализация</CommandName>
+					<ExtendedTooltip name="ИнициализацияРасширеннаяПодсказка" id="82"/>
+				</Button>
+				<Button name="ПолучитьТекущиеДанные" id="95">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ПолучитьТекущиеДанные</CommandName>
+					<ExtendedTooltip name="ПолучитьТекущиеДанныеРасширеннаяПодсказка" id="96"/>
+				</Button>
+				<Button name="ПроизвестиИзмерения" id="45">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ОбновитьПоказания</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПроизвестиИзмерения</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ПроизвестиИзмеренияРасширеннаяПодсказка" id="46"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа17" id="125">
+			<Group>Horizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа17РасширеннаяПодсказка" id="126"/>
+			<ChildItems>
+				<UsualGroup name="Группа1" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Датчики</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="7"/>
+					<ChildItems>
+						<UsualGroup name="Группа2" id="11">
+							<Group>Horizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="12"/>
+							<ChildItems>
+								<InputField name="ТемператураДатчика1" id="8">
+									<DataPath>Объект.ТемператураДатчика1</DataPath>
+									<ContextMenu name="ТемператураДатчика1КонтекстноеМеню" id="9"/>
+									<ExtendedTooltip name="ТемператураДатчика1РасширеннаяПодсказка" id="10"/>
+								</InputField>
+								<InputField name="ДатаТемператураДатчика1" id="15">
+									<DataPath>Объект.ДатаТемператураДатчика1</DataPath>
+									<ContextMenu name="ДатаТемператураДатчика1КонтекстноеМеню" id="16"/>
+									<ExtendedTooltip name="ДатаТемператураДатчика1РасширеннаяПодсказка" id="17"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа3" id="13">
+							<Group>Horizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="14"/>
+							<ChildItems>
+								<InputField name="ТемператураДатчика2" id="18">
+									<DataPath>Объект.ТемператураДатчика2</DataPath>
+									<ContextMenu name="ТемператураДатчика2КонтекстноеМеню" id="19"/>
+									<ExtendedTooltip name="ТемператураДатчика2РасширеннаяПодсказка" id="20"/>
+								</InputField>
+								<InputField name="ДатаТемператураДатчика2" id="21">
+									<DataPath>Объект.ДатаТемператураДатчика2</DataPath>
+									<ContextMenu name="ДатаТемператураДатчика2КонтекстноеМеню" id="22"/>
+									<ExtendedTooltip name="ДатаТемператураДатчика2РасширеннаяПодсказка" id="23"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа4" id="24">
+							<Group>Horizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="25"/>
+							<ChildItems>
+								<InputField name="ТемператураДатчика3" id="28">
+									<DataPath>Объект.ТемператураДатчика3</DataPath>
+									<ContextMenu name="ТемператураДатчика3КонтекстноеМеню" id="29"/>
+									<ExtendedTooltip name="ТемператураДатчика3РасширеннаяПодсказка" id="30"/>
+								</InputField>
+								<InputField name="ДатаТемператураДатчика3" id="31">
+									<DataPath>Объект.ДатаТемператураДатчика3</DataPath>
+									<ContextMenu name="ДатаТемператураДатчика3КонтекстноеМеню" id="32"/>
+									<ExtendedTooltip name="ДатаТемператураДатчика3РасширеннаяПодсказка" id="33"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа5" id="26">
+							<Group>Horizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="27"/>
+							<ChildItems>
+								<InputField name="ТемператураДатчика4" id="40">
+									<DataPath>Объект.ТемператураДатчика4</DataPath>
+									<ContextMenu name="ТемператураДатчика4КонтекстноеМеню" id="41"/>
+									<ExtendedTooltip name="ТемператураДатчика4РасширеннаяПодсказка" id="42"/>
+								</InputField>
+								<InputField name="ДатаТемператураДатчика5" id="37">
+									<DataPath>Объект.ДатаТемператураДатчика4</DataPath>
+									<ContextMenu name="ДатаТемператураДатчика5КонтекстноеМеню" id="38"/>
+									<ExtendedTooltip name="ДатаТемператураДатчика5РасширеннаяПодсказка" id="39"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа7" id="47">
+							<Group>Horizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="48"/>
+							<ChildItems>
+								<InputField name="ВлажностьДатчика4" id="49">
+									<DataPath>Объект.ВлажностьДатчика4</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Влажность датчика4  </v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ВлажностьДатчика4КонтекстноеМеню" id="50"/>
+									<ExtendedTooltip name="ВлажностьДатчика4РасширеннаяПодсказка" id="51"/>
+								</InputField>
+								<InputField name="ДатаВлажностьДатчика4" id="52">
+									<DataPath>Объект.ДатаВлажностьДатчика4</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дата влажность датчика4    </v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДатаВлажностьДатчика4КонтекстноеМеню" id="53"/>
+									<ExtendedTooltip name="ДатаВлажностьДатчика4РасширеннаяПодсказка" id="54"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа8" id="55">
+							<Group>Horizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="56"/>
+							<ChildItems>
+								<UsualGroup name="Группа9" id="61">
+									<Group>Vertical</Group>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="62"/>
+									<ChildItems>
+										<CheckBoxField name="Реле1Вкл" id="83">
+											<DataPath>Объект.Реле1Вкл</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Основной обогреватель</v8:content>
+												</v8:item>
+											</Title>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="Реле1ВклКонтекстноеМеню" id="84"/>
+											<ExtendedTooltip name="Реле1ВклРасширеннаяПодсказка" id="85"/>
+											<Events>
+												<Event name="OnChange">Реле1Вкл</Event>
+											</Events>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа10" id="63">
+									<Group>Vertical</Group>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа10РасширеннаяПодсказка" id="64"/>
+									<ChildItems>
+										<CheckBoxField name="Реле2Вкл1" id="86">
+											<DataPath>Объект.Реле2Вкл</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Доп. обогреватель</v8:content>
+												</v8:item>
+											</Title>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="Реле2Вкл1КонтекстноеМеню" id="87"/>
+											<ExtendedTooltip name="Реле2Вкл1РасширеннаяПодсказка" id="88"/>
+											<Events>
+												<Event name="OnChange">Реле2Вкл</Event>
+											</Events>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа11" id="65">
+									<Group>Vertical</Group>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа11РасширеннаяПодсказка" id="66"/>
+									<ChildItems>
+										<CheckBoxField name="Реле3Вкл1" id="89">
+											<DataPath>Объект.Реле3Вкл</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Обогреватель АКБ</v8:content>
+												</v8:item>
+											</Title>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="Реле3Вкл1КонтекстноеМеню" id="90"/>
+											<ExtendedTooltip name="Реле3Вкл1РасширеннаяПодсказка" id="91"/>
+											<Events>
+												<Event name="OnChange">Реле3Вкл</Event>
+											</Events>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа12" id="67">
+									<Group>Vertical</Group>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа12РасширеннаяПодсказка" id="68"/>
+									<ChildItems>
+										<CheckBoxField name="Реле4Вкл1" id="92">
+											<DataPath>Объект.Реле4Вкл</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Свет в будке</v8:content>
+												</v8:item>
+											</Title>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="Реле4Вкл1КонтекстноеМеню" id="93"/>
+											<ExtendedTooltip name="Реле4Вкл1РасширеннаяПодсказка" id="94"/>
+											<Events>
+												<Event name="OnChange">Реле4Вкл</Event>
+											</Events>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<InputField name="Сообщения" id="127">
+					<DataPath>Объект.Сообщения</DataPath>
+					<Height>2</Height>
+					<MultiLine>true</MultiLine>
+					<ContextMenu name="СообщенияКонтекстноеМеню" id="128"/>
+					<ExtendedTooltip name="СообщенияРасширеннаяПодсказка" id="129"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа13" id="97">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>При изменении сохраняются в справочнике</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="Группа13РасширеннаяПодсказка" id="98"/>
+			<ChildItems>
+				<UsualGroup name="Группа14" id="101">
+					<Group>Horizontal</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа14РасширеннаяПодсказка" id="102"/>
+					<ChildItems>
+						<Button name="ПрочитатьНастройкиИзСправочника" id="99">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ПрочитатьНастройкиИзСправочника</CommandName>
+							<ExtendedTooltip name="ПрочитатьНастройкиИзСправочникаРасширеннаяПодсказка" id="100"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа15" id="103">
+					<Group>Horizontal</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа15РасширеннаяПодсказка" id="104"/>
+					<ChildItems>
+						<CheckBoxField name="НастройкаАктивнаАвтоматикаОсновногоОбогревателя" id="105">
+							<DataPath>Объект.НастройкаАктивнаАвтоматикаОсновногоОбогревателя</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Активна автоматика основного обогревателя</v8:content>
+								</v8:item>
+							</Title>
+							<TitleHeight>2</TitleHeight>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="НастройкаАктивнаАвтоматикаОсновногоОбогревателяКонтекстноеМеню" id="106"/>
+							<ExtendedTooltip name="НастройкаАктивнаАвтоматикаОсновногоОбогревателяРасширеннаяПодсказка" id="107"/>
+							<Events>
+								<Event name="OnChange">ЗаписатьИзменениеНастройки</Event>
+							</Events>
+						</CheckBoxField>
+						<InputField name="НастройкаМинТемператураОсновногоОбогревателя" id="108">
+							<DataPath>Объект.НастройкаМинТемператураОсновногоОбогревателя</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Мин температура основного обогревателя</v8:content>
+								</v8:item>
+							</Title>
+							<TitleHeight>2</TitleHeight>
+							<ContextMenu name="НастройкаМинТемператураОсновногоОбогревателяКонтекстноеМеню" id="109"/>
+							<ExtendedTooltip name="НастройкаМинТемператураОсновногоОбогревателяРасширеннаяПодсказка" id="110"/>
+							<Events>
+								<Event name="OnChange">ЗаписатьИзменениеНастройки</Event>
+							</Events>
+						</InputField>
+						<InputField name="НастройкаМаксТемператураОсновногоОбогревателя" id="111">
+							<DataPath>Объект.НастройкаМаксТемператураОсновногоОбогревателя</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Макс температура основного обогревателя</v8:content>
+								</v8:item>
+							</Title>
+							<TitleHeight>2</TitleHeight>
+							<ContextMenu name="НастройкаМаксТемператураОсновногоОбогревателяКонтекстноеМеню" id="112"/>
+							<ExtendedTooltip name="НастройкаМаксТемператураОсновногоОбогревателяРасширеннаяПодсказка" id="113"/>
+							<Events>
+								<Event name="OnChange">ЗаписатьИзменениеНастройки</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа16" id="114">
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа16РасширеннаяПодсказка" id="115"/>
+					<ChildItems>
+						<CheckBoxField name="НастройкаАктивнаАвтоматикаАКБОбогревателя" id="116">
+							<DataPath>Объект.НастройкаАктивнаАвтоматикаАКБОбогревателя</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Активна автоматика АКБ обогревателя        </v8:content>
+								</v8:item>
+							</Title>
+							<TitleHeight>2</TitleHeight>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="НастройкаАктивнаАвтоматикаАКБОбогревателяКонтекстноеМеню" id="117"/>
+							<ExtendedTooltip name="НастройкаАктивнаАвтоматикаАКБОбогревателяРасширеннаяПодсказка" id="118"/>
+							<Events>
+								<Event name="OnChange">ЗаписатьИзменениеНастройки</Event>
+							</Events>
+						</CheckBoxField>
+						<InputField name="НастройкаМинТемператураАКБОбогревателя" id="119">
+							<DataPath>Объект.НастройкаМинТемператураАКБОбогревателя</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Мин температура АКБ обогревателя                </v8:content>
+								</v8:item>
+							</Title>
+							<TitleHeight>2</TitleHeight>
+							<ContextMenu name="НастройкаМинТемператураАКБОбогревателяКонтекстноеМеню" id="120"/>
+							<ExtendedTooltip name="НастройкаМинТемператураАКБОбогревателяРасширеннаяПодсказка" id="121"/>
+							<Events>
+								<Event name="OnChange">ЗаписатьИзменениеНастройки</Event>
+							</Events>
+						</InputField>
+						<InputField name="НастройкаМаксТемператураАКБОбогревателя" id="122">
+							<DataPath>Объект.НастройкаМаксТемператураАКБОбогревателя</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Макс температура АКБ обогревателя                </v8:content>
+								</v8:item>
+							</Title>
+							<TitleHeight>2</TitleHeight>
+							<ContextMenu name="НастройкаМаксТемператураАКБОбогревателяКонтекстноеМеню" id="123"/>
+							<ExtendedTooltip name="НастройкаМаксТемператураАКБОбогревателяРасширеннаяПодсказка" id="124"/>
+							<Events>
+								<Event name="OnChange">ЗаписатьИзменениеНастройки</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.КонтрольТемпературы1</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Выполнить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьИтерацию</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОбновитьПоказания" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить показания</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить показания</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьПоказания</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="Реле1Вкл" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реле1 вкл</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реле1 вкл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Реле1Вкл</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="Реле1Выкл" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реле1 выкл</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реле1 выкл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Реле1Выкл</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="Реле2Вкл" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реле2 вкл</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реле2 вкл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Реле2Вкл</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="Реле2Выкл" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реле2 выкл</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реле2 выкл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Реле2Выкл</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="Реле3Вкл" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реле3 вкл</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реле3 вкл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Реле3Вкл</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="Реле3Выкл" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реле3 выкл</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реле3 выкл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Реле3Выкл</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="Реле4Вкл" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реле4 вкл</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реле4 вкл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Реле4Вкл</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="Реле4Выкл" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реле4 выкл</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реле4 выкл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Реле4Выкл</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="Инициализация" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Инициализация</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Инициализация</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Инициализация</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ПолучитьТекущиеДанные" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить текущие данные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить текущие данные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьТекущиеДанные</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ПрочитатьНастройкиИзСправочника" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прочитать настройки из справочника</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прочитать настройки из справочника</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПрочитатьНастройкиИзСправочника</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>

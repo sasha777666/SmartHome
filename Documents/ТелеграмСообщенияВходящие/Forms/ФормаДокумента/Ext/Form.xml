@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="57">
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="58"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="ДатаПолученияСообщения" id="65">
+					<DataPath>Объект.ДатаПолученияСообщения</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата получения</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДатаПолученияСообщенияКонтекстноеМеню" id="66"/>
+					<ExtendedTooltip name="ДатаПолученияСообщенияРасширеннаяПодсказка" id="67"/>
+				</InputField>
+				<InputField name="update_id" id="7">
+					<DataPath>Объект.update_id</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="update_idКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="update_idРасширеннаяПодсказка" id="9"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа5" id="68">
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="69"/>
+			<ChildItems>
+				<InputField name="ТелеграмКонтакт" id="114">
+					<DataPath>Объект.ТелеграмКонтакт</DataPath>
+					<ContextMenu name="ТелеграмКонтактКонтекстноеМеню" id="115"/>
+					<ExtendedTooltip name="ТелеграмКонтактРасширеннаяПодсказка" id="116"/>
+				</InputField>
+				<InputField name="СообщениеИД" id="81">
+					<DataPath>Объект.СообщениеИД</DataPath>
+					<ContextMenu name="СообщениеИДКонтекстноеМеню" id="82"/>
+					<ExtendedTooltip name="СообщениеИДРасширеннаяПодсказка" id="83"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Группа2" id="59">
+			<Height>25</Height>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="60"/>
+			<ChildItems>
+				<Page name="Группа6" id="76">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сообщение</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="77"/>
+					<ChildItems>
+						<UsualGroup name="Группа7" id="84">
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="85"/>
+							<ChildItems>
+								<InputField name="Текст" id="78">
+									<DataPath>Объект.Текст</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Телеграм входящее сообщение</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ТекстКонтекстноеМеню" id="79"/>
+									<ExtendedTooltip name="ТекстРасширеннаяПодсказка" id="80"/>
+								</InputField>
+								<Table name="СписокВложений" id="199">
+									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<EnableStartDrag>true</EnableStartDrag>
+									<DataPath>СписокВложений</DataPath>
+									<RowPictureDataPath>СписокВложений.DefaultPicture</RowPictureDataPath>
+									<AutoRefresh>false</AutoRefresh>
+									<AutoRefreshPeriod>60</AutoRefreshPeriod>
+									<Period>
+										<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+										<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+										<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+									</Period>
+									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+									<RestoreCurrentRow>false</RestoreCurrentRow>
+									<TopLevelParent xsi:nil="true"/>
+									<ShowRoot>true</ShowRoot>
+									<AllowRootChoice>false</AllowRootChoice>
+									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<ContextMenu name="СписокВложенийКонтекстноеМеню" id="200"/>
+									<AutoCommandBar name="СписокВложенийКоманднаяПанель" id="201">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="СписокВложенийРасширеннаяПодсказка" id="202"/>
+									<SearchStringAddition name="СписокВложенийСтрокаПоиска" id="203">
+										<AdditionSource>
+											<Item>СписокВложений</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокВложенийСтрокаПоискаКонтекстноеМеню" id="204"/>
+										<ExtendedTooltip name="СписокВложенийСтрокаПоискаРасширеннаяПодсказка" id="205"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="СписокВложенийСостояниеПросмотра" id="206">
+										<AdditionSource>
+											<Item>СписокВложений</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокВложенийСостояниеПросмотраКонтекстноеМеню" id="207"/>
+										<ExtendedTooltip name="СписокВложенийСостояниеПросмотраРасширеннаяПодсказка" id="208"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="СписокВложенийУправлениеПоиском" id="209">
+										<AdditionSource>
+											<Item>СписокВложений</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокВложенийУправлениеПоискомКонтекстноеМеню" id="210"/>
+										<ExtendedTooltip name="СписокВложенийУправлениеПоискомРасширеннаяПодсказка" id="211"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<LabelField name="СписокВложенийСообщение" id="212">
+											<DataPath>СписокВложений.Сообщение</DataPath>
+											<Visible>false</Visible>
+											<ContextMenu name="СписокВложенийСообщениеКонтекстноеМеню" id="213"/>
+											<ExtendedTooltip name="СписокВложенийСообщениеРасширеннаяПодсказка" id="214"/>
+										</LabelField>
+										<LabelField name="СписокВложенийПутьФайлаВТелеграме" id="215">
+											<DataPath>СписокВложений.ПутьФайлаВТелеграме</DataPath>
+											<Visible>false</Visible>
+											<ContextMenu name="СписокВложенийПутьФайлаВТелеграмеКонтекстноеМеню" id="216"/>
+											<ExtendedTooltip name="СписокВложенийПутьФайлаВТелеграмеРасширеннаяПодсказка" id="217"/>
+										</LabelField>
+										<LabelField name="СписокВложенийТип" id="218">
+											<DataPath>СписокВложений.Тип</DataPath>
+											<ContextMenu name="СписокВложенийТипКонтекстноеМеню" id="219"/>
+											<ExtendedTooltip name="СписокВложенийТипРасширеннаяПодсказка" id="220"/>
+										</LabelField>
+										<LabelField name="СписокВложенийРазмер" id="227">
+											<DataPath>СписокВложений.Размер</DataPath>
+											<ContextMenu name="СписокВложенийРазмерКонтекстноеМеню" id="228"/>
+											<ExtendedTooltip name="СписокВложенийРазмерРасширеннаяПодсказка" id="229"/>
+										</LabelField>
+										<LabelField name="СписокВложенийПутьКФайлу" id="221">
+											<DataPath>СписокВложений.ПутьКФайлу</DataPath>
+											<ContextMenu name="СписокВложенийПутьКФайлуКонтекстноеМеню" id="222"/>
+											<ExtendedTooltip name="СписокВложенийПутьКФайлуРасширеннаяПодсказка" id="223"/>
+										</LabelField>
+										<LabelField name="СписокВложенийОписание" id="224">
+											<DataPath>СписокВложений.Описание</DataPath>
+											<ContextMenu name="СписокВложенийОписаниеКонтекстноеМеню" id="225"/>
+											<ExtendedTooltip name="СписокВложенийОписаниеРасширеннаяПодсказка" id="226"/>
+										</LabelField>
+										<LabelField name="СписокВложенийДатаЗагрузки" id="230">
+											<DataPath>СписокВложений.ДатаЗагрузки</DataPath>
+											<ContextMenu name="СписокВложенийДатаЗагрузкиКонтекстноеМеню" id="231"/>
+											<ExtendedTooltip name="СписокВложенийДатаЗагрузкиРасширеннаяПодсказка" id="232"/>
+										</LabelField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="Группа3" id="61">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дерево содержание сообщения</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="62"/>
+					<ChildItems>
+						<Table name="СодержаниеВВидеДерева" id="38">
+							<Representation>Tree</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>СодержаниеВВидеДерева</DataPath>
+							<ContextMenu name="СодержаниеВВидеДереваКонтекстноеМеню" id="39"/>
+							<AutoCommandBar name="СодержаниеВВидеДереваКоманднаяПанель" id="40">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СодержаниеВВидеДереваРасширеннаяПодсказка" id="41"/>
+							<SearchStringAddition name="СодержаниеВВидеДереваСтрокаПоиска" id="42">
+								<AdditionSource>
+									<Item>СодержаниеВВидеДерева</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СодержаниеВВидеДереваСтрокаПоискаКонтекстноеМеню" id="43"/>
+								<ExtendedTooltip name="СодержаниеВВидеДереваСтрокаПоискаРасширеннаяПодсказка" id="44"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СодержаниеВВидеДереваСостояниеПросмотра" id="45">
+								<AdditionSource>
+									<Item>СодержаниеВВидеДерева</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СодержаниеВВидеДереваСостояниеПросмотраКонтекстноеМеню" id="46"/>
+								<ExtendedTooltip name="СодержаниеВВидеДереваСостояниеПросмотраРасширеннаяПодсказка" id="47"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СодержаниеВВидеДереваУправлениеПоиском" id="48">
+								<AdditionSource>
+									<Item>СодержаниеВВидеДерева</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СодержаниеВВидеДереваУправлениеПоискомКонтекстноеМеню" id="49"/>
+								<ExtendedTooltip name="СодержаниеВВидеДереваУправлениеПоискомРасширеннаяПодсказка" id="50"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="СодержаниеВВидеДереваКлюч" id="51">
+									<DataPath>СодержаниеВВидеДерева.Ключ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СодержаниеВВидеДереваКлючКонтекстноеМеню" id="52"/>
+									<ExtendedTooltip name="СодержаниеВВидеДереваКлючРасширеннаяПодсказка" id="53"/>
+								</InputField>
+								<InputField name="СодержаниеВВидеДереваЗначение" id="54">
+									<DataPath>СодержаниеВВидеДерева.Значение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СодержаниеВВидеДереваЗначениеКонтекстноеМеню" id="55"/>
+									<ExtendedTooltip name="СодержаниеВВидеДереваЗначениеРасширеннаяПодсказка" id="56"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="Группа4" id="63">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Таблица содержание сообщения</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="64"/>
+					<ChildItems>
+						<Table name="СодержаниеСообщения" id="10">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>Объект.СодержаниеСообщения</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СодержаниеСообщенияКонтекстноеМеню" id="11"/>
+							<AutoCommandBar name="СодержаниеСообщенияКоманднаяПанель" id="12">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СодержаниеСообщенияРасширеннаяПодсказка" id="13"/>
+							<SearchStringAddition name="СодержаниеСообщенияСтрокаПоиска" id="14">
+								<AdditionSource>
+									<Item>СодержаниеСообщения</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СодержаниеСообщенияСтрокаПоискаКонтекстноеМеню" id="15"/>
+								<ExtendedTooltip name="СодержаниеСообщенияСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СодержаниеСообщенияСостояниеПросмотра" id="17">
+								<AdditionSource>
+									<Item>СодержаниеСообщения</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СодержаниеСообщенияСостояниеПросмотраКонтекстноеМеню" id="18"/>
+								<ExtendedTooltip name="СодержаниеСообщенияСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СодержаниеСообщенияУправлениеПоиском" id="20">
+								<AdditionSource>
+									<Item>СодержаниеСообщения</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СодержаниеСообщенияУправлениеПоискомКонтекстноеМеню" id="21"/>
+								<ExtendedTooltip name="СодержаниеСообщенияУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СодержаниеСообщенияНомерСтроки" id="23">
+									<DataPath>Объект.СодержаниеСообщения.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СодержаниеСообщенияНомерСтрокиКонтекстноеМеню" id="24"/>
+									<ExtendedTooltip name="СодержаниеСообщенияНомерСтрокиРасширеннаяПодсказка" id="25"/>
+								</LabelField>
+								<InputField name="СодержаниеСообщенияИДРодителя" id="26">
+									<DataPath>Объект.СодержаниеСообщения.ИДРодителя</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СодержаниеСообщенияИДРодителяКонтекстноеМеню" id="27"/>
+									<ExtendedTooltip name="СодержаниеСообщенияИДРодителяРасширеннаяПодсказка" id="28"/>
+								</InputField>
+								<InputField name="СодержаниеСообщенияИДСтроки" id="29">
+									<DataPath>Объект.СодержаниеСообщения.ИДСтроки</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СодержаниеСообщенияИДСтрокиКонтекстноеМеню" id="30"/>
+									<ExtendedTooltip name="СодержаниеСообщенияИДСтрокиРасширеннаяПодсказка" id="31"/>
+								</InputField>
+								<InputField name="СодержаниеСообщенияТип" id="32">
+									<DataPath>Объект.СодержаниеСообщения.Ключ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СодержаниеСообщенияТипКонтекстноеМеню" id="33"/>
+									<ExtendedTooltip name="СодержаниеСообщенияТипРасширеннаяПодсказка" id="34"/>
+								</InputField>
+								<InputField name="СодержаниеСообщенияЗначение" id="35">
+									<DataPath>Объект.СодержаниеСообщения.Значение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СодержаниеСообщенияЗначениеКонтекстноеМеню" id="36"/>
+									<ExtendedTooltip name="СодержаниеСообщенияЗначениеРасширеннаяПодсказка" id="37"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="Группа8" id="148">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дерево содержание запроса обратного вызова</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="149"/>
+					<ChildItems>
+						<Table name="ЗапросОбратногоВызоваВВидеДерева" id="150">
+							<Representation>Tree</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>ЗапросОбратногоВызоваВВидеДерева</DataPath>
+							<ContextMenu name="ЗапросОбратногоВызоваВВидеДереваКонтекстноеМеню" id="151"/>
+							<AutoCommandBar name="ЗапросОбратногоВызоваВВидеДереваКоманднаяПанель" id="152">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ЗапросОбратногоВызоваВВидеДереваРасширеннаяПодсказка" id="153"/>
+							<SearchStringAddition name="ЗапросОбратногоВызоваВВидеДереваСтрокаПоиска" id="154">
+								<AdditionSource>
+									<Item>ЗапросОбратногоВызоваВВидеДерева</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗапросОбратногоВызоваВВидеДереваСтрокаПоискаКонтекстноеМеню" id="155"/>
+								<ExtendedTooltip name="ЗапросОбратногоВызоваВВидеДереваСтрокаПоискаРасширеннаяПодсказка" id="156"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ЗапросОбратногоВызоваВВидеДереваСостояниеПросмотра" id="157">
+								<AdditionSource>
+									<Item>ЗапросОбратногоВызоваВВидеДерева</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗапросОбратногоВызоваВВидеДереваСостояниеПросмотраКонтекстноеМеню" id="158"/>
+								<ExtendedTooltip name="ЗапросОбратногоВызоваВВидеДереваСостояниеПросмотраРасширеннаяПодсказка" id="159"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ЗапросОбратногоВызоваВВидеДереваУправлениеПоиском" id="160">
+								<AdditionSource>
+									<Item>ЗапросОбратногоВызоваВВидеДерева</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗапросОбратногоВызоваВВидеДереваУправлениеПоискомКонтекстноеМеню" id="161"/>
+								<ExtendedTooltip name="ЗапросОбратногоВызоваВВидеДереваУправлениеПоискомРасширеннаяПодсказка" id="162"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="ЗапросОбратногоВызоваВВидеДереваКлюч" id="163">
+									<DataPath>ЗапросОбратногоВызоваВВидеДерева.Ключ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЗапросОбратногоВызоваВВидеДереваКлючКонтекстноеМеню" id="164"/>
+									<ExtendedTooltip name="ЗапросОбратногоВызоваВВидеДереваКлючРасширеннаяПодсказка" id="165"/>
+								</InputField>
+								<InputField name="ЗапросОбратногоВызоваВВидеДереваЗначение" id="166">
+									<DataPath>ЗапросОбратногоВызоваВВидеДерева.Значение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЗапросОбратногоВызоваВВидеДереваЗначениеКонтекстноеМеню" id="167"/>
+									<ExtendedTooltip name="ЗапросОбратногоВызоваВВидеДереваЗначениеРасширеннаяПодсказка" id="168"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="Группа9" id="169">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Таблица содержаниее запроса обратного вызова</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="170"/>
+					<ChildItems>
+						<Table name="СодержаниеЗапросаОбратногоВызова" id="171">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>Объект.СодержаниеЗапросаОбратногоВызова</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СодержаниеЗапросаОбратногоВызоваКонтекстноеМеню" id="172"/>
+							<AutoCommandBar name="СодержаниеЗапросаОбратногоВызоваКоманднаяПанель" id="173">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СодержаниеЗапросаОбратногоВызоваРасширеннаяПодсказка" id="174"/>
+							<SearchStringAddition name="СодержаниеЗапросаОбратногоВызоваСтрокаПоиска" id="175">
+								<AdditionSource>
+									<Item>СодержаниеЗапросаОбратногоВызова</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СодержаниеЗапросаОбратногоВызоваСтрокаПоискаКонтекстноеМеню" id="176"/>
+								<ExtendedTooltip name="СодержаниеЗапросаОбратногоВызоваСтрокаПоискаРасширеннаяПодсказка" id="177"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СодержаниеЗапросаОбратногоВызоваСостояниеПросмотра" id="178">
+								<AdditionSource>
+									<Item>СодержаниеЗапросаОбратногоВызова</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СодержаниеЗапросаОбратногоВызоваСостояниеПросмотраКонтекстноеМеню" id="179"/>
+								<ExtendedTooltip name="СодержаниеЗапросаОбратногоВызоваСостояниеПросмотраРасширеннаяПодсказка" id="180"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СодержаниеЗапросаОбратногоВызоваУправлениеПоиском" id="181">
+								<AdditionSource>
+									<Item>СодержаниеЗапросаОбратногоВызова</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СодержаниеЗапросаОбратногоВызоваУправлениеПоискомКонтекстноеМеню" id="182"/>
+								<ExtendedTooltip name="СодержаниеЗапросаОбратногоВызоваУправлениеПоискомРасширеннаяПодсказка" id="183"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СодержаниеЗапросаОбратногоВызоваНомерСтроки" id="184">
+									<DataPath>Объект.СодержаниеЗапросаОбратногоВызова.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СодержаниеЗапросаОбратногоВызоваНомерСтрокиКонтекстноеМеню" id="185"/>
+									<ExtendedTooltip name="СодержаниеЗапросаОбратногоВызоваНомерСтрокиРасширеннаяПодсказка" id="186"/>
+								</LabelField>
+								<InputField name="СодержаниеЗапросаОбратногоВызоваИДРодителя" id="187">
+									<DataPath>Объект.СодержаниеЗапросаОбратногоВызова.ИДРодителя</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СодержаниеЗапросаОбратногоВызоваИДРодителяКонтекстноеМеню" id="188"/>
+									<ExtendedTooltip name="СодержаниеЗапросаОбратногоВызоваИДРодителяРасширеннаяПодсказка" id="189"/>
+								</InputField>
+								<InputField name="СодержаниеЗапросаОбратногоВызоваИДСтроки" id="190">
+									<DataPath>Объект.СодержаниеЗапросаОбратногоВызова.ИДСтроки</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СодержаниеЗапросаОбратногоВызоваИДСтрокиКонтекстноеМеню" id="191"/>
+									<ExtendedTooltip name="СодержаниеЗапросаОбратногоВызоваИДСтрокиРасширеннаяПодсказка" id="192"/>
+								</InputField>
+								<InputField name="СодержаниеЗапросаОбратногоВызоваКлюч" id="193">
+									<DataPath>Объект.СодержаниеЗапросаОбратногоВызова.Ключ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СодержаниеЗапросаОбратногоВызоваКлючКонтекстноеМеню" id="194"/>
+									<ExtendedTooltip name="СодержаниеЗапросаОбратногоВызоваКлючРасширеннаяПодсказка" id="195"/>
+								</InputField>
+								<InputField name="СодержаниеЗапросаОбратногоВызоваЗначение" id="196">
+									<DataPath>Объект.СодержаниеЗапросаОбратногоВызова.Значение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СодержаниеЗапросаОбратногоВызоваЗначениеКонтекстноеМеню" id="197"/>
+									<ExtendedTooltip name="СодержаниеЗапросаОбратногоВызоваЗначениеРасширеннаяПодсказка" id="198"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ТелеграмСообщенияВходящие</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+		<Attribute name="СодержаниеВВидеДерева" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Содержание в виде дерева</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Ключ" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ключ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Значение" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="СписокВложений" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список вложений</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.ТелеграмВложенияСообщенийВходящих</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ЗапросОбратногоВызоваВВидеДерева" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запрос обратного вызова в виде дерева</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Ключ" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ключ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Значение" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+</Form>

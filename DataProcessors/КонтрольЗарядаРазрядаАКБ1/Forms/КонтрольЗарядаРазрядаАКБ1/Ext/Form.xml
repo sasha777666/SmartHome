@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа6" id="36">
+			<Group>Horizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="37"/>
+			<ChildItems>
+				<InputField name="Оборудование" id="1">
+					<DataPath>Объект.Оборудование</DataPath>
+					<ContextMenu name="ОборудованиеКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ОборудованиеРасширеннаяПодсказка" id="3"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="10">
+			<Group>Horizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="11"/>
+			<ChildItems>
+				<UsualGroup name="Группа2" id="12">
+					<Group>Vertical</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="13"/>
+					<ChildItems>
+						<InputField name="ИнтервалПовторенияКлиент" id="27">
+							<DataPath>Объект.ИнтервалПовторенияКлиент</DataPath>
+							<ContextMenu name="ИнтервалПовторенияКлиентКонтекстноеМеню" id="28"/>
+							<ExtendedTooltip name="ИнтервалПовторенияКлиентРасширеннаяПодсказка" id="29"/>
+						</InputField>
+						<InputField name="ЗаполненностьШИМ" id="7">
+							<DataPath>Объект.ЗаполненностьШИМ</DataPath>
+							<ContextMenu name="ЗаполненностьШИМКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ЗаполненностьШИМРасширеннаяПодсказка" id="9"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа3" id="14">
+					<Group>Vertical</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="15"/>
+					<ChildItems>
+						<UsualGroup name="Группа7" id="38">
+							<Group>Horizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="39"/>
+							<ChildItems>
+								<InputField name="НапряжениеАКБ" id="16">
+									<DataPath>Объект.НапряжениеАКБ</DataPath>
+									<ContextMenu name="НапряжениеАКБКонтекстноеМеню" id="17"/>
+									<ExtendedTooltip name="НапряжениеАКБРасширеннаяПодсказка" id="18"/>
+								</InputField>
+								<InputField name="ДатаНапряжениеАКБ" id="45">
+									<DataPath>Объект.ДатаНапряжениеАКБ</DataPath>
+									<ContextMenu name="ДатаНапряжениеАКБКонтекстноеМеню" id="46"/>
+									<ExtendedTooltip name="ДатаНапряжениеАКБРасширеннаяПодсказка" id="47"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа9" id="54">
+							<Group>Horizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="55"/>
+							<ChildItems>
+								<InputField name="НапряжениеАКБСПодключеннымИсточником" id="56">
+									<DataPath>Объект.НапряжениеАКБСПодключеннымИсточником</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Нпр зарядки АКБ</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="НапряжениеАКБСПодключеннымИсточникомКонтекстноеМеню" id="57"/>
+									<ExtendedTooltip name="НапряжениеАКБСПодключеннымИсточникомРасширеннаяПодсказка" id="58"/>
+								</InputField>
+								<InputField name="ДатаНапряжениеАКБСПодключеннымИсточником" id="59">
+									<DataPath>Объект.ДатаНапряжениеАКБСПодключеннымИсточником</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дата нпр зарядки АКБ</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДатаНапряжениеАКБСПодключеннымИсточникомКонтекстноеМеню" id="60"/>
+									<ExtendedTooltip name="ДатаНапряжениеАКБСПодключеннымИсточникомРасширеннаяПодсказка" id="61"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа8" id="40">
+							<Group>Horizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="41"/>
+							<ChildItems>
+								<InputField name="ТокАКБ" id="19">
+									<DataPath>Объект.ТокАКБ</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Ток АКБ              </v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ТокАКБКонтекстноеМеню" id="20"/>
+									<ExtendedTooltip name="ТокАКБРасширеннаяПодсказка" id="21"/>
+								</InputField>
+								<InputField name="ДатаТокАКБ" id="42">
+									<DataPath>Объект.ДатаТокАКБ</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дата ток АКБ             </v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДатаТокАКБКонтекстноеМеню" id="43"/>
+									<ExtendedTooltip name="ДатаТокАКБРасширеннаяПодсказка" id="44"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа4" id="22">
+					<Group>Vertical</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="23"/>
+					<ChildItems>
+						<InputField name="Сообщения" id="24">
+							<DataPath>Объект.Сообщения</DataPath>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<MultiLine>true</MultiLine>
+							<ContextMenu name="СообщенияКонтекстноеМеню" id="25"/>
+							<ExtendedTooltip name="СообщенияРасширеннаяПодсказка" id="26"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа5" id="30">
+			<Group>Horizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="31"/>
+			<ChildItems>
+				<Button name="ЗаполнитьНастройки" id="52">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗаполнитьПиныИНастройки</CommandName>
+					<ExtendedTooltip name="ЗаполнитьНастройкиРасширеннаяПодсказка" id="53"/>
+				</Button>
+				<Button name="ЗадатьШИМ" id="50">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗадатьШИМ</CommandName>
+					<ExtendedTooltip name="ЗадатьШИМРасширеннаяПодсказка" id="51"/>
+				</Button>
+				<Button name="Выполнить" id="48">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Выполнить</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выполнить итерацию</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ВыполнитьРасширеннаяПодсказка" id="49"/>
+				</Button>
+				<Button name="ВключитьМониторинг" id="34">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ВключитьМониторинг</CommandName>
+					<ExtendedTooltip name="ВключитьМониторингРасширеннаяПодсказка" id="35"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.КонтрольЗарядаРазрядаАКБ1</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВключитьМониторинг" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Включить мониторинг</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Включить мониторинг</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВключитьМониторинг</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="Выполнить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Однократно выполнить итерацию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьИтерацию</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ЗадатьШИМ" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задать ШИМ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задать ШИМ (Однократно приминяет значение ШИМ, его может изменить другой поток)</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗадатьШИМКлиент</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ЗаполнитьПиныИНастройки" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить пины и настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить пины и настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьПиныИНастройки</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>

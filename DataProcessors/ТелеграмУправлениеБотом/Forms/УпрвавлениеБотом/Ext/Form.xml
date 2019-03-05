@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="Страницы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="2"/>
+			<Events>
+				<Event name="OnCurrentPageChange">СтраницыПриСменеСтраницы</Event>
+			</Events>
+			<ChildItems>
+				<Page name="СтраницаОсновная" id="50">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница основная</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница основная</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаОсновнаяРасширеннаяПодсказка" id="51"/>
+					<ChildItems>
+						<Button name="ЗапуститьМастераПервоначальнойНастройкиБота" id="52">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ЗапуститьМастераПервоначальнойНастройкиБота</CommandName>
+							<ExtendedTooltip name="ЗапуститьМастераПервоначальнойНастройкиБотаРасширеннаяПодсказка" id="53"/>
+						</Button>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаСообщения" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница сообщения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница сообщения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаСообщенияРасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<UsualGroup name="Группа1" id="14">
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="15"/>
+							<ChildItems>
+								<UsualGroup name="Группа2" id="16">
+									<Group>Vertical</Group>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="17"/>
+									<ChildItems>
+										<InputField name="СообщенияТекст" id="5">
+											<DataPath>СообщенияТекст</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<TitleLocation>None</TitleLocation>
+											<HorizontalStretch>true</HorizontalStretch>
+											<VerticalStretch>true</VerticalStretch>
+											<MultiLine>true</MultiLine>
+											<ExtendedEdit>true</ExtendedEdit>
+											<ChooseType>false</ChooseType>
+											<ContextMenu name="СообщенияТекстКонтекстноеМеню" id="6"/>
+											<ExtendedTooltip name="СообщенияТекстРасширеннаяПодсказка" id="7"/>
+										</InputField>
+										<UsualGroup name="Группа5" id="46">
+											<Group>AlwaysHorizontal</Group>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="47"/>
+											<ChildItems>
+												<InputField name="СообщениеОтправляемоеТекст" id="8">
+													<DataPath>СообщениеОтправляемоеТекст</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<Height>2</Height>
+													<AutoMaxHeight>false</AutoMaxHeight>
+													<MaxHeight>2</MaxHeight>
+													<VerticalStretch>false</VerticalStretch>
+													<MultiLine>true</MultiLine>
+													<ExtendedEdit>true</ExtendedEdit>
+													<ContextMenu name="СообщениеОтправляемоеТекстКонтекстноеМеню" id="9"/>
+													<ExtendedTooltip name="СообщениеОтправляемоеТекстРасширеннаяПодсказка" id="10"/>
+													<Events>
+														<Event name="EditTextChange">СообщениеОтправляемоеТекстИзменениеТекстаРедактирования</Event>
+													</Events>
+												</InputField>
+												<Button name="ОтправитьСообщение" id="48">
+													<Type>UsualButton</Type>
+													<Width>7</Width>
+													<Height>3</Height>
+													<CommandName>Form.Command.ОтправитьСообщение</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Отправить</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="ОтправитьСообщениеРасширеннаяПодсказка" id="49"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа3" id="18">
+									<Width>20</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Group>Vertical</Group>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="19"/>
+									<ChildItems>
+										<UsualGroup name="Группа4" id="38">
+											<Group>AlwaysHorizontal</Group>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="39"/>
+											<ChildItems>
+												<Button name="ОбновитьСообщенияКнопка" id="36">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ОбновитьСообщенияКнопка</CommandName>
+													<ExtendedTooltip name="ОбновитьСообщенияКнопкаРасширеннаяПодсказка" id="37"/>
+												</Button>
+												<CheckBoxField name="АвтоОбновлениеСообщенийКаждуюСек" id="11">
+													<DataPath>АвтоОбновлениеСообщенийКаждуюСек</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Автообновление</v8:content>
+														</v8:item>
+													</Title>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="АвтоОбновлениеСообщенийКаждуюСекКонтекстноеМеню" id="12"/>
+													<ExtendedTooltip name="АвтоОбновлениеСообщенийКаждуюСекРасширеннаяПодсказка" id="13"/>
+													<Events>
+														<Event name="OnChange">АвтоОбновлениеСообщенийКаждуюСекПриИзменении</Event>
+													</Events>
+												</CheckBoxField>
+											</ChildItems>
+										</UsualGroup>
+										<Table name="СписокКонтактов" id="20">
+											<Representation>List</Representation>
+											<CommandBarLocation>None</CommandBarLocation>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<InitialListView>Beginning</InitialListView>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<FileDragMode>AsFile</FileDragMode>
+											<DataPath>СписокКонтактов</DataPath>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="СписокКонтактовКонтекстноеМеню" id="21"/>
+											<AutoCommandBar name="СписокКонтактовКоманднаяПанель" id="22">
+												<Autofill>false</Autofill>
+											</AutoCommandBar>
+											<ExtendedTooltip name="СписокКонтактовРасширеннаяПодсказка" id="23"/>
+											<SearchStringAddition name="СписокКонтактовСтрокаПоиска" id="24">
+												<AdditionSource>
+													<Item>СписокКонтактов</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СписокКонтактовСтрокаПоискаКонтекстноеМеню" id="25"/>
+												<ExtendedTooltip name="СписокКонтактовСтрокаПоискаРасширеннаяПодсказка" id="26"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="СписокКонтактовСостояниеПросмотра" id="27">
+												<AdditionSource>
+													<Item>СписокКонтактов</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СписокКонтактовСостояниеПросмотраКонтекстноеМеню" id="28"/>
+												<ExtendedTooltip name="СписокКонтактовСостояниеПросмотраРасширеннаяПодсказка" id="29"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="СписокКонтактовУправлениеПоиском" id="30">
+												<AdditionSource>
+													<Item>СписокКонтактов</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="СписокКонтактовУправлениеПоискомКонтекстноеМеню" id="31"/>
+												<ExtendedTooltip name="СписокКонтактовУправлениеПоискомРасширеннаяПодсказка" id="32"/>
+											</SearchControlAddition>
+											<Events>
+												<Event name="OnActivateRow">СписокКонтактовПриАктивизацииСтроки</Event>
+											</Events>
+											<ChildItems>
+												<InputField name="СписокКонтактовКонтакт" id="33">
+													<DataPath>СписокКонтактов.Контакт</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="СписокКонтактовКонтактКонтекстноеМеню" id="34"/>
+													<ExtendedTooltip name="СписокКонтактовКонтактРасширеннаяПодсказка" id="35"/>
+												</InputField>
+												<InputField name="СписокКонтактовДатаПоследнегоСообщения" id="43">
+													<DataPath>СписокКонтактов.ДатаПоследнегоСообщения</DataPath>
+													<Visible>false</Visible>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="СписокКонтактовДатаПоследнегоСообщенияКонтекстноеМеню" id="44"/>
+													<ExtendedTooltip name="СписокКонтактовДатаПоследнегоСообщенияРасширеннаяПодсказка" id="45"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ТелеграмУправлениеБотом</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="СообщенияТекст" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сообщения текст</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СообщениеОтправляемоеТекст" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сообщения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АвтоОбновлениеСообщенийКаждуюСек" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Авто обновление сообщений каждую сек</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СписокКонтактов" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список контактов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Контакт" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контакт</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ТелеграмКонтакты</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ДатаПоследнегоСообщения" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата последнего сообщения</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ДатаПоследнегоСообщения" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата последнего сообщения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗапуститьМастераПервоначальнойНастройкиБота" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить мастера первоначальной настройки бота</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить мастера первоначальной настройки бота</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗапуститьМастераПервоначальнойНастройкиБота</Action>
+		</Command>
+		<Command name="ОбновитьСообщенияКнопка" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить сообщения кнопка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьСообщенияКнопка</Action>
+		</Command>
+		<Command name="ОтправитьСообщение" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить сообщение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить сообщение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьСообщение</Action>
+		</Command>
+	</Commands>
+</Form>

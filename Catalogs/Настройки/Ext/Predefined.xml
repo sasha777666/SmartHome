@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.8">
+	<Item id="583ae2cc-a3c0-4471-abbd-1decbf1c4ba3">
+		<Name>Предопределённые</Name>
+		<Code xsi:type="xs:decimal">3</Code>
+		<Description>Предопределённые</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="5f005323-58af-4854-bb8a-6686a4900ad1">
+				<Name>Телеграм</Name>
+				<Code xsi:type="xs:decimal">1</Code>
+				<Description>Телеграм</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="8bcbcba9-9d83-4da2-93bf-ad2cd621b812">
+						<Name>ПользовательскиеНастройки</Name>
+						<Code xsi:type="xs:decimal">2</Code>
+						<Description>Пользовательские настройки</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="a6166ab3-7e78-4f1f-b19d-aeb5159b92e1">
+						<Name>СписокКаталоговКомпоновки</Name>
+						<Code xsi:type="xs:decimal">6</Code>
+						<Description>Список каталогов компоновки</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="dc94d7dc-ddbb-4aed-bf57-f11ef84b5bc3">
+				<Name>СписокИнтерфейсныхСхем</Name>
+				<Code xsi:type="xs:decimal">5</Code>
+				<Description>Список интерфейсных схем</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="2cf598a9-2ccf-455a-a440-913dde8860c6">
+				<Name>СписокКамер</Name>
+				<Code xsi:type="xs:decimal">4</Code>
+				<Description>Список камер</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

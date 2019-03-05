@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаОстановитьТекущееФоновоеЗадание" id="62">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОстановитьТекущееФоновоеЗадание</CommandName>
+				<ExtendedTooltip name="ФормаОстановитьТекущееФоновоеЗаданиеРасширеннаяПодсказка" id="63"/>
+			</Button>
+			<Button name="ФормаВыполнитьОднократноСПроверкойУсловий" id="67">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ВыполнитьОднократноСПроверкойУсловий</CommandName>
+				<ExtendedTooltip name="ФормаВыполнитьОднократноСПроверкойУсловийРасширеннаяПодсказка" id="68"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="Шапка" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+			</Title>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ШапкаРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<UsualGroup name="ЛеваяКолонка" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Левая колонка</v8:content>
+						</v8:item>
+					</Title>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ЛеваяКолонкаРасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<InputField name="Наименование" id="5">
+							<DataPath>Запись.Наименование</DataPath>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="6"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="7"/>
+						</InputField>
+						<InputField name="РасположениеПроцедуры" id="8">
+							<DataPath>Запись.РасположениеПроцедуры</DataPath>
+							<ContextMenu name="РасположениеПроцедурыКонтекстноеМеню" id="9"/>
+							<ExtendedTooltip name="РасположениеПроцедурыРасширеннаяПодсказка" id="10"/>
+						</InputField>
+						<InputField name="НазваниеПроцедуры" id="11">
+							<DataPath>Запись.НазваниеПроцедуры</DataPath>
+							<ContextMenu name="НазваниеПроцедурыКонтекстноеМеню" id="12"/>
+							<ExtendedTooltip name="НазваниеПроцедурыРасширеннаяПодсказка" id="13"/>
+						</InputField>
+						<InputField name="Оборудование" id="14">
+							<DataPath>Запись.Оборудование</DataPath>
+							<ContextMenu name="ОборудованиеКонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="ОборудованиеРасширеннаяПодсказка" id="16"/>
+						</InputField>
+						<CheckBoxField name="Включён" id="17">
+							<DataPath>Запись.Включён</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ВключёнКонтекстноеМеню" id="18"/>
+							<ExtendedTooltip name="ВключёнРасширеннаяПодсказка" id="19"/>
+						</CheckBoxField>
+						<InputField name="МинИнтервалПослеСтарта" id="20">
+							<DataPath>Запись.МинИнтервалПослеСтарта</DataPath>
+							<ContextMenu name="МинИнтервалПослеСтартаКонтекстноеМеню" id="21"/>
+							<ExtendedTooltip name="МинИнтервалПослеСтартаРасширеннаяПодсказка" id="22"/>
+						</InputField>
+						<InputField name="МинИнтервалПослеЗавершения" id="23">
+							<DataPath>Запись.МинИнтервалПослеЗавершения</DataPath>
+							<ContextMenu name="МинИнтервалПослеЗавершенияКонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="МинИнтервалПослеЗавершенияРасширеннаяПодсказка" id="25"/>
+						</InputField>
+						<InputField name="ГруппаУсловий" id="26">
+							<DataPath>Запись.ГруппаУсловий</DataPath>
+							<ContextMenu name="ГруппаУсловийКонтекстноеМеню" id="27"/>
+							<ExtendedTooltip name="ГруппаУсловийРасширеннаяПодсказка" id="28"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ПраваяКолонка" id="29">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Правая колонка</v8:content>
+						</v8:item>
+					</Title>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ПраваяКолонкаРасширеннаяПодсказка" id="30"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаКлючФоновогоЗадания" id="58">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа ключ фонового задания</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа ключ фонового задания</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаКлючФоновогоЗаданияРасширеннаяПодсказка" id="59"/>
+							<ChildItems>
+								<InputField name="КлючФоновогоЗадания" id="31">
+									<DataPath>Запись.КлючФоновогоЗадания</DataPath>
+									<ContextMenu name="КлючФоновогоЗаданияКонтекстноеМеню" id="32"/>
+									<ExtendedTooltip name="КлючФоновогоЗаданияРасширеннаяПодсказка" id="33"/>
+								</InputField>
+								<Button name="ПолучитьНовыйКлючФоновогоЗадания" id="60">
+									<Type>UsualButton</Type>
+									<Representation>Picture</Representation>
+									<CommandName>Form.Command.ПолучитьНовыйКлючФоновогоЗадания</CommandName>
+									<Picture>
+										<xr:Ref>StdPicture.Reread</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<ExtendedTooltip name="ПолучитьНовыйКлючФоновогоЗаданияРасширеннаяПодсказка" id="61"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="Комментарий" id="34">
+							<DataPath>Запись.Комментарий</DataPath>
+							<ContextMenu name="КомментарийКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="36"/>
+						</InputField>
+						<InputField name="МаксимальноеВремяИтерации" id="64">
+							<DataPath>Запись.МаксимальноеВремяИтерации</DataPath>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Максимальное время выполнения фонового задания в секундах, по истечению которого процесс будет принудительно завершён (0-нет ограничения)</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ContextMenu name="МаксимальноеВремяИтерацииКонтекстноеМеню" id="65"/>
+							<ExtendedTooltip name="МаксимальноеВремяИтерацииРасширеннаяПодсказка" id="66"/>
+						</InputField>
+						<InputField name="ДатаНач" id="37">
+							<DataPath>Запись.ДатаНач</DataPath>
+							<ContextMenu name="ДатаНачКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="ДатаНачРасширеннаяПодсказка" id="39"/>
+						</InputField>
+						<InputField name="ДатаКон" id="40">
+							<DataPath>Запись.ДатаКон</DataPath>
+							<ContextMenu name="ДатаКонКонтекстноеМеню" id="41"/>
+							<ExtendedTooltip name="ДатаКонРасширеннаяПодсказка" id="42"/>
+						</InputField>
+						<CheckBoxField name="СейчасВыполняется" id="43">
+							<DataPath>Запись.СейчасВыполняется</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="СейчасВыполняетсяКонтекстноеМеню" id="44"/>
+							<ExtendedTooltip name="СейчасВыполняетсяРасширеннаяПодсказка" id="45"/>
+						</CheckBoxField>
+						<UsualGroup name="ГруппаУникальныйИдентификатор" id="52">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа уникальный идентификатор</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа уникальный идентификатор</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаУникальныйИдентификаторРасширеннаяПодсказка" id="53"/>
+							<ChildItems>
+								<LabelField name="УникальныйИдентификатор" id="46">
+									<DataPath>Запись.УникальныйИдентификатор</DataPath>
+									<ContextMenu name="УникальныйИдентификаторКонтекстноеМеню" id="47"/>
+									<ExtendedTooltip name="УникальныйИдентификаторРасширеннаяПодсказка" id="48"/>
+								</LabelField>
+								<Button name="СгенерироватьНовыйУникальныйИдентификатор" id="56">
+									<Type>UsualButton</Type>
+									<Representation>Picture</Representation>
+									<CommandName>Form.Command.СгенерироватьНовыйУникальныйИдентификатор</CommandName>
+									<Picture>
+										<xr:Ref>StdPicture.Refresh</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<ExtendedTooltip name="СгенерироватьНовыйУникальныйИдентификаторРасширеннаяПодсказка" id="57"/>
+								</Button>
+								<Button name="ОчиститьУникальныйИдентификатор" id="54">
+									<Type>UsualButton</Type>
+									<Representation>Picture</Representation>
+									<CommandName>Form.Command.ОчиститьУникальныйИдентификатор</CommandName>
+									<Picture>
+										<xr:Ref>StdPicture.Clear</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<ExtendedTooltip name="ОчиститьУникальныйИдентификаторРасширеннаяПодсказка" id="55"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="СостояниеСтрокой" id="49">
+							<DataPath>Запись.СостояниеСтрокой</DataPath>
+							<ContextMenu name="СостояниеСтрокойКонтекстноеМеню" id="50"/>
+							<ExtendedTooltip name="СостояниеСтрокойРасширеннаяПодсказка" id="51"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.Процессы</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОчиститьУникальныйИдентификатор" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить уникальный идентификатор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить уникальный идентификатор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОчиститьУникальныйИдентификатор</Action>
+		</Command>
+		<Command name="СгенерироватьНовыйУникальныйИдентификатор" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сгенерировать новый уникальный идентификатор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сгенерировать новый уникальный идентификатор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СгенерироватьНовыйУникальныйИдентификатор</Action>
+		</Command>
+		<Command name="ПолучитьНовыйКлючФоновогоЗадания" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить новый ключ фонового задания</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить новый ключ фонового задания</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьНовыйКлючФоновогоЗадания</Action>
+		</Command>
+		<Command name="ОстановитьТекущееФоновоеЗадание" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остановить текущее фоновое задание</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остановить текущее фоновое задание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОстановитьТекущееФоновоеЗадание</Action>
+		</Command>
+		<Command name="ВыполнитьОднократноСПроверкойУсловий" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить однократно с проверкой условий</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить однократно с проверкой условий</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьОднократноСПроверкойУсловий</Action>
+		</Command>
+	</Commands>
+</Form>

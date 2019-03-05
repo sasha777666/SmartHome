@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<Subsystem uuid="60405c97-ef3b-498e-b9eb-a9e825e9860b">
+		<Properties>
+			<Name>НастройкаSmartHome</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка smart home</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Оборудование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Настройки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ОстановитьРегламентныеЗадания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.COM</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЖурналОшибок</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.NET</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Процессы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВнешниеОбработки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОчисткаБазы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СобытияHTTP</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Действия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГруппыДействий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.IPУстройства</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПрогрессВыполненияСерверныхПроцедур</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КонтроллерыNET</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КонтроллерыCOM</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Условия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГруппыУсловий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПроксиСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Скетчи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.БиблиотекиСкетчей</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

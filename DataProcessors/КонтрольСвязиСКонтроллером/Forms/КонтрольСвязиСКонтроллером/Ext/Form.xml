@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа4" id="24">
+			<Group>Horizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="25"/>
+			<ChildItems>
+				<UsualGroup name="Группа5" id="26">
+					<Group>Vertical</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="27"/>
+					<ChildItems>
+						<InputField name="Оборудование" id="1">
+							<DataPath>Объект.Оборудование</DataPath>
+							<ContextMenu name="ОборудованиеКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="ОборудованиеРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<InputField name="НастройкаВремяТаймера" id="4">
+							<DataPath>Объект.НастройкаВремяТаймера</DataPath>
+							<ContextMenu name="НастройкаВремяТаймераКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="НастройкаВремяТаймераРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<UsualGroup name="Группа1" id="10">
+							<Group>Horizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="11"/>
+							<ChildItems>
+								<CheckBoxField name="ТаймерСброшен" id="7">
+									<DataPath>Объект.ТаймерСброшен</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ТаймерСброшенКонтекстноеМеню" id="8"/>
+									<ExtendedTooltip name="ТаймерСброшенРасширеннаяПодсказка" id="9"/>
+								</CheckBoxField>
+								<InputField name="ДатаТаймерСброшен" id="12">
+									<DataPath>Объект.ДатаТаймерСброшен</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<ContextMenu name="ДатаТаймерСброшенКонтекстноеМеню" id="13"/>
+									<ExtendedTooltip name="ДатаТаймерСброшенРасширеннаяПодсказка" id="14"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа2" id="15">
+							<Group>Horizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="16"/>
+							<ChildItems>
+								<InputField name="ПоследнийУспешныйСбросТаймера" id="17">
+									<DataPath>Объект.ПоследнийУспешныйСбросТаймера</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<ContextMenu name="ПоследнийУспешныйСбросТаймераКонтекстноеМеню" id="18"/>
+									<ExtendedTooltip name="ПоследнийУспешныйСбросТаймераРасширеннаяПодсказка" id="19"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа3" id="20">
+							<Group>Horizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="21"/>
+							<ChildItems>
+								<Button name="ПроцессДляСервераОднократно" id="22">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ПроцессДляСервераОднократно</CommandName>
+									<ExtendedTooltip name="ПроцессДляСервераОднократноРасширеннаяПодсказка" id="23"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<InputField name="Сообщения" id="28">
+					<DataPath>Объект.Сообщения</DataPath>
+					<MultiLine>true</MultiLine>
+					<ContextMenu name="СообщенияКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="СообщенияРасширеннаяПодсказка" id="30"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.КонтрольСвязиСКонтроллером</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПроцессДляСервераОднократно" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Процесс для сервера однократно</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Процесс для сервера однократно</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроцессДляСервераОднократно</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>

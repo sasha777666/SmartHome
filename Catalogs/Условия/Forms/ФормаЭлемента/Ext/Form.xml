@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Родитель" id="7">
+			<DataPath>Объект.Parent</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ПрограммныйКодПроверочнойПроцедуры" id="10">
+			<DataPath>Объект.ПрограммныйКодПроверочнойПроцедуры</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<Height>10</Height>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="ПрограммныйКодПроверочнойПроцедурыКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ПрограммныйКодПроверочнойПроцедурыРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Комментарий" id="13">
+			<DataPath>Объект.Комментарий</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<Table name="ПеременныеДляПроцедуры" id="16">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>Объект.ПеременныеДляПроцедуры</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ПеременныеДляПроцедурыКонтекстноеМеню" id="17"/>
+			<AutoCommandBar name="ПеременныеДляПроцедурыКоманднаяПанель" id="18"/>
+			<ExtendedTooltip name="ПеременныеДляПроцедурыРасширеннаяПодсказка" id="19"/>
+			<SearchStringAddition name="ПеременныеДляПроцедурыСтрокаПоиска" id="20">
+				<AdditionSource>
+					<Item>ПеременныеДляПроцедуры</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПеременныеДляПроцедурыСтрокаПоискаКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ПеременныеДляПроцедурыСтрокаПоискаРасширеннаяПодсказка" id="22"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ПеременныеДляПроцедурыСостояниеПросмотра" id="23">
+				<AdditionSource>
+					<Item>ПеременныеДляПроцедуры</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПеременныеДляПроцедурыСостояниеПросмотраКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="ПеременныеДляПроцедурыСостояниеПросмотраРасширеннаяПодсказка" id="25"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ПеременныеДляПроцедурыУправлениеПоиском" id="26">
+				<AdditionSource>
+					<Item>ПеременныеДляПроцедуры</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ПеременныеДляПроцедурыУправлениеПоискомКонтекстноеМеню" id="27"/>
+				<ExtendedTooltip name="ПеременныеДляПроцедурыУправлениеПоискомРасширеннаяПодсказка" id="28"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ПеременныеДляПроцедурыНомерСтроки" id="29">
+					<DataPath>Объект.ПеременныеДляПроцедуры.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПеременныеДляПроцедурыНомерСтрокиКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ПеременныеДляПроцедурыНомерСтрокиРасширеннаяПодсказка" id="31"/>
+				</LabelField>
+				<InputField name="ПеременныеДляПроцедурыИмяПеременной" id="32">
+					<DataPath>Объект.ПеременныеДляПроцедуры.ИмяПеременной</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПеременныеДляПроцедурыИмяПеременнойКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ПеременныеДляПроцедурыИмяПеременнойРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="ПеременныеДляПроцедурыЗначение" id="35">
+					<DataPath>Объект.ПеременныеДляПроцедуры.Значение</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПеременныеДляПроцедурыЗначениеКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ПеременныеДляПроцедурыЗначениеРасширеннаяПодсказка" id="37"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Условия</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

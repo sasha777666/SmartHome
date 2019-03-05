@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<CommonCommand uuid="c9779638-dd84-487e-b2d8-38fdbf5f13fa">
+		<Properties>
+			<Name>ПеренумероватьВесьСправочник</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перенумеровать весь справочник</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<Group>FormCommandBarImportant</Group>
+			<Representation>Auto</Representation>
+			<ToolTip/>
+			<Picture/>
+			<Shortcut/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<CommandParameterType>
+				<v8:Type>cfg:CatalogRef.КонтроллерыNET</v8:Type>
+				<v8:Type>cfg:CatalogRef.БиблиотекиСкетчей</v8:Type>
+				<v8:Type>cfg:CatalogRef.ВнешниеОбработки</v8:Type>
+				<v8:Type>cfg:CatalogRef.Настройки</v8:Type>
+				<v8:Type>cfg:CatalogRef.IPУстройства</v8:Type>
+				<v8:Type>cfg:CatalogRef.ГруппыУсловий</v8:Type>
+				<v8:Type>cfg:CatalogRef.Оборудование</v8:Type>
+				<v8:Type>cfg:CatalogRef.КонтроллерыCOM</v8:Type>
+				<v8:Type>cfg:CatalogRef.ГруппыДействий</v8:Type>
+				<v8:Type>cfg:CatalogRef.Условия</v8:Type>
+				<v8:Type>cfg:CatalogRef.ПроксиСервера</v8:Type>
+				<v8:Type>cfg:CatalogRef.Скетчи</v8:Type>
+				<v8:Type>cfg:CatalogRef.ТелеграмПараметры</v8:Type>
+				<v8:Type>cfg:CatalogRef.Действия</v8:Type>
+				<v8:Type>cfg:CatalogRef.СобытияHTTP</v8:Type>
+			</CommandParameterType>
+			<ParameterUseMode>Multiple</ParameterUseMode>
+			<ModifiesData>false</ModifiesData>
+		</Properties>
+	</CommonCommand>
+</MetaDataObject>

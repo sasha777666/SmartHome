@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаОтправитьСообщениеВТелеграм" id="38">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОтправитьСообщениеВТелеграм</CommandName>
+				<ExtendedTooltip name="ФормаОтправитьСообщениеВТелеграмРасширеннаяПодсказка" id="39"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="Группа2" id="48">
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="49"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ИДРедактируемогоСообщения" id="45">
+			<DataPath>Объект.ИДРедактируемогоСообщения</DataPath>
+			<ContextMenu name="ИДРедактируемогоСообщенияКонтекстноеМеню" id="46"/>
+			<ExtendedTooltip name="ИДРедактируемогоСообщенияРасширеннаяПодсказка" id="47"/>
+		</InputField>
+		<InputField name="ТелеграмКонтакт" id="10">
+			<DataPath>Объект.ТелеграмКонтакт</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ТелеграмКонтактКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ТелеграмКонтактРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<UsualGroup name="Группа1" id="40">
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="41"/>
+			<ChildItems>
+				<InputField name="Текст" id="7">
+					<DataPath>Объект.Текст</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТекстКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ТекстРасширеннаяПодсказка" id="9"/>
+				</InputField>
+				<InputField name="Клавиатура" id="42">
+					<DataPath>Объект.Клавиатура</DataPath>
+					<ContextMenu name="КлавиатураКонтекстноеМеню" id="43"/>
+					<ExtendedTooltip name="КлавиатураРасширеннаяПодсказка" id="44"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="Вложения" id="13">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>Объект.Вложения</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ВложенияКонтекстноеМеню" id="14"/>
+			<AutoCommandBar name="ВложенияКоманднаяПанель" id="15"/>
+			<ExtendedTooltip name="ВложенияРасширеннаяПодсказка" id="16"/>
+			<SearchStringAddition name="ВложенияСтрокаПоиска" id="17">
+				<AdditionSource>
+					<Item>Вложения</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ВложенияСтрокаПоискаКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ВложенияСтрокаПоискаРасширеннаяПодсказка" id="19"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ВложенияСостояниеПросмотра" id="20">
+				<AdditionSource>
+					<Item>Вложения</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ВложенияСостояниеПросмотраКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ВложенияСостояниеПросмотраРасширеннаяПодсказка" id="22"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ВложенияУправлениеПоиском" id="23">
+				<AdditionSource>
+					<Item>Вложения</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ВложенияУправлениеПоискомКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="ВложенияУправлениеПоискомРасширеннаяПодсказка" id="25"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ВложенияНомерСтроки" id="26">
+					<DataPath>Объект.Вложения.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ВложенияНомерСтрокиКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ВложенияНомерСтрокиРасширеннаяПодсказка" id="28"/>
+				</LabelField>
+				<InputField name="ВложенияТип" id="29">
+					<DataPath>Объект.Вложения.Тип</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ВложенияТипКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ВложенияТипРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="ВложенияПутьКФайлу" id="32">
+					<DataPath>Объект.Вложения.ПутьКФайлу</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ВложенияПутьКФайлуКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ВложенияПутьКФайлуРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="ВложенияОписание" id="35">
+					<DataPath>Объект.Вложения.Описание</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ВложенияОписаниеКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ВложенияОписаниеРасширеннаяПодсказка" id="37"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ТелеграмСообщенияИсходящие</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОтправитьСообщениеВТелеграм" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить сообщение в телеграм</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить сообщение в телеграм</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьСообщениеВТелеграм</Action>
+		</Command>
+	</Commands>
+</Form>

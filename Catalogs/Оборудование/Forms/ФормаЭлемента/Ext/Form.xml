@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Родитель" id="7">
+			<DataPath>Объект.Parent</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="КонтроллерCOMNET" id="10">
+			<DataPath>Объект.КонтроллерCOMNET</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КонтроллерCOMNETКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="КонтроллерCOMNETРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="ОписаниеОборудования" id="13">
+			<DataPath>Объект.ОписаниеОборудования</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОписаниеОборудованияКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ОписаниеОборудованияРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<Pages name="Страницы" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="17"/>
+			<ChildItems>
+				<Page name="ГруппаПины" id="18">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пины</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаПиныРасширеннаяПодсказка" id="19"/>
+					<ChildItems>
+						<Table name="Пины" id="20">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>Объект.Пины</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ПиныКонтекстноеМеню" id="21"/>
+							<AutoCommandBar name="ПиныКоманднаяПанель" id="22"/>
+							<ExtendedTooltip name="ПиныРасширеннаяПодсказка" id="23"/>
+							<SearchStringAddition name="ПиныСтрокаПоиска" id="24">
+								<AdditionSource>
+									<Item>Пины</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПиныСтрокаПоискаКонтекстноеМеню" id="25"/>
+								<ExtendedTooltip name="ПиныСтрокаПоискаРасширеннаяПодсказка" id="26"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПиныСостояниеПросмотра" id="27">
+								<AdditionSource>
+									<Item>Пины</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПиныСостояниеПросмотраКонтекстноеМеню" id="28"/>
+								<ExtendedTooltip name="ПиныСостояниеПросмотраРасширеннаяПодсказка" id="29"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПиныУправлениеПоиском" id="30">
+								<AdditionSource>
+									<Item>Пины</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПиныУправлениеПоискомКонтекстноеМеню" id="31"/>
+								<ExtendedTooltip name="ПиныУправлениеПоискомРасширеннаяПодсказка" id="32"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ПиныНомерСтроки" id="33">
+									<DataPath>Объект.Пины.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПиныНомерСтрокиКонтекстноеМеню" id="34"/>
+									<ExtendedTooltip name="ПиныНомерСтрокиРасширеннаяПодсказка" id="35"/>
+								</LabelField>
+								<InputField name="ПиныНаименование" id="36">
+									<DataPath>Объект.Пины.Наименование</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПиныНаименованиеКонтекстноеМеню" id="37"/>
+									<ExtendedTooltip name="ПиныНаименованиеРасширеннаяПодсказка" id="38"/>
+								</InputField>
+								<InputField name="ПиныНомерПина" id="39">
+									<DataPath>Объект.Пины.НомерПина</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПиныНомерПинаКонтекстноеМеню" id="40"/>
+									<ExtendedTooltip name="ПиныНомерПинаРасширеннаяПодсказка" id="41"/>
+								</InputField>
+								<InputField name="ПиныКомментарий" id="42">
+									<DataPath>Объект.Пины.Комментарий</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПиныКомментарийКонтекстноеМеню" id="43"/>
+									<ExtendedTooltip name="ПиныКомментарийРасширеннаяПодсказка" id="44"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаНастройки" id="45">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="46"/>
+					<ChildItems>
+						<Table name="Настройки" id="47">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>Объект.Настройки</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="НастройкиКонтекстноеМеню" id="48"/>
+							<AutoCommandBar name="НастройкиКоманднаяПанель" id="49"/>
+							<ExtendedTooltip name="НастройкиРасширеннаяПодсказка" id="50"/>
+							<SearchStringAddition name="НастройкиСтрокаПоиска" id="51">
+								<AdditionSource>
+									<Item>Настройки</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="НастройкиСтрокаПоискаКонтекстноеМеню" id="52"/>
+								<ExtendedTooltip name="НастройкиСтрокаПоискаРасширеннаяПодсказка" id="53"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="НастройкиСостояниеПросмотра" id="54">
+								<AdditionSource>
+									<Item>Настройки</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="НастройкиСостояниеПросмотраКонтекстноеМеню" id="55"/>
+								<ExtendedTooltip name="НастройкиСостояниеПросмотраРасширеннаяПодсказка" id="56"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="НастройкиУправлениеПоиском" id="57">
+								<AdditionSource>
+									<Item>Настройки</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="НастройкиУправлениеПоискомКонтекстноеМеню" id="58"/>
+								<ExtendedTooltip name="НастройкиУправлениеПоискомРасширеннаяПодсказка" id="59"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="НастройкиНомерСтроки" id="60">
+									<DataPath>Объект.Настройки.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НастройкиНомерСтрокиКонтекстноеМеню" id="61"/>
+									<ExtendedTooltip name="НастройкиНомерСтрокиРасширеннаяПодсказка" id="62"/>
+								</LabelField>
+								<InputField name="НастройкиНаименование" id="63">
+									<DataPath>Объект.Настройки.Наименование</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НастройкиНаименованиеКонтекстноеМеню" id="64"/>
+									<ExtendedTooltip name="НастройкиНаименованиеРасширеннаяПодсказка" id="65"/>
+								</InputField>
+								<InputField name="НастройкиНастройка" id="66">
+									<DataPath>Объект.Настройки.Настройка</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НастройкиНастройкаКонтекстноеМеню" id="67"/>
+									<ExtendedTooltip name="НастройкиНастройкаРасширеннаяПодсказка" id="68"/>
+								</InputField>
+								<InputField name="НастройкиКлюч" id="69">
+									<DataPath>Объект.Настройки.Ключ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НастройкиКлючКонтекстноеМеню" id="70"/>
+									<ExtendedTooltip name="НастройкиКлючРасширеннаяПодсказка" id="71"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="Обработчики" id="72">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обработчики</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обработчики</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ОбработчикиРасширеннаяПодсказка" id="73"/>
+					<ChildItems>
+						<Table name="ПроцессыОбъекта" id="74">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>ПроцессыОбъекта</DataPath>
+							<RowPictureDataPath>ПроцессыОбъекта.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<ContextMenu name="ПроцессыОбъектаКонтекстноеМеню" id="75"/>
+							<AutoCommandBar name="ПроцессыОбъектаКоманднаяПанель" id="76"/>
+							<ExtendedTooltip name="ПроцессыОбъектаРасширеннаяПодсказка" id="77"/>
+							<SearchStringAddition name="ПроцессыОбъектаСтрокаПоиска" id="78">
+								<AdditionSource>
+									<Item>ПроцессыОбъекта</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПроцессыОбъектаСтрокаПоискаКонтекстноеМеню" id="79"/>
+								<ExtendedTooltip name="ПроцессыОбъектаСтрокаПоискаРасширеннаяПодсказка" id="80"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПроцессыОбъектаСостояниеПросмотра" id="81">
+								<AdditionSource>
+									<Item>ПроцессыОбъекта</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПроцессыОбъектаСостояниеПросмотраКонтекстноеМеню" id="82"/>
+								<ExtendedTooltip name="ПроцессыОбъектаСостояниеПросмотраРасширеннаяПодсказка" id="83"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПроцессыОбъектаУправлениеПоиском" id="84">
+								<AdditionSource>
+									<Item>ПроцессыОбъекта</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПроцессыОбъектаУправлениеПоискомКонтекстноеМеню" id="85"/>
+								<ExtendedTooltip name="ПроцессыОбъектаУправлениеПоискомРасширеннаяПодсказка" id="86"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ПроцессыОбъектаНаименование" id="87">
+									<DataPath>ПроцессыОбъекта.Наименование</DataPath>
+									<ContextMenu name="ПроцессыОбъектаНаименованиеКонтекстноеМеню" id="88"/>
+									<ExtendedTooltip name="ПроцессыОбъектаНаименованиеРасширеннаяПодсказка" id="89"/>
+								</LabelField>
+								<LabelField name="ПроцессыОбъектаРасположениеПроцедуры" id="90">
+									<DataPath>ПроцессыОбъекта.РасположениеПроцедуры</DataPath>
+									<ContextMenu name="ПроцессыОбъектаРасположениеПроцедурыКонтекстноеМеню" id="91"/>
+									<ExtendedTooltip name="ПроцессыОбъектаРасположениеПроцедурыРасширеннаяПодсказка" id="92"/>
+								</LabelField>
+								<LabelField name="ПроцессыОбъектаНазваниеПроцедуры" id="93">
+									<DataPath>ПроцессыОбъекта.НазваниеПроцедуры</DataPath>
+									<ContextMenu name="ПроцессыОбъектаНазваниеПроцедурыКонтекстноеМеню" id="94"/>
+									<ExtendedTooltip name="ПроцессыОбъектаНазваниеПроцедурыРасширеннаяПодсказка" id="95"/>
+								</LabelField>
+								<LabelField name="ПроцессыОбъектаОборудование" id="96">
+									<DataPath>ПроцессыОбъекта.Оборудование</DataPath>
+									<ContextMenu name="ПроцессыОбъектаОборудованиеКонтекстноеМеню" id="97"/>
+									<ExtendedTooltip name="ПроцессыОбъектаОборудованиеРасширеннаяПодсказка" id="98"/>
+								</LabelField>
+								<CheckBoxField name="ПроцессыОбъектаВключён" id="99">
+									<DataPath>ПроцессыОбъекта.Включён</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПроцессыОбъектаВключёнКонтекстноеМеню" id="100"/>
+									<ExtendedTooltip name="ПроцессыОбъектаВключёнРасширеннаяПодсказка" id="101"/>
+								</CheckBoxField>
+								<LabelField name="ПроцессыОбъектаМинИнтервалПослеСтарта" id="102">
+									<DataPath>ПроцессыОбъекта.МинИнтервалПослеСтарта</DataPath>
+									<ContextMenu name="ПроцессыОбъектаМинИнтервалПослеСтартаКонтекстноеМеню" id="103"/>
+									<ExtendedTooltip name="ПроцессыОбъектаМинИнтервалПослеСтартаРасширеннаяПодсказка" id="104"/>
+								</LabelField>
+								<LabelField name="ПроцессыОбъектаМинИнтервалПослеЗавершения" id="105">
+									<DataPath>ПроцессыОбъекта.МинИнтервалПослеЗавершения</DataPath>
+									<ContextMenu name="ПроцессыОбъектаМинИнтервалПослеЗавершенияКонтекстноеМеню" id="106"/>
+									<ExtendedTooltip name="ПроцессыОбъектаМинИнтервалПослеЗавершенияРасширеннаяПодсказка" id="107"/>
+								</LabelField>
+								<LabelField name="ПроцессыОбъектаГруппаУсловий" id="108">
+									<DataPath>ПроцессыОбъекта.ГруппаУсловий</DataPath>
+									<ContextMenu name="ПроцессыОбъектаГруппаУсловийКонтекстноеМеню" id="109"/>
+									<ExtendedTooltip name="ПроцессыОбъектаГруппаУсловийРасширеннаяПодсказка" id="110"/>
+								</LabelField>
+								<LabelField name="ПроцессыОбъектаКлючФоновогоЗадания" id="111">
+									<DataPath>ПроцессыОбъекта.КлючФоновогоЗадания</DataPath>
+									<ContextMenu name="ПроцессыОбъектаКлючФоновогоЗаданияКонтекстноеМеню" id="112"/>
+									<ExtendedTooltip name="ПроцессыОбъектаКлючФоновогоЗаданияРасширеннаяПодсказка" id="113"/>
+								</LabelField>
+								<LabelField name="ПроцессыОбъектаКомментарий" id="114">
+									<DataPath>ПроцессыОбъекта.Комментарий</DataPath>
+									<ContextMenu name="ПроцессыОбъектаКомментарийКонтекстноеМеню" id="115"/>
+									<ExtendedTooltip name="ПроцессыОбъектаКомментарийРасширеннаяПодсказка" id="116"/>
+								</LabelField>
+								<LabelField name="ПроцессыОбъектаДатаНач" id="117">
+									<DataPath>ПроцессыОбъекта.ДатаНач</DataPath>
+									<ContextMenu name="ПроцессыОбъектаДатаНачКонтекстноеМеню" id="118"/>
+									<ExtendedTooltip name="ПроцессыОбъектаДатаНачРасширеннаяПодсказка" id="119"/>
+								</LabelField>
+								<LabelField name="ПроцессыОбъектаДатаКон" id="120">
+									<DataPath>ПроцессыОбъекта.ДатаКон</DataPath>
+									<ContextMenu name="ПроцессыОбъектаДатаКонКонтекстноеМеню" id="121"/>
+									<ExtendedTooltip name="ПроцессыОбъектаДатаКонРасширеннаяПодсказка" id="122"/>
+								</LabelField>
+								<CheckBoxField name="ПроцессыОбъектаСейчасВыполняется" id="123">
+									<DataPath>ПроцессыОбъекта.СейчасВыполняется</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПроцессыОбъектаСейчасВыполняетсяКонтекстноеМеню" id="124"/>
+									<ExtendedTooltip name="ПроцессыОбъектаСейчасВыполняетсяРасширеннаяПодсказка" id="125"/>
+								</CheckBoxField>
+								<LabelField name="ПроцессыОбъектаСостояниеСтрокой" id="126">
+									<DataPath>ПроцессыОбъекта.СостояниеСтрокой</DataPath>
+									<ContextMenu name="ПроцессыОбъектаСостояниеСтрокойКонтекстноеМеню" id="127"/>
+									<ExtendedTooltip name="ПроцессыОбъектаСостояниеСтрокойРасширеннаяПодсказка" id="128"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Оборудование</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ПроцессыОбъекта" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Процессы объекта</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.Процессы</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+</Form>

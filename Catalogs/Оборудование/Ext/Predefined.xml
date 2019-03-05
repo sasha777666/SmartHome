@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.8">
+	<Item id="aa42fa41-8bb4-410e-abdd-6c044e221d7f">
+		<Name>Виртуальное</Name>
+		<Code xsi:type="xs:decimal">1</Code>
+		<Description>Виртуальное</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="70edc422-3712-43e6-ab74-fe41acb68c31">
+				<Name>Архивирование</Name>
+				<Code xsi:type="xs:decimal">3</Code>
+				<Description>Архивирование</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="7e978077-c8ee-4948-bca8-9847ca69e1a6">
+				<Name>ТелеграмБот</Name>
+				<Code xsi:type="xs:decimal">2</Code>
+				<Description>Телеграм бот</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>
