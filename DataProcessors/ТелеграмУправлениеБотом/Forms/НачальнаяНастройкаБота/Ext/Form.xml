@@ -17,6 +17,11 @@
 			<ContextMenu name="Декорация1КонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="3"/>
 		</LabelDecoration>
+		<Button name="СоздатьПроцессыПоУмолчанию" id="20">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.СоздатьПроцессыПоУмолчанию</CommandName>
+			<ExtendedTooltip name="СоздатьПроцессыПоУмолчаниюРасширеннаяПодсказка" id="21"/>
+		</Button>
 		<Pages name="Страницы" id="4">
 			<Title>
 				<v8:item>
@@ -152,6 +157,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Шаг1ЗаписатьКлючАПИ</Action>
+		</Command>
+		<Command name="СоздатьПроцессыПоУмолчанию" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать процессы по умолчанию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать процессы по умолчанию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьПроцессыПоУмолчанию</Action>
 		</Command>
 	</Commands>
 </Form>

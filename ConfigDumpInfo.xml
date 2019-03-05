@@ -410,8 +410,8 @@
 		<Metadata name="DataProcessor.ТелеграмКомпоновкаСообщенийГруппы.Form.Форма.Form" id="77523dc8-49ab-4596-83d3-b84271194dd7.0" configVersion="b90fbe487c2299459a4ef5c326fa358000000000"/>
 		<Metadata name="DataProcessor.ТелеграмКомпоновкаСообщенийГруппы.ObjectModule" id="7849257c-6ffc-4c5f-bde6-5e07bfd44a11.0" configVersion="2999f3ee99036b4f9bdf8e619ab27c9c00000000"/>
 		<Metadata name="DataProcessor.ТелеграмУправлениеБотом" id="7dd1912b-2c6f-445d-a35d-d8734a5f5a69" configVersion="3b018fb2eaedab44b2c86f5da6b51bab00000000"/>
-		<Metadata name="DataProcessor.ТелеграмУправлениеБотом.Form.НачальнаяНастройкаБота" id="bbb4321c-b2b1-412a-b074-32b052ad484a" configVersion="2585a5f4053e524b824053d31667fbcb00000000"/>
-		<Metadata name="DataProcessor.ТелеграмУправлениеБотом.Form.НачальнаяНастройкаБота.Form" id="bbb4321c-b2b1-412a-b074-32b052ad484a.0" configVersion="1efe341039f6f84f84f43b4296f3973300000000"/>
+		<Metadata name="DataProcessor.ТелеграмУправлениеБотом.Form.НачальнаяНастройкаБота" id="bbb4321c-b2b1-412a-b074-32b052ad484a" configVersion="a4c7c6d0707523409a56b4afe0e30b8c00000000"/>
+		<Metadata name="DataProcessor.ТелеграмУправлениеБотом.Form.НачальнаяНастройкаБота.Form" id="bbb4321c-b2b1-412a-b074-32b052ad484a.0" configVersion="b8b1106ee7b82941ae7b0ef94aad275c00000000"/>
 		<Metadata name="DataProcessor.ТелеграмУправлениеБотом.Form.УпрвавлениеБотом" id="a77b25a8-36de-4f04-858c-ad9a4325a08e" configVersion="598314c2c3e4364cb0ff0b107ef5e89700000000"/>
 		<Metadata name="DataProcessor.ТелеграмУправлениеБотом.Form.УпрвавлениеБотом.Form" id="a77b25a8-36de-4f04-858c-ad9a4325a08e.0" configVersion="81344281c2a0974e9f789f0fcccda0cf00000000"/>
 		<Metadata name="DataProcessor.ТермоРезистор" id="104a5379-dd86-4a3b-a048-eb4cecdd5bc1" configVersion="463e847525f8b143b08dd7f5ff2d8a9300000000">
@@ -552,7 +552,7 @@
 			<Metadata name="InformationRegister.ПрогрессВыполненияСерверныхПроцедур.Dimension.ПолноеИмяОбработчика" id="399b894d-49f0-4525-b677-c39b4087cf50"/>
 			<Metadata name="InformationRegister.ПрогрессВыполненияСерверныхПроцедур.Resource.ДатаЗаписи" id="4d007d66-943a-4eda-a823-2b0babad92a4"/>
 		</Metadata>
-		<Metadata name="InformationRegister.Процессы" id="08ea9b20-79c0-4316-ba5c-f29385800aa6" configVersion="9e5424d4567b1f4c85d06e98c89c6b9900000000">
+		<Metadata name="InformationRegister.Процессы" id="08ea9b20-79c0-4316-ba5c-f29385800aa6" configVersion="c5c7422f8481a442a473040d66a613dc00000000">
 			<Metadata name="InformationRegister.Процессы.Resource.Оборудование" id="28379441-6d51-47c9-a199-a4ea126ac6c3"/>
 			<Metadata name="InformationRegister.Процессы.Resource.МаксимальноеВремяИтерации" id="4a36bdef-1c4a-4fce-a3f6-8bdd3246d419"/>
 			<Metadata name="InformationRegister.Процессы.Resource.МинИнтервалПослеСтарта" id="4b74fdef-c900-4843-84c1-ffd51325f82f"/>
@@ -573,10 +573,11 @@
 		<Metadata name="InformationRegister.Процессы.Form.ФормаДинамическогоСписка" id="310e6569-b2d1-4a73-a2a8-a68ddcfd9a5a" configVersion="3c4cc90d44dd244a9faab21a913b85c300000000"/>
 		<Metadata name="InformationRegister.Процессы.Form.ФормаДинамическогоСписка.Form" id="310e6569-b2d1-4a73-a2a8-a68ddcfd9a5a.0" configVersion="69b82679091987408cd8fe08b52c050200000000"/>
 		<Metadata name="InformationRegister.Процессы.Form.ФормаДинамическогоСписка.Help" id="310e6569-b2d1-4a73-a2a8-a68ddcfd9a5a.1" configVersion="79f567d283409843b6990715d6ae4b7b00000000"/>
-		<Metadata name="InformationRegister.Процессы.Form.ФормаЗаписи" id="c6c0c0c2-0d32-4535-a01e-1d1e39d44aad" configVersion="98023ed2cd6e0b4cbb9eda48bf23dc7900000000"/>
-		<Metadata name="InformationRegister.Процессы.Form.ФормаЗаписи.Form" id="c6c0c0c2-0d32-4535-a01e-1d1e39d44aad.0" configVersion="1029e73e65fe734daa3cab9d1c96012b00000000"/>
+		<Metadata name="InformationRegister.Процессы.Form.ФормаЗаписи" id="c6c0c0c2-0d32-4535-a01e-1d1e39d44aad" configVersion="70db07362afb00428683d3e137dade9a00000000"/>
+		<Metadata name="InformationRegister.Процессы.Form.ФормаЗаписи.Form" id="c6c0c0c2-0d32-4535-a01e-1d1e39d44aad.0" configVersion="67a69e50fcd9174ba45447760cb54f4100000000"/>
 		<Metadata name="InformationRegister.Процессы.Form.ФормаСписка" id="3fd164f3-37b5-44ba-808e-8c5a453449f8" configVersion="64071119cd5aa2428161c3307c89a01200000000"/>
 		<Metadata name="InformationRegister.Процессы.Form.ФормаСписка.Form" id="3fd164f3-37b5-44ba-808e-8c5a453449f8.0" configVersion="638a7f2ea3549b4882cd8af9baea357300000000"/>
+		<Metadata name="InformationRegister.Процессы.ManagerModule" id="08ea9b20-79c0-4316-ba5c-f29385800aa6.2" configVersion="456d81c1ddce864393d13fbb6ef1ef0800000000"/>
 		<Metadata name="InformationRegister.Процессы.RecordSetModule" id="08ea9b20-79c0-4316-ba5c-f29385800aa6.1" configVersion="98786c920e66964b89504bb8de624b3300000000"/>
 		<Metadata name="InformationRegister.ТекущиеДанныеОборудования" id="bfa6017b-6d40-4d9e-ae43-62d46a343218" configVersion="6ddff660be43c143b3c908995ab2ed7500000000">
 			<Metadata name="InformationRegister.ТекущиеДанныеОборудования.Resource.Дата" id="1070f2dc-b13b-4322-8f9b-f9011d84b9f9"/>
