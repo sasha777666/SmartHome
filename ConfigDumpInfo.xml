@@ -198,8 +198,8 @@
 		<Metadata name="CommonModule.СерверПривилегированный.Module" id="c75b2d50-57f9-459d-b4d5-054f921c358c.0" configVersion="f03dd7681aa28d47a5281bc2d9f1652e00000000"/>
 		<Metadata name="CommonModule.ТелеграмМодуль" id="dc983fb5-9278-4c67-a610-9b74f0cd571a" configVersion="3211716f7d120f498ddef69d92edb84900000000"/>
 		<Metadata name="CommonModule.ТелеграмМодуль.Module" id="dc983fb5-9278-4c67-a610-9b74f0cd571a.0" configVersion="e57202f112869742a9654d537c03b9d800000000"/>
-		<Metadata name="CommonModule.УправлениеОборудованием" id="e8550e71-4c92-4cfb-a3f4-a83416b626bb" configVersion="9dac6401d32d7e4199d0519a69c0929800000000"/>
-		<Metadata name="CommonModule.УправлениеОборудованием.Module" id="e8550e71-4c92-4cfb-a3f4-a83416b626bb.0" configVersion="abc49c463664274cabb119d4c27c001b00000000"/>
+		<Metadata name="CommonModule.УправлениеОборудованием" id="e8550e71-4c92-4cfb-a3f4-a83416b626bb" configVersion="1d60034b5e7eff41b8c669f2cd5f3d8d00000000"/>
+		<Metadata name="CommonModule.УправлениеОборудованием.Module" id="e8550e71-4c92-4cfb-a3f4-a83416b626bb.0" configVersion="29713f2d17b1c248b082dc4bfe38f1a700000000"/>
 		<Metadata name="CommonTemplate.AddInNative" id="e7384554-320c-4915-b428-250de1a9fe1b" configVersion="98b058690705124c908f9d10c5cb51ef00000000"/>
 		<Metadata name="CommonTemplate.AddInNative.Template" id="e7384554-320c-4915-b428-250de1a9fe1b.0" configVersion="9006a0e7a272ca4f8455a08f156d7f0000000000"/>
 		<Metadata name="CommonTemplate.НеобходимыеНачальныеНастройки" id="203111fb-f6b2-4ae8-a971-cfa2f1204dc8" configVersion="7ab71ce5c27d3f4bae681baf4217c44c00000000"/>
