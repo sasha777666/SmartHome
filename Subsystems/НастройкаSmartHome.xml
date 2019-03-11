@@ -36,6 +36,11 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПроксиСервера</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Скетчи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.БиблиотекиСкетчей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.КаталогФайловРабочий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВебИнтерфейсы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УправлениеАрдуиной</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДействияВыполняемыеПриЗапуске</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ТекущиеДанныеОборудованияМеханизмыПолучения</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

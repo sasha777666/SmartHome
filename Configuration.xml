@@ -150,7 +150,7 @@
 			<CommonModule>УправлениеОборудованием</CommonModule>
 			<HTTPService>Data_Exchange_Element</HTTPService>
 			<HTTPService>Событие</HTTPService>
-			<HTTPService>ВебИнтерфейсы</HTTPService>
+			<HTTPService>ВебИнтерфейс</HTTPService>
 			<ScheduledJob>СеансСервераCOM</ScheduledJob>
 			<ScheduledJob>СеансСервераNET</ScheduledJob>
 			<ScheduledJob>ОсновнойПроцесс</ScheduledJob>
@@ -179,12 +179,12 @@
 			<Catalog>ТелеграмПараметры</Catalog>
 			<Catalog>ТелеграмКонтакты</Catalog>
 			<Catalog>ТелеграмОбработкаЧёткиеШаблоныСообщений</Catalog>
-			<Catalog>ТелеграмОбработка2</Catalog>
+			<Catalog>ВебИнтерфейсы</Catalog>
 			<Document>ТелеграмСообщенияВходящие</Document>
 			<Document>ТелеграмСообщенияИсходящие</Document>
 			<Document>ТелеграмГруппыСообщений</Document>
 			<Report>ОтчётПоИсторииДанныхОборудования</Report>
-			<DataProcessor>УправлениеАрдуиной1</DataProcessor>
+			<DataProcessor>УправлениеАрдуиной</DataProcessor>
 			<DataProcessor>КонтрольЗарядаРазрядаАКБ1</DataProcessor>
 			<DataProcessor>КонтрольТемпературы1</DataProcessor>
 			<DataProcessor>КонтрольСвязиСКонтроллером</DataProcessor>

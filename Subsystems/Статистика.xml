@@ -18,6 +18,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчётПоИсторииДанныхОборудования</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсторияДанныеОборудования</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ОткрытьОтчётПоИсторииДанныхоборудования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ТекущиеДанныеОборудования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ВыполненныеДействия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПрогрессВыполненияСерверныхПроцедур</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЖурналОшибок</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

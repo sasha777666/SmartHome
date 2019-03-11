@@ -2,26 +2,26 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
 	<DataProcessor uuid="48f2ceea-9b10-4530-bd9c-832df973b9ac">
 		<InternalInfo>
-			<xr:GeneratedType name="DataProcessorObject.УправлениеАрдуиной1" category="Object">
+			<xr:GeneratedType name="DataProcessorObject.УправлениеАрдуиной" category="Object">
 				<xr:TypeId>9e108e4d-9499-4b1b-a697-c8db8eee4bbf</xr:TypeId>
 				<xr:ValueId>a9127e15-6323-437b-af37-f796101437d5</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DataProcessorManager.УправлениеАрдуиной1" category="Manager">
+			<xr:GeneratedType name="DataProcessorManager.УправлениеАрдуиной" category="Manager">
 				<xr:TypeId>c8382f73-5cf4-449f-9131-879177617576</xr:TypeId>
 				<xr:ValueId>4f6664d8-cd66-4c1d-9f37-3f5f6b54de40</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>УправлениеАрдуиной1</Name>
+			<Name>УправлениеАрдуиной</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Управление ардуиной 1</v8:content>
+					<v8:content>Управление ардуиной</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm>DataProcessor.УправлениеАрдуиной1.Form.УправлениеАрдуиной1</DefaultForm>
+			<DefaultForm>DataProcessor.УправлениеАрдуиной.Form.УправлениеАрдуиной</DefaultForm>
 			<AuxiliaryForm/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<ExtendedPresentation/>
@@ -66,7 +66,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Form>УправлениеАрдуиной1</Form>
+			<Form>УправлениеАрдуиной</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

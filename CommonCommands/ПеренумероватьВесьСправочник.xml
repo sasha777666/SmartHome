@@ -21,6 +21,7 @@
 				<v8:Type>cfg:CatalogRef.БиблиотекиСкетчей</v8:Type>
 				<v8:Type>cfg:CatalogRef.ВнешниеОбработки</v8:Type>
 				<v8:Type>cfg:CatalogRef.Настройки</v8:Type>
+				<v8:Type>cfg:CatalogRef.ВебИнтерфейсы</v8:Type>
 				<v8:Type>cfg:CatalogRef.IPУстройства</v8:Type>
 				<v8:Type>cfg:CatalogRef.ГруппыУсловий</v8:Type>
 				<v8:Type>cfg:CatalogRef.Оборудование</v8:Type>
@@ -31,7 +32,9 @@
 				<v8:Type>cfg:CatalogRef.Скетчи</v8:Type>
 				<v8:Type>cfg:CatalogRef.ТелеграмПараметры</v8:Type>
 				<v8:Type>cfg:CatalogRef.Действия</v8:Type>
+				<v8:Type>cfg:CatalogRef.ТелеграмКонтакты</v8:Type>
 				<v8:Type>cfg:CatalogRef.СобытияHTTP</v8:Type>
+				<v8:Type>cfg:CatalogRef.ТелеграмОбработкаЧёткиеШаблоныСообщений</v8:Type>
 			</CommandParameterType>
 			<ParameterUseMode>Multiple</ParameterUseMode>
 			<ModifiesData>false</ModifiesData>
