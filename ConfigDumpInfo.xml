@@ -308,8 +308,8 @@
 			<Metadata name="DataProcessor.Интерфейсы.Attribute.КамераНавигационнаяСсылка2" id="e7891ba8-f250-4aad-9810-6406bb05f137"/>
 			<Metadata name="DataProcessor.Интерфейсы.Attribute.КамераНавигационнаяСсылка" id="f5118490-9868-4af8-8116-3aa69dff0972"/>
 		</Metadata>
-		<Metadata name="DataProcessor.Интерфейсы.Form.Интерфейс1ОсновнаяФормаФорма" id="8455e6c4-91d9-43a3-b11c-17d474bd975c" configVersion="a1c1ff344f37d34cbd0f4d3639cb9bf400000000"/>
-		<Metadata name="DataProcessor.Интерфейсы.Form.Интерфейс1ОсновнаяФормаФорма.Form" id="8455e6c4-91d9-43a3-b11c-17d474bd975c.0" configVersion="db427c916e165940949379610ae67a1500000000"/>
+		<Metadata name="DataProcessor.Интерфейсы.Form.Интерфейс1ОсновнаяФормаФорма" id="8455e6c4-91d9-43a3-b11c-17d474bd975c" configVersion="ea857dc09d192a49a1e3b35de4f0599c00000000"/>
+		<Metadata name="DataProcessor.Интерфейсы.Form.Интерфейс1ОсновнаяФормаФорма.Form" id="8455e6c4-91d9-43a3-b11c-17d474bd975c.0" configVersion="af1eeddb44bfce409d626033d627ffe700000000"/>
 		<Metadata name="DataProcessor.Интерфейсы.ObjectModule" id="711fe2fc-6863-409f-bad8-f3c34b5c82b3.0" configVersion="3c52e0ab1e2e814ab742707492fd4aac00000000"/>
 		<Metadata name="DataProcessor.КонтрольЗарядаРазрядаАКБ1" id="e1fbd445-505b-401e-8b19-5cf31d959c2f" configVersion="b64a1759ac94f946a83cb6a03802dcfa00000000">
 			<Metadata name="DataProcessor.КонтрольЗарядаРазрядаАКБ1.Attribute.НастройкаМинНапряжение" id="1be9a5e5-0d3d-4463-8e80-7048432e6f65"/>
