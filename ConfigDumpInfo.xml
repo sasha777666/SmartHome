@@ -6,10 +6,11 @@
 			<Metadata name="AccumulationRegister.ТелеграмСообщенияГруппыСообщений.Dimension.ТелеграмГруппаСообщений" id="bde20155-f7be-4430-9714-e360312d2186"/>
 			<Metadata name="AccumulationRegister.ТелеграмСообщенияГруппыСообщений.Dimension.ТипВложения" id="e3b35093-d393-4b96-aa69-cffd48bbd2ca"/>
 		</Metadata>
-		<Metadata name="Catalog.IPУстройства" id="2367a6ea-2624-49e4-afa9-79b2749e2d00" configVersion="ad95b33fb5cd78418da4d90b771f514900000000">
+		<Metadata name="Catalog.IPУстройства" id="2367a6ea-2624-49e4-afa9-79b2749e2d00" configVersion="22d6195905887c45b3cb8c7dbf343b8a00000000">
 			<Metadata name="Catalog.IPУстройства.Attribute.IPАдрес" id="4641f400-c7df-4d00-a2ea-d8a410837abd"/>
 			<Metadata name="Catalog.IPУстройства.Attribute.Описание" id="db2ce77b-fda7-4c9f-9f9c-0f009d01fb71"/>
 		</Metadata>
+		<Metadata name="Catalog.IPУстройства.ObjectModule" id="2367a6ea-2624-49e4-afa9-79b2749e2d00.0" configVersion="8ce0ec6cd9104c4298f350b369b966f400000000"/>
 		<Metadata name="Catalog.БиблиотекиСкетчей" id="c4c89ad1-a60f-4ed3-839f-b57b05f12761" configVersion="4a235bcdcc85e74c98c1fc621811f34800000000">
 			<Metadata name="Catalog.БиблиотекиСкетчей.Attribute.Комментарий" id="3b77819f-eb4c-48cf-86c6-4a84e80764da"/>
 			<Metadata name="Catalog.БиблиотекиСкетчей.Attribute.ПутьКФайлуВРабочемКаталоге" id="6b210e49-e7aa-4c9b-8744-1a8fef9a6b90"/>
@@ -71,16 +72,19 @@
 		<Metadata name="Catalog.Действия.Form.ФормаЭлемента.Form" id="34c0134b-19ac-4919-b055-d84f8e6e34d6.0" configVersion="2d478b982a10a14c9b2a123a3f5ddc9200000000"/>
 		<Metadata name="Catalog.Действия.ManagerModule" id="cf775213-0989-419e-af07-15dd4b815315.3" configVersion="af4aa14cae374541a3359d3d84aceea900000000"/>
 		<Metadata name="Catalog.Действия.ObjectModule" id="cf775213-0989-419e-af07-15dd4b815315.0" configVersion="0f8d05c08be784499ffe186a87e5b24400000000"/>
-		<Metadata name="Catalog.КонтроллерыCOM" id="e4010046-7a2f-4f49-b271-b8ca2bdb0305" configVersion="fe89acd793fcfc4095c2c0d881748a4c00000000">
+		<Metadata name="Catalog.КонтроллерыCOM" id="e4010046-7a2f-4f49-b271-b8ca2bdb0305" configVersion="57850e2d92e90744b5b01140bb227ff800000000">
 			<Metadata name="Catalog.КонтроллерыCOM.Attribute.НомерCOMПорта" id="0edbbc24-86d6-4592-a2d0-0df88d63443c"/>
 			<Metadata name="Catalog.КонтроллерыCOM.Attribute.Скетч" id="410bdf1a-6b21-4242-ae09-36485de47ae9"/>
+			<Metadata name="Catalog.КонтроллерыCOM.Attribute.Описание" id="64a566af-fa8f-486e-9640-263892ab84ca"/>
 			<Metadata name="Catalog.КонтроллерыCOM.Attribute.СкоростьCOMПорта" id="a8b93614-a60a-47af-8471-5a6ab853f58a"/>
 		</Metadata>
-		<Metadata name="Catalog.КонтроллерыNET" id="0832ef93-b7df-42d3-bec7-305170d42195" configVersion="d472aee5bc171c44b62481b2d19a700600000000">
+		<Metadata name="Catalog.КонтроллерыNET" id="0832ef93-b7df-42d3-bec7-305170d42195" configVersion="36a190f66912024cb323e7f9ea405f6f00000000">
 			<Metadata name="Catalog.КонтроллерыNET.Attribute.IPУстройство" id="3f26f51e-fb1c-4866-8bfb-250f7394a350"/>
+			<Metadata name="Catalog.КонтроллерыNET.Attribute.Описание" id="7c91b498-3f8f-4ed2-9539-90594b96920e"/>
 			<Metadata name="Catalog.КонтроллерыNET.Attribute.Скетч" id="a3b76f5c-0d82-4151-840d-edc074405f04"/>
 			<Metadata name="Catalog.КонтроллерыNET.Attribute.АдресПорт" id="d0a82281-00f0-4e08-968d-08b84c3baf72"/>
 		</Metadata>
+		<Metadata name="Catalog.КонтроллерыNET.ObjectModule" id="0832ef93-b7df-42d3-bec7-305170d42195.0" configVersion="3f70de4b33fbb944a59fff3d55c5564400000000"/>
 		<Metadata name="Catalog.Настройки" id="8ae504a5-8b15-44c3-9fee-e3f61aef8fb8" configVersion="752f344ccee85a4faf303169b8d2d7c000000000">
 			<Metadata name="Catalog.Настройки.Attribute.Ключ" id="2aba070d-3c3f-41cd-86e5-5c890c1e91e3"/>
 			<Metadata name="Catalog.Настройки.Attribute.Комментарий" id="38a5462f-55fa-4a10-86aa-ce06ec636b46"/>
@@ -94,7 +98,7 @@
 		<Metadata name="Catalog.Настройки.Form.ФормаЭлемента" id="e68ee8d7-42fd-4d3f-b9ff-e7b7c8575077" configVersion="e261185362ba414f8de858f30deb79c700000000"/>
 		<Metadata name="Catalog.Настройки.Form.ФормаЭлемента.Form" id="e68ee8d7-42fd-4d3f-b9ff-e7b7c8575077.0" configVersion="a1b68a5bcd8a62419b341ba2e8c4d58e00000000"/>
 		<Metadata name="Catalog.Настройки.Predefined" id="8ae504a5-8b15-44c3-9fee-e3f61aef8fb8.1c" configVersion="f90338520f8da148b84d1d71dbebe25e00000000"/>
-		<Metadata name="Catalog.Оборудование" id="7fead58b-f7b3-4c49-8e4f-867f02707e4a" configVersion="636b26419a0ca24081d2ad5043eb155f00000000">
+		<Metadata name="Catalog.Оборудование" id="7fead58b-f7b3-4c49-8e4f-867f02707e4a" configVersion="0883b601f0db6a4181bbf8970e46c82100000000">
 			<Metadata name="Catalog.Оборудование.TabularSection.Настройки.Attribute.Настройка" id="004c6690-8da3-4d59-97f1-665724f725ff"/>
 			<Metadata name="Catalog.Оборудование.Attribute.ОписаниеОборудования" id="249db298-b23b-4221-912c-c974c6df95f4"/>
 			<Metadata name="Catalog.Оборудование.TabularSection.Пины" id="2bbfd754-3546-48cb-b3a4-7c9f7697d83d"/>
@@ -110,6 +114,7 @@
 		<Metadata name="Catalog.Оборудование.Form.ФормаСписка.Form" id="fd705c78-9cf7-4f43-b0a6-378b0528c29b.0" configVersion="3787f4761792dd4db3f70e0a5c449dd800000000"/>
 		<Metadata name="Catalog.Оборудование.Form.ФормаЭлемента" id="dc462721-3803-47f9-a9f1-997b69b6b13d" configVersion="c1eb9f43c700f94f82d3e8c7b7a0b2f400000000"/>
 		<Metadata name="Catalog.Оборудование.Form.ФормаЭлемента.Form" id="dc462721-3803-47f9-a9f1-997b69b6b13d.0" configVersion="40821e946ba08748b755b4a9207e07dd00000000"/>
+		<Metadata name="Catalog.Оборудование.ObjectModule" id="7fead58b-f7b3-4c49-8e4f-867f02707e4a.0" configVersion="e8808071ea1be648ad97e413e45e98f800000000"/>
 		<Metadata name="Catalog.Оборудование.Predefined" id="7fead58b-f7b3-4c49-8e4f-867f02707e4a.1c" configVersion="962eb89a7b719f42ae99685b7ad5fa5400000000"/>
 		<Metadata name="Catalog.ПроксиСервера" id="dc619f3a-f8ae-46bb-9fb4-4e7e157ae91d" configVersion="a2516766459fa847a2cadc83dd7fa5b600000000">
 			<Metadata name="Catalog.ПроксиСервера.Attribute.Актуален" id="25c1b1dc-45f9-4ec7-827a-7b82e46d3732"/>
@@ -208,8 +213,8 @@
 		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="6af5dd4e-3635-44ab-a24e-b98a869cbad6.0" configVersion="5af8b9370346c74290033d7b25e81a8200000000"/>
 		<Metadata name="CommonModule.СерверПривилегированный" id="c75b2d50-57f9-459d-b4d5-054f921c358c" configVersion="2c491ed6600a3e4ab417718797b7766200000000"/>
 		<Metadata name="CommonModule.СерверПривилегированный.Module" id="c75b2d50-57f9-459d-b4d5-054f921c358c.0" configVersion="f03dd7681aa28d47a5281bc2d9f1652e00000000"/>
-		<Metadata name="CommonModule.ТелеграмМодуль" id="dc983fb5-9278-4c67-a610-9b74f0cd571a" configVersion="3211716f7d120f498ddef69d92edb84900000000"/>
-		<Metadata name="CommonModule.ТелеграмМодуль.Module" id="dc983fb5-9278-4c67-a610-9b74f0cd571a.0" configVersion="e57202f112869742a9654d537c03b9d800000000"/>
+		<Metadata name="CommonModule.ТелеграмМодуль" id="dc983fb5-9278-4c67-a610-9b74f0cd571a" configVersion="e21914bb65dc414c8ca7ca0f7c0e6a0700000000"/>
+		<Metadata name="CommonModule.ТелеграмМодуль.Module" id="dc983fb5-9278-4c67-a610-9b74f0cd571a.0" configVersion="ab7c83e8a26c774ebd4ada22a7f3ab5400000000"/>
 		<Metadata name="CommonModule.УправлениеОборудованием" id="e8550e71-4c92-4cfb-a3f4-a83416b626bb" configVersion="1d60034b5e7eff41b8c669f2cd5f3d8d00000000"/>
 		<Metadata name="CommonModule.УправлениеОборудованием.Module" id="e8550e71-4c92-4cfb-a3f4-a83416b626bb.0" configVersion="29713f2d17b1c248b082dc4bfe38f1a700000000"/>
 		<Metadata name="CommonTemplate.AddInNative" id="e7384554-320c-4915-b428-250de1a9fe1b" configVersion="98b058690705124c908f9d10c5cb51ef00000000"/>
@@ -408,8 +413,8 @@
 		<Metadata name="DataProcessor.СбросТаймераПерезагрузки.Form.Форма" id="b84b0b0c-7a93-4e03-9e52-a223afc380bf" configVersion="ecb71d366bc7974798c1607429133aee00000000"/>
 		<Metadata name="DataProcessor.СбросТаймераПерезагрузки.Form.Форма.Form" id="b84b0b0c-7a93-4e03-9e52-a223afc380bf.0" configVersion="3c31a13e7741a340a862d72016ba2e7200000000"/>
 		<Metadata name="DataProcessor.СбросТаймераПерезагрузки.ObjectModule" id="95084b3b-79a9-4351-a9b8-0849cc4b6fb7.0" configVersion="822c1f1a77bd8a49adb19917bff4fc3000000000"/>
-		<Metadata name="DataProcessor.ТелеграмИИОбработкаСообщенийГруппы" id="48e3b7e9-457f-4b32-b6b1-8f89ab525f0f" configVersion="fe0eb12e8d6c8040912f74809c6eb54c00000000"/>
-		<Metadata name="DataProcessor.ТелеграмИИОбработкаСообщенийГруппы.ObjectModule" id="48e3b7e9-457f-4b32-b6b1-8f89ab525f0f.0" configVersion="343cafdd456a474aa8cb6e3e0a7fa9ee00000000"/>
+		<Metadata name="DataProcessor.ТелеграмИИОбработкаСообщенийГруппы" id="48e3b7e9-457f-4b32-b6b1-8f89ab525f0f" configVersion="f29f5227961f89448bafd53195c1246000000000"/>
+		<Metadata name="DataProcessor.ТелеграмИИОбработкаСообщенийГруппы.ObjectModule" id="48e3b7e9-457f-4b32-b6b1-8f89ab525f0f.0" configVersion="7ec5e5e176ed6e45bb2bb9c6c146960a00000000"/>
 		<Metadata name="DataProcessor.ТелеграмИИОбработкаСообщенийГруппы.Template.Макет" id="43a30eba-1017-4fa5-bb98-35cef422f493" configVersion="4f0884dea8d7b9418cf1ae7acff4a98200000000"/>
 		<Metadata name="DataProcessor.ТелеграмИИОбработкаСообщенийГруппы.Template.Макет.Template" id="43a30eba-1017-4fa5-bb98-35cef422f493.0" configVersion="2bfa2a8fbb303642b811027eec56759c00000000"/>
 		<Metadata name="DataProcessor.ТелеграмИИТрансляцияКамеры" id="faa29b6e-0c8f-413d-b1bd-0c345cc7a0ef" configVersion="c9d492c8b554a445a6fa75ebf0f1fbce00000000"/>
