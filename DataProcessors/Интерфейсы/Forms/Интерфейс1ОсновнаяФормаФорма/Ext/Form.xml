@@ -91,6 +91,7 @@
 											<ExtendedTooltip name="КомандыИнтерфейсныхСхемРасширеннаяПодсказка" id="114"/>
 											<ChildItems>
 												<UsualGroup name="ГруппаОбновлениеСпискаСхем" id="140">
+													<Visible>false</Visible>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -217,6 +218,7 @@
 								<GraphicalSchemaField name="ИнтерфейснаяСхема" id="104">
 									<DataPath>ИнтерфейснаяСхема</DataPath>
 									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<Width>60</Width>
 									<Edit>false</Edit>

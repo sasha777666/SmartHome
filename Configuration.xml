@@ -180,6 +180,7 @@
 			<Catalog>ТелеграмКонтакты</Catalog>
 			<Catalog>ТелеграмОбработкаЧёткиеШаблоныСообщений</Catalog>
 			<Catalog>ВебИнтерфейсы</Catalog>
+			<Catalog>ИнтерфейсныеСхемы</Catalog>
 			<Document>ТелеграмСообщенияВходящие</Document>
 			<Document>ТелеграмСообщенияИсходящие</Document>
 			<Document>ТелеграмГруппыСообщений</Document>

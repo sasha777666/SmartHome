@@ -1,38 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
-	<Catalog uuid="18997987-56ed-4e1f-8fee-4c4f98949505">
+	<Catalog uuid="1fb81b19-9416-4e3b-ab9a-f8289816e7c0">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.ВнешниеОбработки" category="Object">
-				<xr:TypeId>703efb65-b4af-4316-a7fb-651bad436d2f</xr:TypeId>
-				<xr:ValueId>7ca81893-3cbe-4146-b84e-10fba0a81799</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.ИнтерфейсныеСхемы" category="Object">
+				<xr:TypeId>75c5bf0a-4fa8-456c-9490-ce7091c393ab</xr:TypeId>
+				<xr:ValueId>1cae2959-b29a-46d0-a98d-af827df97656</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.ВнешниеОбработки" category="Ref">
-				<xr:TypeId>24d496c5-d54e-4107-b7d4-d0b0dac46c35</xr:TypeId>
-				<xr:ValueId>48243f89-3571-4241-b333-de7ede90876a</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.ИнтерфейсныеСхемы" category="Ref">
+				<xr:TypeId>d013a232-f1d0-41d5-bba4-c34beb0d9cf1</xr:TypeId>
+				<xr:ValueId>d1363ad2-3462-419b-9bdb-c3458e18bbce</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.ВнешниеОбработки" category="Selection">
-				<xr:TypeId>dcfce986-2e70-4d2f-af83-c8a0bffd80a7</xr:TypeId>
-				<xr:ValueId>2e6a8eee-aec8-4c76-a9c7-059ab3429525</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.ИнтерфейсныеСхемы" category="Selection">
+				<xr:TypeId>1f30bce4-359f-476d-a399-edcfae1bb275</xr:TypeId>
+				<xr:ValueId>67f4ee3a-d90d-4ca5-afb2-4b14ec6f78b3</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.ВнешниеОбработки" category="List">
-				<xr:TypeId>ceee783f-47cc-4a2b-841a-6bdecc54374b</xr:TypeId>
-				<xr:ValueId>8de77d5a-7856-4024-9e78-54b149028b86</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.ИнтерфейсныеСхемы" category="List">
+				<xr:TypeId>8274d81f-9909-4d51-9d6f-134b8cef72ae</xr:TypeId>
+				<xr:ValueId>0b4fd0dd-202f-4d28-ad3f-b4a5221ccfd4</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.ВнешниеОбработки" category="Manager">
-				<xr:TypeId>ea932171-3c63-4be7-a97e-3100ca6afa47</xr:TypeId>
-				<xr:ValueId>50090ca1-3213-4028-82e0-b9064592967d</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.ИнтерфейсныеСхемы" category="Manager">
+				<xr:TypeId>e04beef1-6c8d-4b63-827e-9c05077bfa30</xr:TypeId>
+				<xr:ValueId>a8a49192-3bda-47da-b86d-ebbad1b7e535</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ВнешниеОбработки</Name>
+			<Name>ИнтерфейсныеСхемы</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Внешние обработки</v8:content>
+					<v8:content>Интерфейсные схемы</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<Hierarchical>true</Hierarchical>
+			<Hierarchical>false</Hierarchical>
 			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
 			<LimitLevelCount>false</LimitLevelCount>
 			<LevelCount>2</LevelCount>
@@ -290,13 +290,13 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.ВнешниеОбработки.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.ВнешниеОбработки.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.ИнтерфейсныеСхемы.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.ИнтерфейсныеСхемы.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.ВнешниеОбработки.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm>Catalog.ИнтерфейсныеСхемы.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
@@ -321,13 +321,13 @@
 			<DataHistory>DontUse</DataHistory>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="1760d8b8-05ca-4b70-b2a2-133932f12e11">
+			<Attribute uuid="63728c40-cb0d-49a8-8faa-bc3498d12710">
 				<Properties>
-					<Name>ФайлОбработки</Name>
+					<Name>ФайлСхемы</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Файл обработки</v8:content>
+							<v8:content>Файл схемы</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -361,7 +361,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="7f07e542-708b-47a9-b34a-c035e44b2ea7">
+			<Attribute uuid="06badc6b-b028-48dc-9175-d88c95983a27">
 				<Properties>
 					<Name>КомментарийКФайлуИсточнику</Name>
 					<Synonym>
@@ -405,7 +405,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="5a18d7f2-a0a8-43de-ba15-438e5c01aa3a">
+			<Attribute uuid="460c5443-6848-4022-9748-fab8b023ca7b">
 				<Properties>
 					<Name>Описание</Name>
 					<Synonym>

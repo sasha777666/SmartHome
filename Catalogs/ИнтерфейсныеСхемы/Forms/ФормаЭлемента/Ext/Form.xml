@@ -21,12 +21,6 @@
 		</InputField>
 		<InputField name="ФайлПуть" id="7">
 			<DataPath>ФайлПуть</DataPath>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Файл</v8:content>
-				</v8:item>
-			</Title>
 			<ChoiceButton>true</ChoiceButton>
 			<ContextMenu name="ФайлПутьКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ФайлПутьРасширеннаяПодсказка" id="9"/>
@@ -49,7 +43,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:CatalogObject.ВнешниеОбработки</v8:Type>
+				<v8:Type>cfg:CatalogObject.ИнтерфейсныеСхемы</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
