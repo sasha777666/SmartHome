@@ -73,7 +73,7 @@
 		<Metadata name="Catalog.Действия.Form.ФормаЭлемента.Form" id="34c0134b-19ac-4919-b055-d84f8e6e34d6.0" configVersion="2d478b982a10a14c9b2a123a3f5ddc9200000000"/>
 		<Metadata name="Catalog.Действия.ManagerModule" id="cf775213-0989-419e-af07-15dd4b815315.3" configVersion="af4aa14cae374541a3359d3d84aceea900000000"/>
 		<Metadata name="Catalog.Действия.ObjectModule" id="cf775213-0989-419e-af07-15dd4b815315.0" configVersion="0f8d05c08be784499ffe186a87e5b24400000000"/>
-		<Metadata name="Catalog.ИнтерфейсныеСхемы" id="1fb81b19-9416-4e3b-ab9a-f8289816e7c0" configVersion="2cafbe4598f9704f9f90c08e620f172500000000">
+		<Metadata name="Catalog.ИнтерфейсныеСхемы" id="1fb81b19-9416-4e3b-ab9a-f8289816e7c0" configVersion="42623578fc5668468b6fb13ad226eb1200000000">
 			<Metadata name="Catalog.ИнтерфейсныеСхемы.Attribute.КомментарийКФайлуИсточнику" id="06badc6b-b028-48dc-9175-d88c95983a27"/>
 			<Metadata name="Catalog.ИнтерфейсныеСхемы.Attribute.Описание" id="460c5443-6848-4022-9748-fab8b023ca7b"/>
 			<Metadata name="Catalog.ИнтерфейсныеСхемы.Attribute.ФайлСхемы" id="63728c40-cb0d-49a8-8faa-bc3498d12710"/>
@@ -142,7 +142,7 @@
 			<Metadata name="Catalog.Скетчи.Attribute.КодСкетча" id="754ae23a-3ebd-4b79-9794-ddea4fcf0700"/>
 			<Metadata name="Catalog.Скетчи.TabularSection.Библиотеки.Attribute.Библиотека" id="c6439f9d-098c-410f-bdbb-bf45fb7d2729"/>
 		</Metadata>
-		<Metadata name="Catalog.СобытияHTTP" id="3b3a2f28-350d-47e1-b259-ce987224e440" configVersion="7fb4b31ba8a4294286eb2b1b4c15407900000000">
+		<Metadata name="Catalog.СобытияHTTP" id="3b3a2f28-350d-47e1-b259-ce987224e440" configVersion="3dbffebcc8025c40b80001b53cde210300000000">
 			<Metadata name="Catalog.СобытияHTTP.Attribute.HTTPName" id="1983460e-a22e-44b8-b5cb-f04a6b8775d2"/>
 			<Metadata name="Catalog.СобытияHTTP.Attribute.ВозвращатьОтвет" id="318bb2b0-33cb-4645-bf41-67159504de22"/>
 			<Metadata name="Catalog.СобытияHTTP.TabularSection.Действия" id="398810e9-1e3e-48df-b3d4-f143c11b9749"/>
@@ -223,8 +223,8 @@
 		<Metadata name="CommonModule.СерверПривилегированный.Module" id="c75b2d50-57f9-459d-b4d5-054f921c358c.0" configVersion="f03dd7681aa28d47a5281bc2d9f1652e00000000"/>
 		<Metadata name="CommonModule.ТелеграмМодуль" id="dc983fb5-9278-4c67-a610-9b74f0cd571a" configVersion="e21914bb65dc414c8ca7ca0f7c0e6a0700000000"/>
 		<Metadata name="CommonModule.ТелеграмМодуль.Module" id="dc983fb5-9278-4c67-a610-9b74f0cd571a.0" configVersion="ab7c83e8a26c774ebd4ada22a7f3ab5400000000"/>
-		<Metadata name="CommonModule.УправлениеОборудованием" id="e8550e71-4c92-4cfb-a3f4-a83416b626bb" configVersion="1d60034b5e7eff41b8c669f2cd5f3d8d00000000"/>
-		<Metadata name="CommonModule.УправлениеОборудованием.Module" id="e8550e71-4c92-4cfb-a3f4-a83416b626bb.0" configVersion="29713f2d17b1c248b082dc4bfe38f1a700000000"/>
+		<Metadata name="CommonModule.УправлениеОборудованием" id="e8550e71-4c92-4cfb-a3f4-a83416b626bb" configVersion="463fdb42c1e0d84ca7674db78df935d600000000"/>
+		<Metadata name="CommonModule.УправлениеОборудованием.Module" id="e8550e71-4c92-4cfb-a3f4-a83416b626bb.0" configVersion="e715c00b99c511468c4a0277e56782da00000000"/>
 		<Metadata name="CommonTemplate.AddInNative" id="e7384554-320c-4915-b428-250de1a9fe1b" configVersion="98b058690705124c908f9d10c5cb51ef00000000"/>
 		<Metadata name="CommonTemplate.AddInNative.Template" id="e7384554-320c-4915-b428-250de1a9fe1b.0" configVersion="9006a0e7a272ca4f8455a08f156d7f0000000000"/>
 		<Metadata name="CommonTemplate.НеобходимыеНачальныеНастройки" id="203111fb-f6b2-4ae8-a971-cfa2f1204dc8" configVersion="7ab71ce5c27d3f4bae681baf4217c44c00000000"/>
@@ -242,7 +242,7 @@
 		<Metadata name="Constant.КаталогФайловБекапы.ValueManagerModule" id="9f2c5b27-accd-46c1-955f-a122d88bd234.0" configVersion="bf4c0ca91e230a44beddbfe4630706d000000000"/>
 		<Metadata name="Constant.КаталогФайловРабочий" id="ce9de56a-0ab6-47e1-8a70-9edad06bf9b6" configVersion="7fc6948172673449ad7ae54bdd9a25c200000000"/>
 		<Metadata name="Constant.ОстановитьРегламентныеЗадания" id="ae911579-60b2-45b0-ab32-94f61167dbe8" configVersion="1813b596179d1c4ca57a516a077c30d900000000"/>
-		<Metadata name="DataProcessor.IPКамераDahua" id="54499c7f-c966-4ebe-bfd0-cdfde9476ae1" configVersion="5e148fe8529b5f4fbe71f9a35344080c00000000">
+		<Metadata name="DataProcessor.IPКамераDahua" id="54499c7f-c966-4ebe-bfd0-cdfde9476ae1" configVersion="bb116f660a724142857dbc78dab8fb1000000000">
 			<Metadata name="DataProcessor.IPКамераDahua.Attribute.Порт" id="2cdfeb24-3d45-465c-870e-e114755c30f9"/>
 			<Metadata name="DataProcessor.IPКамераDahua.Attribute.Пароль" id="49b49400-095a-4331-8b26-eb60dd63aa6e"/>
 			<Metadata name="DataProcessor.IPКамераDahua.Attribute.АдресКамеры" id="4a431e7e-a6b3-4732-a94b-29e680387eef"/>
@@ -256,7 +256,7 @@
 		<Metadata name="DataProcessor.IPКамераDahua.Form.Форма.Help" id="68521c74-dd90-46ad-922b-eded6a68c386.1" configVersion="d053873480bc914dbccf2c8d97dafa9b00000000"/>
 		<Metadata name="DataProcessor.IPКамераDahua.Help" id="54499c7f-c966-4ebe-bfd0-cdfde9476ae1.1" configVersion="d41a3a9a8e90f342a4b0367918100d6800000000"/>
 		<Metadata name="DataProcessor.IPКамераDahua.ManagerModule" id="54499c7f-c966-4ebe-bfd0-cdfde9476ae1.2" configVersion="6595ebb808084b468422364e520024b800000000"/>
-		<Metadata name="DataProcessor.IPКамераDahua.ObjectModule" id="54499c7f-c966-4ebe-bfd0-cdfde9476ae1.0" configVersion="abe3999394010e44ba73e137aa7b05cc00000000"/>
+		<Metadata name="DataProcessor.IPКамераDahua.ObjectModule" id="54499c7f-c966-4ebe-bfd0-cdfde9476ae1.0" configVersion="455f75c4317de24dba84397222bcf32000000000"/>
 		<Metadata name="DataProcessor.Архивирование" id="4c13d6ba-ad54-4396-8479-93d15a2b1192" configVersion="e675c52a932b1440a86cf5d2ed49086c00000000">
 			<Metadata name="DataProcessor.Архивирование.Attribute.Сообщения" id="08fd28c0-87d6-4977-b3c1-e8d08bfdd501"/>
 			<Metadata name="DataProcessor.Архивирование.TabularSection.Задания.Attribute.СтепеньСжатия" id="622d0520-90ef-42aa-ac5f-39f3ce692d1b"/>
@@ -297,7 +297,7 @@
 		<Metadata name="DataProcessor.ДомРаботаСКонтролером.Form.Форма" id="c29ef9b6-70b2-4b1b-b4e5-35bf1b48b0c4" configVersion="6441982ea78e554ab72e48c39de061ff00000000"/>
 		<Metadata name="DataProcessor.ДомРаботаСКонтролером.Form.Форма.Form" id="c29ef9b6-70b2-4b1b-b4e5-35bf1b48b0c4.0" configVersion="e14244eb17014b42bbc5e69382407c8300000000"/>
 		<Metadata name="DataProcessor.ДомРаботаСКонтролером.ObjectModule" id="a4406bd4-4247-4019-b784-d0b2c91177c3.0" configVersion="ac91859fdacb8a4b8ef6278ef7041c0200000000"/>
-		<Metadata name="DataProcessor.ЗаписьФотоIPКамеры" id="d24b2be0-ce6a-4df5-ad6c-93cc65888049" configVersion="370fc97250da3a48a0a2cd29578a804500000000">
+		<Metadata name="DataProcessor.ЗаписьФотоIPКамеры" id="d24b2be0-ce6a-4df5-ad6c-93cc65888049" configVersion="a0386fea7b1b1a4b9503e665ecf269b700000000">
 			<Metadata name="DataProcessor.ЗаписьФотоIPКамеры.Attribute.Пароль" id="177f04d3-2f05-45e8-8364-c09a4e736206"/>
 			<Metadata name="DataProcessor.ЗаписьФотоIPКамеры.Attribute.АдресКамеры" id="5d6641f8-8176-4348-92e7-695912a38ac8"/>
 			<Metadata name="DataProcessor.ЗаписьФотоIPКамеры.Attribute.Логин" id="93f0f56a-7f86-40a8-ad74-b70aab63d3a6"/>
@@ -313,7 +313,7 @@
 		<Metadata name="DataProcessor.ЗаписьФотоIPКамеры.Form.Форма.Help" id="007d7b57-6996-4738-b75b-be4ab10d23a5.1" configVersion="8c7569bf471f11488b029486dfc1bd6100000000"/>
 		<Metadata name="DataProcessor.ЗаписьФотоIPКамеры.Help" id="d24b2be0-ce6a-4df5-ad6c-93cc65888049.1" configVersion="e174d1d4f644d14495953fe9f89dc11000000000"/>
 		<Metadata name="DataProcessor.ЗаписьФотоIPКамеры.ManagerModule" id="d24b2be0-ce6a-4df5-ad6c-93cc65888049.2" configVersion="8ef8a9e802cd5b4bbf012c76631928d100000000"/>
-		<Metadata name="DataProcessor.ЗаписьФотоIPКамеры.ObjectModule" id="d24b2be0-ce6a-4df5-ad6c-93cc65888049.0" configVersion="a1d29afd95112d40a5e32a71f4f1cab200000000"/>
+		<Metadata name="DataProcessor.ЗаписьФотоIPКамеры.ObjectModule" id="d24b2be0-ce6a-4df5-ad6c-93cc65888049.0" configVersion="27e818947a06364b8e463f34961465c800000000"/>
 		<Metadata name="DataProcessor.Интерфейсы" id="711fe2fc-6863-409f-bad8-f3c34b5c82b3" configVersion="257eaaefd2ca5c4b92964b55c3e8e88000000000">
 			<Metadata name="DataProcessor.Интерфейсы.Attribute.Камера" id="684848ed-d189-44a2-8268-67e0ebd2709d"/>
 			<Metadata name="DataProcessor.Интерфейсы.Attribute.КамераНавигационнаяСсылка1" id="b08e0d24-3d98-48c1-86b9-11862b16c06a"/>
