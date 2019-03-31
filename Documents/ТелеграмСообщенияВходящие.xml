@@ -35,7 +35,7 @@
 			<UseStandardCommands>true</UseStandardCommands>
 			<Numerator/>
 			<NumberType>Number</NumberType>
-			<NumberLength>12</NumberLength>
+			<NumberLength>9</NumberLength>
 			<NumberAllowedLength>Variable</NumberAllowedLength>
 			<NumberPeriodicity>Nonperiodical</NumberPeriodicity>
 			<CheckUnique>true</CheckUnique>
@@ -182,7 +182,7 @@
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm>Document.ТелеграмСообщенияВходящие.Form.ФормаДокумента</DefaultObjectForm>
-			<DefaultListForm/>
+			<DefaultListForm>Document.ТелеграмСообщенияВходящие.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryListForm/>
@@ -429,6 +429,7 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокумента</Form>
+			<Form>ФормаСписка</Form>
 			<TabularSection uuid="5218c72d-bc47-4f5d-9311-a2a3386de1f8">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ТелеграмСообщенияВходящие.СодержаниеСообщения" category="TabularSection">

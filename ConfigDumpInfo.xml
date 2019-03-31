@@ -93,7 +93,7 @@
 			<Metadata name="Catalog.КонтроллерыNET.Attribute.АдресПорт" id="d0a82281-00f0-4e08-968d-08b84c3baf72"/>
 		</Metadata>
 		<Metadata name="Catalog.КонтроллерыNET.ObjectModule" id="0832ef93-b7df-42d3-bec7-305170d42195.0" configVersion="3f70de4b33fbb944a59fff3d55c5564400000000"/>
-		<Metadata name="Catalog.Настройки" id="8ae504a5-8b15-44c3-9fee-e3f61aef8fb8" configVersion="752f344ccee85a4faf303169b8d2d7c000000000">
+		<Metadata name="Catalog.Настройки" id="8ae504a5-8b15-44c3-9fee-e3f61aef8fb8" configVersion="ee9cbc724f9f574b9b0c5982645b96a200000000">
 			<Metadata name="Catalog.Настройки.Attribute.Ключ" id="2aba070d-3c3f-41cd-86e5-5c890c1e91e3"/>
 			<Metadata name="Catalog.Настройки.Attribute.Комментарий" id="38a5462f-55fa-4a10-86aa-ce06ec636b46"/>
 			<Metadata name="Catalog.Настройки.TabularSection.ТаблицаНастроек.Attribute.Параметр" id="4e97d8a9-9f68-4d21-b335-43bc6fd4e171"/>
@@ -105,7 +105,7 @@
 		<Metadata name="Catalog.Настройки.Form.ФормаСписка.Form" id="050cf1d9-b420-40ea-a24a-90224069e9d2.0" configVersion="3f7b5020d9ed81489ab94330891a27c600000000"/>
 		<Metadata name="Catalog.Настройки.Form.ФормаЭлемента" id="e68ee8d7-42fd-4d3f-b9ff-e7b7c8575077" configVersion="e261185362ba414f8de858f30deb79c700000000"/>
 		<Metadata name="Catalog.Настройки.Form.ФормаЭлемента.Form" id="e68ee8d7-42fd-4d3f-b9ff-e7b7c8575077.0" configVersion="a1b68a5bcd8a62419b341ba2e8c4d58e00000000"/>
-		<Metadata name="Catalog.Настройки.Predefined" id="8ae504a5-8b15-44c3-9fee-e3f61aef8fb8.1c" configVersion="f90338520f8da148b84d1d71dbebe25e00000000"/>
+		<Metadata name="Catalog.Настройки.Predefined" id="8ae504a5-8b15-44c3-9fee-e3f61aef8fb8.1c" configVersion="f115665ff9739e4bb4522be45c7d28b400000000"/>
 		<Metadata name="Catalog.Оборудование" id="7fead58b-f7b3-4c49-8e4f-867f02707e4a" configVersion="0883b601f0db6a4181bbf8970e46c82100000000">
 			<Metadata name="Catalog.Оборудование.TabularSection.Настройки.Attribute.Настройка" id="004c6690-8da3-4d59-97f1-665724f725ff"/>
 			<Metadata name="Catalog.Оборудование.Attribute.ОписаниеОборудования" id="249db298-b23b-4221-912c-c974c6df95f4"/>
@@ -421,8 +421,8 @@
 		<Metadata name="DataProcessor.СбросТаймераПерезагрузки.Form.Форма" id="b84b0b0c-7a93-4e03-9e52-a223afc380bf" configVersion="ecb71d366bc7974798c1607429133aee00000000"/>
 		<Metadata name="DataProcessor.СбросТаймераПерезагрузки.Form.Форма.Form" id="b84b0b0c-7a93-4e03-9e52-a223afc380bf.0" configVersion="3c31a13e7741a340a862d72016ba2e7200000000"/>
 		<Metadata name="DataProcessor.СбросТаймераПерезагрузки.ObjectModule" id="95084b3b-79a9-4351-a9b8-0849cc4b6fb7.0" configVersion="822c1f1a77bd8a49adb19917bff4fc3000000000"/>
-		<Metadata name="DataProcessor.ТелеграмИИОбработкаСообщенийГруппы" id="48e3b7e9-457f-4b32-b6b1-8f89ab525f0f" configVersion="f29f5227961f89448bafd53195c1246000000000"/>
-		<Metadata name="DataProcessor.ТелеграмИИОбработкаСообщенийГруппы.ObjectModule" id="48e3b7e9-457f-4b32-b6b1-8f89ab525f0f.0" configVersion="7ec5e5e176ed6e45bb2bb9c6c146960a00000000"/>
+		<Metadata name="DataProcessor.ТелеграмИИОбработкаСообщенийГруппы" id="48e3b7e9-457f-4b32-b6b1-8f89ab525f0f" configVersion="bf1139739e97884fba691e9c2dbc776000000000"/>
+		<Metadata name="DataProcessor.ТелеграмИИОбработкаСообщенийГруппы.ObjectModule" id="48e3b7e9-457f-4b32-b6b1-8f89ab525f0f.0" configVersion="7abee1759418ea4a8ea0f7177062335c00000000"/>
 		<Metadata name="DataProcessor.ТелеграмИИОбработкаСообщенийГруппы.Template.Макет" id="43a30eba-1017-4fa5-bb98-35cef422f493" configVersion="4f0884dea8d7b9418cf1ae7acff4a98200000000"/>
 		<Metadata name="DataProcessor.ТелеграмИИОбработкаСообщенийГруппы.Template.Макет.Template" id="43a30eba-1017-4fa5-bb98-35cef422f493.0" configVersion="2bfa2a8fbb303642b811027eec56759c00000000"/>
 		<Metadata name="DataProcessor.ТелеграмИИТрансляцияКамеры" id="faa29b6e-0c8f-413d-b1bd-0c345cc7a0ef" configVersion="c9d492c8b554a445a6fa75ebf0f1fbce00000000"/>
@@ -469,12 +469,12 @@
 			<Metadata name="DataProcessor.УправлениеРеле.Attribute.Сообщения" id="ebd6d358-9dea-46a9-967d-2e4f9ead452e"/>
 		</Metadata>
 		<Metadata name="DataProcessor.УправлениеРеле.ObjectModule" id="f84d1dff-0d73-4f96-8626-4d4b64b8445d.0" configVersion="89668c7a3e494140a1374871d27143f100000000"/>
-		<Metadata name="Document.ТелеграмГруппыСообщений" id="d516c579-968d-4f38-83c3-ca0174dc9da9" configVersion="da2d428ab56a0846ae4566e7382599f300000000">
+		<Metadata name="Document.ТелеграмГруппыСообщений" id="d516c579-968d-4f38-83c3-ca0174dc9da9" configVersion="747f8571528d1740ad815e1a4c1eef4c00000000">
 			<Metadata name="Document.ТелеграмГруппыСообщений.Attribute.ТелеграмКонтакт" id="e62507f7-5597-4edc-9d09-c7df62cd41bc"/>
 		</Metadata>
 		<Metadata name="Document.ТелеграмГруппыСообщений.Form.ФормаДокумента" id="0c0c7c08-658c-46c2-8780-68a0304c4c49" configVersion="cacb96d127d32b4d99fbaf9c04a8608100000000"/>
 		<Metadata name="Document.ТелеграмГруппыСообщений.Form.ФормаДокумента.Form" id="0c0c7c08-658c-46c2-8780-68a0304c4c49.0" configVersion="05e562c16d044445a2f6c128b164aaf000000000"/>
-		<Metadata name="Document.ТелеграмСообщенияВходящие" id="3946c688-1bfa-4781-8f83-0981f23c3010" configVersion="299efaf0e9e33e4ebf8f42a16f5ad95900000000">
+		<Metadata name="Document.ТелеграмСообщенияВходящие" id="3946c688-1bfa-4781-8f83-0981f23c3010" configVersion="2d9304b5d5880c45959924fffc842ddb00000000">
 			<Metadata name="Document.ТелеграмСообщенияВходящие.TabularSection.СодержаниеЗапросаОбратногоВызова" id="014fe8f7-8c5d-44e0-87fb-8ea54d46508d"/>
 			<Metadata name="Document.ТелеграмСообщенияВходящие.TabularSection.СодержаниеСообщения.Attribute.ИДРодителя" id="07113bac-9bf0-46ed-8a35-b2eea4d7c03f"/>
 			<Metadata name="Document.ТелеграмСообщенияВходящие.TabularSection.СодержаниеЗапросаОбратногоВызова.Attribute.Значение" id="1fee4621-8cd1-490f-a1f4-8cdf52929b19"/>
@@ -493,8 +493,10 @@
 		</Metadata>
 		<Metadata name="Document.ТелеграмСообщенияВходящие.Form.ФормаДокумента" id="5a0d8891-6e72-45e1-9bb1-846e86fca1be" configVersion="6bcda7c5a46f9646ba4659193a54172b00000000"/>
 		<Metadata name="Document.ТелеграмСообщенияВходящие.Form.ФормаДокумента.Form" id="5a0d8891-6e72-45e1-9bb1-846e86fca1be.0" configVersion="197e7fc012fc42408b7ea89a95ef3b4800000000"/>
+		<Metadata name="Document.ТелеграмСообщенияВходящие.Form.ФормаСписка" id="7c259152-e44a-41a5-9c07-ea9350be1717" configVersion="e26b965a0aa553409f813429b595da3100000000"/>
+		<Metadata name="Document.ТелеграмСообщенияВходящие.Form.ФормаСписка.Form" id="7c259152-e44a-41a5-9c07-ea9350be1717.0" configVersion="4437120e8ef30f4e9402e891d8893c0800000000"/>
 		<Metadata name="Document.ТелеграмСообщенияВходящие.ObjectModule" id="3946c688-1bfa-4781-8f83-0981f23c3010.0" configVersion="179f8538da469f478d9fd8098ecd770500000000"/>
-		<Metadata name="Document.ТелеграмСообщенияИсходящие" id="1d686b34-ba9a-4d43-8b28-b1a1bb50adab" configVersion="4ecab01ac69ada44abfa29084c3f8ffa00000000">
+		<Metadata name="Document.ТелеграмСообщенияИсходящие" id="1d686b34-ba9a-4d43-8b28-b1a1bb50adab" configVersion="48c80f556894d44680c639688ce80ea900000000">
 			<Metadata name="Document.ТелеграмСообщенияИсходящие.Attribute.Текст" id="374a8db4-2f49-4504-8e5e-92169f01d535"/>
 			<Metadata name="Document.ТелеграмСообщенияИсходящие.Attribute.ИДРедактируемогоСообщения" id="5475e974-af4e-4cc3-b1fe-1297fa9b6f68"/>
 			<Metadata name="Document.ТелеграмСообщенияИсходящие.Attribute.Клавиатура" id="63e0be87-1453-46cf-8571-1f1fed0f52fb"/>
