@@ -213,8 +213,8 @@
 		<Metadata name="CommonModule.ГлобальныйСерверПривилегированный.Module" id="a57e4d3c-7235-4b12-aceb-1ec50d9b9c9a.0" configVersion="7a584b8d8d0e1f45bda50ab08522d84b00000000"/>
 		<Metadata name="CommonModule.Интеграции" id="2a0e839a-990c-4569-9e61-3f8fd503d9c8" configVersion="a6cd64eda9a3f24fa6fb23e03f8a316200000000"/>
 		<Metadata name="CommonModule.Интеграции.Module" id="2a0e839a-990c-4569-9e61-3f8fd503d9c8.0" configVersion="13904d08186a9e409c3f32b91ded1b7e00000000"/>
-		<Metadata name="CommonModule.К" id="4fadaf85-1f86-4be4-91b5-de164883dde8" configVersion="73eaebb24d45ab4c8323b924993fc7f600000000"/>
-		<Metadata name="CommonModule.К.Module" id="4fadaf85-1f86-4be4-91b5-de164883dde8.0" configVersion="71ea4f2cea52cf49899f9914a6253f6200000000"/>
+		<Metadata name="CommonModule.К" id="4fadaf85-1f86-4be4-91b5-de164883dde8" configVersion="6ddbc0c58da01c4a931ca5ca2664858e00000000"/>
+		<Metadata name="CommonModule.К.Module" id="4fadaf85-1f86-4be4-91b5-de164883dde8.0" configVersion="245f1b9dcad7fc42bfa5a7a2fb06ca3800000000"/>
 		<Metadata name="CommonModule.Конвертация" id="dc5007a9-9bf6-40f8-8bee-ba5c949146c7" configVersion="470f3f4a2fc48d409cd1e708a418164500000000"/>
 		<Metadata name="CommonModule.Конвертация.Module" id="dc5007a9-9bf6-40f8-8bee-ba5c949146c7.0" configVersion="c072ada8452e664ea419f62823c44c3a00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="6af5dd4e-3635-44ab-a24e-b98a869cbad6" configVersion="6e644f7e20964b448b80a6769debfdc200000000"/>
