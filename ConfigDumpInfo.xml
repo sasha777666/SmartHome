@@ -209,7 +209,7 @@
 		<Metadata name="CommonCommand.ПеренумероватьВесьСправочник.CommandModule" id="c9779638-dd84-487e-b2d8-38fdbf5f13fa.2" configVersion="537da697ac6a154b9b0ac30c6cb2deac00000000"/>
 		<Metadata name="CommonModule.ВебОбщий" id="94b31194-6712-4f9d-a918-9132d95b932b" configVersion="45ad44a961821146aa1490391086fd8a00000000"/>
 		<Metadata name="CommonModule.ВебОбщий.Module" id="94b31194-6712-4f9d-a918-9132d95b932b.0" configVersion="d463c890ef30e54aabe8d63a1f2921b900000000"/>
-		<Metadata name="CommonModule.ГлобальныйСерверПривилегированный" id="a57e4d3c-7235-4b12-aceb-1ec50d9b9c9a" configVersion="a0fecd5059a60644a07c73dce976b2d500000000"/>
+		<Metadata name="CommonModule.ГлобальныйСерверПривилегированный" id="a57e4d3c-7235-4b12-aceb-1ec50d9b9c9a" configVersion="6f5af263c7495440a808182f376eef1e00000000"/>
 		<Metadata name="CommonModule.ГлобальныйСерверПривилегированный.Module" id="a57e4d3c-7235-4b12-aceb-1ec50d9b9c9a.0" configVersion="7a584b8d8d0e1f45bda50ab08522d84b00000000"/>
 		<Metadata name="CommonModule.Интеграции" id="2a0e839a-990c-4569-9e61-3f8fd503d9c8" configVersion="a6cd64eda9a3f24fa6fb23e03f8a316200000000"/>
 		<Metadata name="CommonModule.Интеграции.Module" id="2a0e839a-990c-4569-9e61-3f8fd503d9c8.0" configVersion="13904d08186a9e409c3f32b91ded1b7e00000000"/>
@@ -217,8 +217,8 @@
 		<Metadata name="CommonModule.К.Module" id="4fadaf85-1f86-4be4-91b5-de164883dde8.0" configVersion="245f1b9dcad7fc42bfa5a7a2fb06ca3800000000"/>
 		<Metadata name="CommonModule.Конвертация" id="dc5007a9-9bf6-40f8-8bee-ba5c949146c7" configVersion="470f3f4a2fc48d409cd1e708a418164500000000"/>
 		<Metadata name="CommonModule.Конвертация.Module" id="dc5007a9-9bf6-40f8-8bee-ba5c949146c7.0" configVersion="c072ada8452e664ea419f62823c44c3a00000000"/>
-		<Metadata name="CommonModule.ОбщегоНазначения" id="6af5dd4e-3635-44ab-a24e-b98a869cbad6" configVersion="6e644f7e20964b448b80a6769debfdc200000000"/>
-		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="6af5dd4e-3635-44ab-a24e-b98a869cbad6.0" configVersion="5af8b9370346c74290033d7b25e81a8200000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначения" id="6af5dd4e-3635-44ab-a24e-b98a869cbad6" configVersion="89bf19133f73a6448a44ee09b057bdc800000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="6af5dd4e-3635-44ab-a24e-b98a869cbad6.0" configVersion="1149b12ac65a564791fa8ab1526910fd00000000"/>
 		<Metadata name="CommonModule.СерверПривилегированный" id="c75b2d50-57f9-459d-b4d5-054f921c358c" configVersion="2c491ed6600a3e4ab417718797b7766200000000"/>
 		<Metadata name="CommonModule.СерверПривилегированный.Module" id="c75b2d50-57f9-459d-b4d5-054f921c358c.0" configVersion="f03dd7681aa28d47a5281bc2d9f1652e00000000"/>
 		<Metadata name="CommonModule.ТелеграмМодуль" id="dc983fb5-9278-4c67-a610-9b74f0cd571a" configVersion="e21914bb65dc414c8ca7ca0f7c0e6a0700000000"/>
@@ -257,13 +257,16 @@
 		<Metadata name="DataProcessor.IPКамераDahua.Help" id="54499c7f-c966-4ebe-bfd0-cdfde9476ae1.1" configVersion="d41a3a9a8e90f342a4b0367918100d6800000000"/>
 		<Metadata name="DataProcessor.IPКамераDahua.ManagerModule" id="54499c7f-c966-4ebe-bfd0-cdfde9476ae1.2" configVersion="6595ebb808084b468422364e520024b800000000"/>
 		<Metadata name="DataProcessor.IPКамераDahua.ObjectModule" id="54499c7f-c966-4ebe-bfd0-cdfde9476ae1.0" configVersion="455f75c4317de24dba84397222bcf32000000000"/>
-		<Metadata name="DataProcessor.Архивирование" id="4c13d6ba-ad54-4396-8479-93d15a2b1192" configVersion="e675c52a932b1440a86cf5d2ed49086c00000000">
+		<Metadata name="DataProcessor.Архивирование" id="4c13d6ba-ad54-4396-8479-93d15a2b1192" configVersion="d329864e4a00e64f8992b759a62c7a4400000000">
+			<Metadata name="DataProcessor.Архивирование.TabularSection.Задания.Attribute.МаксимальныйРазмерПапкиНазначенияВМегабайтах" id="07284b89-f5da-4af4-9381-e5746f9aacae"/>
 			<Metadata name="DataProcessor.Архивирование.Attribute.Сообщения" id="08fd28c0-87d6-4977-b3c1-e8d08bfdd501"/>
+			<Metadata name="DataProcessor.Архивирование.TabularSection.Задания.Attribute.СпособОпределенияСтарыхФайловВПапкеНазначения" id="3906c50c-9f24-4c28-ae2c-939977a64788"/>
 			<Metadata name="DataProcessor.Архивирование.TabularSection.Задания.Attribute.СтепеньСжатия" id="622d0520-90ef-42aa-ac5f-39f3ce692d1b"/>
 			<Metadata name="DataProcessor.Архивирование.TabularSection.Задания.Attribute.ПутьИсточникОтносительноРабочейПапки" id="77ec0159-b116-4209-b37d-858c3531c64d"/>
 			<Metadata name="DataProcessor.Архивирование.TabularSection.Задания.Attribute.СпособОбработки" id="8c1d52c5-d925-465a-bebc-1081ece1e645"/>
 			<Metadata name="DataProcessor.Архивирование.Attribute.ПутьZIPexe" id="99f5cd9b-f8ee-481c-88cc-5b7b06babfb9"/>
 			<Metadata name="DataProcessor.Архивирование.TabularSection.Задания.Attribute.ПутьИсточник" id="a6ddb8a6-9e12-437d-8f07-2c34cea07cc4"/>
+			<Metadata name="DataProcessor.Архивирование.TabularSection.Задания.Attribute.УдалятьСтарыеФайлыВПапкеНазначения" id="b07bae1b-bc1a-49a5-bd56-85aed66717a1"/>
 			<Metadata name="DataProcessor.Архивирование.TabularSection.Задания.Attribute.ПутьНазначенияОтносительноРабочейПапки" id="bb71e265-5912-4f2d-ac99-fab4a2153001"/>
 			<Metadata name="DataProcessor.Архивирование.TabularSection.Задания.Attribute.УдалятьПослеОбработки" id="c0ad5cda-a937-416d-a01d-892f633890b0"/>
 			<Metadata name="DataProcessor.Архивирование.TabularSection.Задания.Attribute.ПутьНазначения" id="ddb07a6f-5b84-4a8d-a0d0-79f86f07a5e2"/>
@@ -273,7 +276,7 @@
 		</Metadata>
 		<Metadata name="DataProcessor.Архивирование.Form.Форма" id="70b579fe-5da0-470d-80f5-8c7e18491c8a" configVersion="29b31c3c56e2c142b633e24e588b0ecd00000000"/>
 		<Metadata name="DataProcessor.Архивирование.Form.Форма.Form" id="70b579fe-5da0-470d-80f5-8c7e18491c8a.0" configVersion="b4dbc64c02d85a47b4b453d666f661f500000000"/>
-		<Metadata name="DataProcessor.Архивирование.ObjectModule" id="4c13d6ba-ad54-4396-8479-93d15a2b1192.0" configVersion="54e032a0e7d7a64f82dcced4768366b600000000"/>
+		<Metadata name="DataProcessor.Архивирование.ObjectModule" id="4c13d6ba-ad54-4396-8479-93d15a2b1192.0" configVersion="e27e2f529a4ce84784b323e94e6ba16500000000"/>
 		<Metadata name="DataProcessor.Архивирование.Template.zip" id="81e1febc-5fb1-40a5-91a8-c762064b5ef5" configVersion="04cb0c3d7fc8594ba6c90a0782f9d2a700000000"/>
 		<Metadata name="DataProcessor.Архивирование.Template.zip.Template" id="81e1febc-5fb1-40a5-91a8-c762064b5ef5.0" configVersion="6ae8cb8579b2fa46ab98d79c14e5d06700000000"/>
 		<Metadata name="DataProcessor.Архивирование.Template.Описание" id="63440679-3526-4544-a29b-089feb018fd2" configVersion="118480f66f8e634dba991ac3c06dfb9600000000"/>
