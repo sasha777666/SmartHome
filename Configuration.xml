@@ -194,6 +194,7 @@
 			<DataProcessor>Интерфейсы</DataProcessor>
 			<DataProcessor>СбросТаймераПерезагрузки</DataProcessor>
 			<DataProcessor>УправлениеРеле</DataProcessor>
+			<DataProcessor>УправлениеДальнометром</DataProcessor>
 			<DataProcessor>ДатчикDHTИзмеритьТемпературуИВлажность</DataProcessor>
 			<DataProcessor>IPКамераDahua</DataProcessor>
 			<DataProcessor>ДомРаботаСКонтролером</DataProcessor>

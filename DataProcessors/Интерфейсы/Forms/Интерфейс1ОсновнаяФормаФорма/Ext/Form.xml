@@ -545,6 +545,34 @@
 						</Table>
 					</ChildItems>
 				</Page>
+				<Page name="Процессы" id="147">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Процессы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Процессы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ПроцессыРасширеннаяПодсказка" id="148"/>
+					<ChildItems>
+						<Button name="ОткрытьРСПроцессы" id="149">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ОткрытьРСПроцессы</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Открыть РС Процессы</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ОткрытьРСПроцессыРасширеннаяПодсказка" id="150"/>
+						</Button>
+					</ChildItems>
+				</Page>
 			</ChildItems>
 		</Pages>
 	</ChildItems>
@@ -809,6 +837,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПостроитьИнтерфейснуюСхему</Action>
+		</Command>
+		<Command name="ОткрытьРСПроцессы" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть РСПроцессы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть РСПроцессы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьРСПроцессы</Action>
 		</Command>
 	</Commands>
 </Form>

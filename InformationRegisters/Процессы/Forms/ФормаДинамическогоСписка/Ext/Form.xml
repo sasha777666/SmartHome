@@ -32,7 +32,15 @@
 			<ShowRoot>true</ShowRoot>
 			<AllowRootChoice>false</AllowRootChoice>
 			<UpdateOnDataChange>Auto</UpdateOnDataChange>
-			<ContextMenu name="ДинамическийСписокКонтекстноеМеню" id="4"/>
+			<ContextMenu name="ДинамическийСписокКонтекстноеМеню" id="4">
+				<ChildItems>
+					<Button name="ДинамическийСписокКонтекстноеМенюВключитьВыключить" id="61">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ВключитьВыключить</CommandName>
+						<ExtendedTooltip name="ДинамическийСписокКонтекстноеМенюВключитьВыключитьРасширеннаяПодсказка" id="62"/>
+					</Button>
+				</ChildItems>
+			</ContextMenu>
 			<AutoCommandBar name="ДинамическийСписокКоманднаяПанель" id="5"/>
 			<ExtendedTooltip name="ДинамическийСписокРасширеннаяПодсказка" id="6"/>
 			<SearchStringAddition name="ДинамическийСписокСтрокаПоиска" id="7">
@@ -212,4 +220,21 @@
 			</Settings>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ВключитьВыключить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Включить выключить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Включить выключить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВключитьВыключить</Action>
+		</Command>
+	</Commands>
 </Form>

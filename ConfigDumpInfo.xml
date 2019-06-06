@@ -213,16 +213,16 @@
 		<Metadata name="CommonModule.ГлобальныйСерверПривилегированный.Module" id="a57e4d3c-7235-4b12-aceb-1ec50d9b9c9a.0" configVersion="7a584b8d8d0e1f45bda50ab08522d84b00000000"/>
 		<Metadata name="CommonModule.Интеграции" id="2a0e839a-990c-4569-9e61-3f8fd503d9c8" configVersion="a6cd64eda9a3f24fa6fb23e03f8a316200000000"/>
 		<Metadata name="CommonModule.Интеграции.Module" id="2a0e839a-990c-4569-9e61-3f8fd503d9c8.0" configVersion="13904d08186a9e409c3f32b91ded1b7e00000000"/>
-		<Metadata name="CommonModule.К" id="4fadaf85-1f86-4be4-91b5-de164883dde8" configVersion="6ddbc0c58da01c4a931ca5ca2664858e00000000"/>
-		<Metadata name="CommonModule.К.Module" id="4fadaf85-1f86-4be4-91b5-de164883dde8.0" configVersion="245f1b9dcad7fc42bfa5a7a2fb06ca3800000000"/>
+		<Metadata name="CommonModule.К" id="4fadaf85-1f86-4be4-91b5-de164883dde8" configVersion="ac3b3e29846ac74793cd6cafd8013c4200000000"/>
+		<Metadata name="CommonModule.К.Module" id="4fadaf85-1f86-4be4-91b5-de164883dde8.0" configVersion="2e4fd36e9a252c4590a87265b6cf9c9300000000"/>
 		<Metadata name="CommonModule.Конвертация" id="dc5007a9-9bf6-40f8-8bee-ba5c949146c7" configVersion="470f3f4a2fc48d409cd1e708a418164500000000"/>
 		<Metadata name="CommonModule.Конвертация.Module" id="dc5007a9-9bf6-40f8-8bee-ba5c949146c7.0" configVersion="c072ada8452e664ea419f62823c44c3a00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="6af5dd4e-3635-44ab-a24e-b98a869cbad6" configVersion="89bf19133f73a6448a44ee09b057bdc800000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="6af5dd4e-3635-44ab-a24e-b98a869cbad6.0" configVersion="1149b12ac65a564791fa8ab1526910fd00000000"/>
 		<Metadata name="CommonModule.СерверПривилегированный" id="c75b2d50-57f9-459d-b4d5-054f921c358c" configVersion="2c491ed6600a3e4ab417718797b7766200000000"/>
 		<Metadata name="CommonModule.СерверПривилегированный.Module" id="c75b2d50-57f9-459d-b4d5-054f921c358c.0" configVersion="f03dd7681aa28d47a5281bc2d9f1652e00000000"/>
-		<Metadata name="CommonModule.ТелеграмМодуль" id="dc983fb5-9278-4c67-a610-9b74f0cd571a" configVersion="e21914bb65dc414c8ca7ca0f7c0e6a0700000000"/>
-		<Metadata name="CommonModule.ТелеграмМодуль.Module" id="dc983fb5-9278-4c67-a610-9b74f0cd571a.0" configVersion="ab7c83e8a26c774ebd4ada22a7f3ab5400000000"/>
+		<Metadata name="CommonModule.ТелеграмМодуль" id="dc983fb5-9278-4c67-a610-9b74f0cd571a" configVersion="2b63eca97837cb4dbcad37ab5dfb632b00000000"/>
+		<Metadata name="CommonModule.ТелеграмМодуль.Module" id="dc983fb5-9278-4c67-a610-9b74f0cd571a.0" configVersion="7cd902add0424849aded6524e700336600000000"/>
 		<Metadata name="CommonModule.УправлениеОборудованием" id="e8550e71-4c92-4cfb-a3f4-a83416b626bb" configVersion="463fdb42c1e0d84ca7674db78df935d600000000"/>
 		<Metadata name="CommonModule.УправлениеОборудованием.Module" id="e8550e71-4c92-4cfb-a3f4-a83416b626bb.0" configVersion="e715c00b99c511468c4a0277e56782da00000000"/>
 		<Metadata name="CommonTemplate.AddInNative" id="e7384554-320c-4915-b428-250de1a9fe1b" configVersion="98b058690705124c908f9d10c5cb51ef00000000"/>
@@ -231,7 +231,7 @@
 		<Metadata name="CommonTemplate.НеобходимыеНачальныеНастройки.Template" id="203111fb-f6b2-4ae8-a971-cfa2f1204dc8.0" configVersion="369c1eeb2ad1c143bb9fbedf4e1dea4b00000000"/>
 		<Metadata name="CommonTemplate.ОтветStart" id="910c0810-4cd4-460e-9abe-f3508118ac99" configVersion="ea5af6095cf71e4eb5cea6ac9c7cbad000000000"/>
 		<Metadata name="CommonTemplate.ОтветStart.Template" id="910c0810-4cd4-460e-9abe-f3508118ac99.0" configVersion="95261032c4ab5d4192f8758e33fa28ed00000000"/>
-		<Metadata name="Configuration.Конфигурация" id="4e51b14f-0fa1-48cb-bc61-c8eec2c33fcc" configVersion="aa6e3159f3deee4b9d6f9ff6ce0c6b5100000000"/>
+		<Metadata name="Configuration.Конфигурация" id="4e51b14f-0fa1-48cb-bc61-c8eec2c33fcc" configVersion="10256d116a48ef4fa1b9d49ed4f86a2000000000"/>
 		<Metadata name="Configuration.Конфигурация.ClientApplicationInterface" id="eeff861c-8ade-4c35-b63c-af3f3d757529.b" configVersion="65d0717fcf12e9478633927462c2d29700000000"/>
 		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="eeff861c-8ade-4c35-b63c-af3f3d757529.8" configVersion="7041b3193648824d8592e34115b38eaf00000000"/>
 		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="eeff861c-8ade-4c35-b63c-af3f3d757529.9" configVersion="ab3fef79ea079240aaf3eb8e07d14bc600000000"/>
@@ -324,8 +324,8 @@
 			<Metadata name="DataProcessor.Интерфейсы.Attribute.КамераНавигационнаяСсылка2" id="e7891ba8-f250-4aad-9810-6406bb05f137"/>
 			<Metadata name="DataProcessor.Интерфейсы.Attribute.КамераНавигационнаяСсылка" id="f5118490-9868-4af8-8116-3aa69dff0972"/>
 		</Metadata>
-		<Metadata name="DataProcessor.Интерфейсы.Form.Интерфейс1ОсновнаяФормаФорма" id="8455e6c4-91d9-43a3-b11c-17d474bd975c" configVersion="ee367823d6cafe499a3beb3a9224b47400000000"/>
-		<Metadata name="DataProcessor.Интерфейсы.Form.Интерфейс1ОсновнаяФормаФорма.Form" id="8455e6c4-91d9-43a3-b11c-17d474bd975c.0" configVersion="86a1b774175f1e4a84cc8b6fd5fe6f1100000000"/>
+		<Metadata name="DataProcessor.Интерфейсы.Form.Интерфейс1ОсновнаяФормаФорма" id="8455e6c4-91d9-43a3-b11c-17d474bd975c" configVersion="33f0e7514cb21d41a96dafefbe81541f00000000"/>
+		<Metadata name="DataProcessor.Интерфейсы.Form.Интерфейс1ОсновнаяФормаФорма.Form" id="8455e6c4-91d9-43a3-b11c-17d474bd975c.0" configVersion="aea038273c785b4ebc7b810fab19e25500000000"/>
 		<Metadata name="DataProcessor.Интерфейсы.ObjectModule" id="711fe2fc-6863-409f-bad8-f3c34b5c82b3.0" configVersion="3c52e0ab1e2e814ab742707492fd4aac00000000"/>
 		<Metadata name="DataProcessor.КонтрольЗарядаРазрядаАКБ1" id="e1fbd445-505b-401e-8b19-5cf31d959c2f" configVersion="b64a1759ac94f946a83cb6a03802dcfa00000000">
 			<Metadata name="DataProcessor.КонтрольЗарядаРазрядаАКБ1.Attribute.НастройкаМинНапряжение" id="1be9a5e5-0d3d-4463-8e80-7048432e6f65"/>
@@ -462,6 +462,18 @@
 		</Metadata>
 		<Metadata name="DataProcessor.УправлениеАрдуиной.Form.УправлениеАрдуиной" id="50e9830b-f462-48f5-985b-0108210cd2c7" configVersion="c4bce283dcf7494083218e5cf2aa4d9f00000000"/>
 		<Metadata name="DataProcessor.УправлениеАрдуиной.Form.УправлениеАрдуиной.Form" id="50e9830b-f462-48f5-985b-0108210cd2c7.0" configVersion="aa560bd79828dd4daab84c84f1f7a83e00000000"/>
+		<Metadata name="DataProcessor.УправлениеДальнометром" id="77a3fd78-0966-4745-942c-74401d4ba218" configVersion="9d1f2a52d3b7504cb1726884c6e694bb00000000">
+			<Metadata name="DataProcessor.УправлениеДальнометром.Attribute.ДатаПолученияРасстояния" id="1d332f06-88cc-4f4d-b5bc-926ee2b00362"/>
+			<Metadata name="DataProcessor.УправлениеДальнометром.Attribute.Оборудование" id="2baea2f1-81c2-4cdb-8e03-35d2de335ba1"/>
+			<Metadata name="DataProcessor.УправлениеДальнометром.Attribute.НомерПинаEcho" id="45b820eb-5668-41c7-889e-4dbc123ec51b"/>
+			<Metadata name="DataProcessor.УправлениеДальнометром.Attribute.Сообщения" id="48292c14-0df0-4887-94bc-6514bb64a7c3"/>
+			<Metadata name="DataProcessor.УправлениеДальнометром.Attribute.Расстояние" id="948c53a8-6c18-461c-860e-1603352ec727"/>
+			<Metadata name="DataProcessor.УправлениеДальнометром.Attribute.НомерПинаTrig" id="9767f291-098a-48b2-a8fc-7d39e85a2b6e"/>
+			<Metadata name="DataProcessor.УправлениеДальнометром.Attribute.ИнициирующийПроцесс" id="fe01c5ed-443a-493a-b8e6-90bd457e8000"/>
+		</Metadata>
+		<Metadata name="DataProcessor.УправлениеДальнометром.Help" id="77a3fd78-0966-4745-942c-74401d4ba218.1" configVersion="f37c1d35e6177b449dfda146ba0dd1ec00000000"/>
+		<Metadata name="DataProcessor.УправлениеДальнометром.ManagerModule" id="77a3fd78-0966-4745-942c-74401d4ba218.2" configVersion="49aeecd330aa594f89e649fc83b2ea3a00000000"/>
+		<Metadata name="DataProcessor.УправлениеДальнометром.ObjectModule" id="77a3fd78-0966-4745-942c-74401d4ba218.0" configVersion="fea17f2a3f72f04ab2b6dd277a3a32b900000000"/>
 		<Metadata name="DataProcessor.УправлениеРеле" id="f84d1dff-0d73-4f96-8626-4d4b64b8445d" configVersion="f2291d8441bb6e449f8778b201ec313300000000">
 			<Metadata name="DataProcessor.УправлениеРеле.Attribute.ДатаПолученияТекущегоСостояния" id="0ca3d463-2928-4cca-80bc-a8658f67ab3d"/>
 			<Metadata name="DataProcessor.УправлениеРеле.Attribute.НомерПина" id="0f5091b2-fdc0-46f2-9bb7-8c49b6da8b9d"/>
@@ -582,7 +594,7 @@
 			<Metadata name="InformationRegister.ПрогрессВыполненияСерверныхПроцедур.Dimension.ПолноеИмяОбработчика" id="399b894d-49f0-4525-b677-c39b4087cf50"/>
 			<Metadata name="InformationRegister.ПрогрессВыполненияСерверныхПроцедур.Resource.ДатаЗаписи" id="4d007d66-943a-4eda-a823-2b0babad92a4"/>
 		</Metadata>
-		<Metadata name="InformationRegister.Процессы" id="08ea9b20-79c0-4316-ba5c-f29385800aa6" configVersion="c5c7422f8481a442a473040d66a613dc00000000">
+		<Metadata name="InformationRegister.Процессы" id="08ea9b20-79c0-4316-ba5c-f29385800aa6" configVersion="0be5590a91dade4fa08b3ec340ff4a1900000000">
 			<Metadata name="InformationRegister.Процессы.Resource.Оборудование" id="28379441-6d51-47c9-a199-a4ea126ac6c3"/>
 			<Metadata name="InformationRegister.Процессы.Resource.МаксимальноеВремяИтерации" id="4a36bdef-1c4a-4fce-a3f6-8bdd3246d419"/>
 			<Metadata name="InformationRegister.Процессы.Resource.МинИнтервалПослеСтарта" id="4b74fdef-c900-4843-84c1-ffd51325f82f"/>
@@ -600,8 +612,8 @@
 			<Metadata name="InformationRegister.Процессы.Resource.СейчасВыполняется" id="f9dc6d76-0afc-447e-bcd1-1f4c1a298a7d"/>
 			<Metadata name="InformationRegister.Процессы.Resource.Комментарий" id="fbf25423-cd24-4bf0-80db-fdbb85836e15"/>
 		</Metadata>
-		<Metadata name="InformationRegister.Процессы.Form.ФормаДинамическогоСписка" id="310e6569-b2d1-4a73-a2a8-a68ddcfd9a5a" configVersion="3c4cc90d44dd244a9faab21a913b85c300000000"/>
-		<Metadata name="InformationRegister.Процессы.Form.ФормаДинамическогоСписка.Form" id="310e6569-b2d1-4a73-a2a8-a68ddcfd9a5a.0" configVersion="69b82679091987408cd8fe08b52c050200000000"/>
+		<Metadata name="InformationRegister.Процессы.Form.ФормаДинамическогоСписка" id="310e6569-b2d1-4a73-a2a8-a68ddcfd9a5a" configVersion="c3d89501fe8b4a4fba13eef987aa357900000000"/>
+		<Metadata name="InformationRegister.Процессы.Form.ФормаДинамическогоСписка.Form" id="310e6569-b2d1-4a73-a2a8-a68ddcfd9a5a.0" configVersion="3fdff7e45b24f34f960f9390e498612d00000000"/>
 		<Metadata name="InformationRegister.Процессы.Form.ФормаДинамическогоСписка.Help" id="310e6569-b2d1-4a73-a2a8-a68ddcfd9a5a.1" configVersion="79f567d283409843b6990715d6ae4b7b00000000"/>
 		<Metadata name="InformationRegister.Процессы.Form.ФормаЗаписи" id="c6c0c0c2-0d32-4535-a01e-1d1e39d44aad" configVersion="70db07362afb00428683d3e137dade9a00000000"/>
 		<Metadata name="InformationRegister.Процессы.Form.ФормаЗаписи.Form" id="c6c0c0c2-0d32-4535-a01e-1d1e39d44aad.0" configVersion="67a69e50fcd9174ba45447760cb54f4100000000"/>
