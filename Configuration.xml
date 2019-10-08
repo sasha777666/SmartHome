@@ -205,6 +205,7 @@
 			<DataProcessor>ТелеграмКомпоновкаСообщенийГруппы</DataProcessor>
 			<DataProcessor>ТелеграмИИОбработкаСообщенийГруппы</DataProcessor>
 			<DataProcessor>ТелеграмИИТрансляцияКамеры</DataProcessor>
+			<DataProcessor>ТелеграмКарта</DataProcessor>
 			<InformationRegister>ЖурналОшибок</InformationRegister>
 			<InformationRegister>COM</InformationRegister>
 			<InformationRegister>NET</InformationRegister>
