@@ -53,8 +53,8 @@
 &НаСервере
 Функция ОбновитьНаСервере()
 		
-	КодМаршрута = "markers = new Array(); ";
-	
+	КодМаршрута = "";
+	МассивТочекМасштабирования = Новый Массив();
 	Для Каждого СтрокаТелеграмКонтакт Из Объект.ТелеграмКонтакты Цикл
 		
 		ТелеграмКонтакт = СтрокаТелеграмКонтакт.ТелеграмКонтакт;
@@ -77,12 +77,13 @@
 		Если ВыборкаГеоданные.Следующий() Тогда 
 			ПериодПоследнейТочки = ВыборкаГеоданные.Период;
 			НастройкаЦвета = ТелеграмКонтакт.Настройки.ТаблицаНастроек.Найти("Цвет", "Параметр");
-				Если ЗначениеЗаполнено(НастройкаЦвета) Тогда 
-					Цвет = НастройкаЦвета.Значение;
-				Иначе
-					Цвет = "red";
-				КонецЕсли;
-				
+			Если ЗначениеЗаполнено(НастройкаЦвета) Тогда 
+				Цвет = НастройкаЦвета.Значение;
+			Иначе
+				Цвет = "red";
+			КонецЕсли;
+			МассивТочекМасштабирования.Добавить("["+Формат(ВыборкаГеоданные.latitude, "ЧЦ=16; ЧДЦ=12; ЧРД=.; ЧГ=0")+", "+Формат(ВыборкаГеоданные.longitude, "ЧЦ=16; ЧДЦ=12; ЧРД=.; ЧГ=0")+"]");
+			
 			КодМаршрута = КодМаршрута + "L.marker(["+Формат(ВыборкаГеоданные.latitude, "ЧЦ=16; ЧДЦ=12; ЧРД=.; ЧГ=0")+", "+Формат(ВыборкаГеоданные.longitude, "ЧЦ=16; ЧДЦ=12; ЧРД=.; ЧГ=0")+"], {title: '" + Строка(ТелеграмКонтакт) + "'}).addTo(map);
 			|	";	
 			ШиротаЦентр = Формат(ВыборкаГеоданные.latitude, "ЧЦ=16; ЧДЦ=12; ЧРД=.; ЧГ=0");
@@ -106,9 +107,13 @@
 	
 	
 	Если ЗначениеЗаполнено(КодМаршрута) Тогда
-		//var bounds = new L.LatLngBounds(); ids.forEach(function(i) { var infoWindow = L.popup().setContent(contents[i]); var marker = L.marker([lats[i], lons[i]]) .addTo(map) .bindPopup(infoWindow) .openPopup(); bounds.extend(marker.getLatLng()); }); map.fitBounds(bounds); }
-		КодМаршрута = КодМаршрута +	"function showLocations(ids, lats, lons, contents) { locationIDs = ids; infoWindows = new Array(); markers = new Array(); map = new L.Map('map_canvas'); var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'; var osmAttrib='Map data © <a href=""http://openstreetmap.org"">OpenStreetMap</a> contributors'; var osm = new L.TileLayer(osmUrl, {minZoom: 1, maxZoom: 19, attribution: osmAttrib}); for (i in ids) { var infoWindow = L.popup() .setContent(contents[i]); map.setView(new L.LatLng(lats[i], lons[i]),18); map.addLayer(osm); L.marker([lats[i], lons[i]]).addTo(map) .bindPopup(infoWindow) .openPopup(); } } 
+		
+		//map.fitBounds([
+  	 	//[40.712, -74.227],
+ 	   //[40.774, -74.125]
+		//]);
 		//КодМаршрута = КодМаршрута +	"map.fitBounds(polyline.getBounds());
+		КодМаршрута = КодМаршрута +	"map.fitBounds([" + СтрСоединить(МассивТочекМасштабирования, ",") + "]);
 		|	"; 
 
 		Текст = ПолучитьТекстМакета();	

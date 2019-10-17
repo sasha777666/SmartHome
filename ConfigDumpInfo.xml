@@ -208,8 +208,8 @@
 		<Metadata name="CommonCommand.ОтправитьВыделенныеДанныеВЦентральнуюБазу.CommandModule" id="565fee14-8129-4d49-b540-9162ad716dd2.2" configVersion="9312862054ff694ba2840f9399798edb00000000"/>
 		<Metadata name="CommonCommand.ПеренумероватьВесьСправочник" id="c9779638-dd84-487e-b2d8-38fdbf5f13fa" configVersion="38bad4372754444185b808f037d3bcd700000000"/>
 		<Metadata name="CommonCommand.ПеренумероватьВесьСправочник.CommandModule" id="c9779638-dd84-487e-b2d8-38fdbf5f13fa.2" configVersion="8f781c6446f587419f9691f13b000ac700000000"/>
-		<Metadata name="CommonModule.ВебОбщий" id="94b31194-6712-4f9d-a918-9132d95b932b" configVersion="76906dc9de349d4cadc5b127a90f707b00000000"/>
-		<Metadata name="CommonModule.ВебОбщий.Module" id="94b31194-6712-4f9d-a918-9132d95b932b.0" configVersion="081ee5e319fb0d46a679fd4ef08d6e1900000000"/>
+		<Metadata name="CommonModule.ВебОбщий" id="94b31194-6712-4f9d-a918-9132d95b932b" configVersion="64099b2efdad2d40a166457141a17db000000000"/>
+		<Metadata name="CommonModule.ВебОбщий.Module" id="94b31194-6712-4f9d-a918-9132d95b932b.0" configVersion="1aacb1c34cb1634499ce75def306784d00000000"/>
 		<Metadata name="CommonModule.ГлобальныйСерверПривилегированный" id="a57e4d3c-7235-4b12-aceb-1ec50d9b9c9a" configVersion="782c76879d3de241a8120d32a08a120500000000"/>
 		<Metadata name="CommonModule.ГлобальныйСерверПривилегированный.Module" id="a57e4d3c-7235-4b12-aceb-1ec50d9b9c9a.0" configVersion="f3dde63f0d912c4782e832901ad0168d00000000"/>
 		<Metadata name="CommonModule.Интеграции" id="2a0e839a-990c-4569-9e61-3f8fd503d9c8" configVersion="57759813645bf240b32110af326ada7200000000"/>
@@ -222,8 +222,8 @@
 		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="6af5dd4e-3635-44ab-a24e-b98a869cbad6.0" configVersion="c510b0e0a7d3054995a961c969e481b000000000"/>
 		<Metadata name="CommonModule.СерверПривилегированный" id="c75b2d50-57f9-459d-b4d5-054f921c358c" configVersion="24fac29332af5a479ca9679a7498ecef00000000"/>
 		<Metadata name="CommonModule.СерверПривилегированный.Module" id="c75b2d50-57f9-459d-b4d5-054f921c358c.0" configVersion="45c8e361814dc948ac991c94b46f09f300000000"/>
-		<Metadata name="CommonModule.ТелеграмМодуль" id="dc983fb5-9278-4c67-a610-9b74f0cd571a" configVersion="d166883e6960c7498b60b837884cf6cb00000000"/>
-		<Metadata name="CommonModule.ТелеграмМодуль.Module" id="dc983fb5-9278-4c67-a610-9b74f0cd571a.0" configVersion="545211b734028d47835705e601401d2000000000"/>
+		<Metadata name="CommonModule.ТелеграмМодуль" id="dc983fb5-9278-4c67-a610-9b74f0cd571a" configVersion="6522de4d5da1db4aa9d682848a76752500000000"/>
+		<Metadata name="CommonModule.ТелеграмМодуль.Module" id="dc983fb5-9278-4c67-a610-9b74f0cd571a.0" configVersion="437e7640d213c942b6000b728074bd1300000000"/>
 		<Metadata name="CommonModule.УправлениеОборудованием" id="e8550e71-4c92-4cfb-a3f4-a83416b626bb" configVersion="c9aaf2e0379b4b41b353a190d0a8f0de00000000"/>
 		<Metadata name="CommonModule.УправлениеОборудованием.Module" id="e8550e71-4c92-4cfb-a3f4-a83416b626bb.0" configVersion="69ed380fa21cd54193aaafef2f871b4800000000"/>
 		<Metadata name="CommonTemplate.AddInNative" id="e7384554-320c-4915-b428-250de1a9fe1b" configVersion="95583e159881714babbc9b4caf4c793c00000000"/>
@@ -418,10 +418,10 @@
 		<Metadata name="DataProcessor.ОчисткаБазы" id="2492b973-6959-4392-84fd-9fcf2e6c9174" configVersion="dff44e5697eb53438225837fc1a5658a00000000"/>
 		<Metadata name="DataProcessor.ОчисткаБазы.Form.Форма" id="49a44e02-995f-42f8-b54a-9c0dd9e50459" configVersion="ab757894b84e2c43b392fe58659a071e00000000"/>
 		<Metadata name="DataProcessor.ОчисткаБазы.Form.Форма.Form" id="49a44e02-995f-42f8-b54a-9c0dd9e50459.0" configVersion="ec8df3dfc35b9341acdb92bd5c64bc5200000000"/>
-		<Metadata name="DataProcessor.ПроксиСервера" id="32784b0f-823b-4e7c-a83e-5b575630c0ed" configVersion="eb1d27a03ff274439b431afdbbc4806000000000"/>
+		<Metadata name="DataProcessor.ПроксиСервера" id="32784b0f-823b-4e7c-a83e-5b575630c0ed" configVersion="0869d6ed4520a242bd392771eb18e61100000000"/>
 		<Metadata name="DataProcessor.ПроксиСервера.Form.Форма" id="67a16f23-ec59-471b-8fe5-201244b76473" configVersion="63245ce0a588b543ab57dd041f6be0b800000000"/>
 		<Metadata name="DataProcessor.ПроксиСервера.Form.Форма.Form" id="67a16f23-ec59-471b-8fe5-201244b76473.0" configVersion="66b0a5b8714f4c43bf37c700fe04e29900000000"/>
-		<Metadata name="DataProcessor.ПроксиСервера.ObjectModule" id="32784b0f-823b-4e7c-a83e-5b575630c0ed.0" configVersion="5831e70d3475a44cb41eb065be6d99c900000000"/>
+		<Metadata name="DataProcessor.ПроксиСервера.ObjectModule" id="32784b0f-823b-4e7c-a83e-5b575630c0ed.0" configVersion="4872adb37c925d45bd7cdb3420b2d3be00000000"/>
 		<Metadata name="DataProcessor.СбросТаймераПерезагрузки" id="95084b3b-79a9-4351-a9b8-0849cc4b6fb7" configVersion="6368a48389b71e4d87cc7cd0f497dce100000000">
 			<Metadata name="DataProcessor.СбросТаймераПерезагрузки.Attribute.ВремяДоТаймаута" id="13e547c6-90ff-4f42-9c11-6af32fff2b64"/>
 			<Metadata name="DataProcessor.СбросТаймераПерезагрузки.Attribute.Оборудование" id="255395ae-3814-4fc4-9bca-9a2de8b7deb9"/>
@@ -451,8 +451,8 @@
 			<Metadata name="DataProcessor.ТелеграмРаботаСКартой.Attribute.ДатаНачала" id="e44ed0ea-a00a-478c-acf4-fa8870040c6a"/>
 			<Metadata name="DataProcessor.ТелеграмРаботаСКартой.Attribute.ТранслироватьГеопозицию" id="f7d97a07-c4eb-49f0-9610-0ea19bf274ea"/>
 		</Metadata>
-		<Metadata name="DataProcessor.ТелеграмРаботаСКартой.Form.Форма" id="dfc1db0e-40c3-4b7a-a687-7f1a354973a9" configVersion="6ddb20bda1eea847bb84d4895fd04b0a00000000"/>
-		<Metadata name="DataProcessor.ТелеграмРаботаСКартой.Form.Форма.Form" id="dfc1db0e-40c3-4b7a-a687-7f1a354973a9.0" configVersion="06055399efc0ba4188c4b8fea297266000000000"/>
+		<Metadata name="DataProcessor.ТелеграмРаботаСКартой.Form.Форма" id="dfc1db0e-40c3-4b7a-a687-7f1a354973a9" configVersion="bf6bd1ed70328f4da492eeb63e80443d00000000"/>
+		<Metadata name="DataProcessor.ТелеграмРаботаСКартой.Form.Форма.Form" id="dfc1db0e-40c3-4b7a-a687-7f1a354973a9.0" configVersion="89d322098f15e24a9d0d02ef62d25a7900000000"/>
 		<Metadata name="DataProcessor.ТелеграмРаботаСКартой.Form.Форма.Help" id="dfc1db0e-40c3-4b7a-a687-7f1a354973a9.1" configVersion="be97c965bb72e34b858523f6e86aa63800000000"/>
 		<Metadata name="DataProcessor.ТелеграмРаботаСКартой.ObjectModule" id="bf4d1eab-d037-4579-8049-81842dacc7d8.0" configVersion="1923f18c81688147b41c22db142e10c800000000"/>
 		<Metadata name="DataProcessor.ТелеграмУправлениеБотом" id="7dd1912b-2c6f-445d-a35d-d8734a5f5a69" configVersion="7de81152546a954c90c5a5ce75e36a7800000000"/>
