@@ -136,6 +136,7 @@
 			<Subsystem>Телеграм</Subsystem>
 			<Subsystem>НастройкаSmartHome</Subsystem>
 			<Subsystem>Статистика</Subsystem>
+			<Subsystem>Общая</Subsystem>
 			<CommonTemplate>AddInNative</CommonTemplate>
 			<CommonTemplate>ОтветStart</CommonTemplate>
 			<CommonTemplate>НеобходимыеНачальныеНастройки</CommonTemplate>
@@ -205,7 +206,9 @@
 			<DataProcessor>ТелеграмКомпоновкаСообщенийГруппы</DataProcessor>
 			<DataProcessor>ТелеграмИИОбработкаСообщенийГруппы</DataProcessor>
 			<DataProcessor>ТелеграмИИТрансляцияКамеры</DataProcessor>
-			<DataProcessor>ТелеграмКарта</DataProcessor>
+			<DataProcessor>ТелеграмРаботаСКартой</DataProcessor>
+			<DataProcessor>КартаOpenStreetMap</DataProcessor>
+			<DataProcessor>ПроксиСервера</DataProcessor>
 			<InformationRegister>ЖурналОшибок</InformationRegister>
 			<InformationRegister>COM</InformationRegister>
 			<InformationRegister>NET</InformationRegister>

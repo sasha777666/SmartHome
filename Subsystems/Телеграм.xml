@@ -36,7 +36,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТелеграмИИОбработкаСообщенийГруппы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТелеграмКомпоновкаСообщенийГруппы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТелеграмИИТрансляцияКамеры</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТелеграмКарта</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТелеграмРаботаСКартой</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
