@@ -427,8 +427,8 @@
 		<Metadata name="DataProcessor.СбросТаймераПерезагрузки.Form.Форма" id="b84b0b0c-7a93-4e03-9e52-a223afc380bf" configVersion="de134238186745429970436ad019cc4b00000000"/>
 		<Metadata name="DataProcessor.СбросТаймераПерезагрузки.Form.Форма.Form" id="b84b0b0c-7a93-4e03-9e52-a223afc380bf.0" configVersion="814b6b0d6a56a049a97bf6228a814b6500000000"/>
 		<Metadata name="DataProcessor.СбросТаймераПерезагрузки.ObjectModule" id="95084b3b-79a9-4351-a9b8-0849cc4b6fb7.0" configVersion="c32ab5f7a0880f42a9e45b06d3c265eb00000000"/>
-		<Metadata name="DataProcessor.ТелеграмИИОбработкаСообщенийГруппы" id="48e3b7e9-457f-4b32-b6b1-8f89ab525f0f" configVersion="598f5611c9823a47b4253f2dd1914e5300000000"/>
-		<Metadata name="DataProcessor.ТелеграмИИОбработкаСообщенийГруппы.ObjectModule" id="48e3b7e9-457f-4b32-b6b1-8f89ab525f0f.0" configVersion="25eedec30abe614a8b4fb6086d36b19c00000000"/>
+		<Metadata name="DataProcessor.ТелеграмИИОбработкаСообщенийГруппы" id="48e3b7e9-457f-4b32-b6b1-8f89ab525f0f" configVersion="2cc94d2fd414a848b22037f895f9107400000000"/>
+		<Metadata name="DataProcessor.ТелеграмИИОбработкаСообщенийГруппы.ObjectModule" id="48e3b7e9-457f-4b32-b6b1-8f89ab525f0f.0" configVersion="09ce1c25420b044bafc4f484ac52064d00000000"/>
 		<Metadata name="DataProcessor.ТелеграмИИОбработкаСообщенийГруппы.Template.Макет" id="43a30eba-1017-4fa5-bb98-35cef422f493" configVersion="eb85a88fa17b4d439904141a0b936afd00000000"/>
 		<Metadata name="DataProcessor.ТелеграмИИОбработкаСообщенийГруппы.Template.Макет.Template" id="43a30eba-1017-4fa5-bb98-35cef422f493.0" configVersion="b1ff72d9e00c874697894825af16895900000000"/>
 		<Metadata name="DataProcessor.ТелеграмИИТрансляцияКамеры" id="faa29b6e-0c8f-413d-b1bd-0c345cc7a0ef" configVersion="4fca1eff5b0c344a9e2b0b76f5844ab900000000"/>
