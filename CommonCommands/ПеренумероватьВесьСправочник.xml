@@ -30,6 +30,7 @@
 				<v8:Type>cfg:CatalogRef.Условия</v8:Type>
 				<v8:Type>cfg:CatalogRef.ПроксиСервера</v8:Type>
 				<v8:Type>cfg:CatalogRef.Скетчи</v8:Type>
+				<v8:Type>cfg:CatalogRef.ТелеграмПараметры</v8:Type>
 				<v8:Type>cfg:CatalogRef.Действия</v8:Type>
 				<v8:Type>cfg:CatalogRef.ТелеграмКонтакты</v8:Type>
 				<v8:Type>cfg:CatalogRef.СобытияHTTP</v8:Type>

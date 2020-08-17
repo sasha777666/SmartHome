@@ -12,12 +12,6 @@
 				<Description>Телеграм</Description>
 				<IsFolder>true</IsFolder>
 				<ChildItems>
-					<Item id="75a4731b-5f25-4a33-8bc0-2cdf4eb4f7d5">
-						<Name>ТелеграмОсновныеНастройки</Name>
-						<Code xsi:type="xs:decimal">7</Code>
-						<Description>Основные настройки</Description>
-						<IsFolder>false</IsFolder>
-					</Item>
 					<Item id="a6166ab3-7e78-4f1f-b19d-aeb5159b92e1">
 						<Name>СписокКаталоговКомпоновки</Name>
 						<Code xsi:type="xs:decimal">6</Code>

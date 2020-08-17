@@ -29,7 +29,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ТелеграмСообщенияИсходящие</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ТелеграмГруппыСообщений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТелеграмОбработкаЧёткиеШаблоныСообщений</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">b12aaeab-3509-4126-9fac-68fec6c1ee6e</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТелеграмПараметры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТелеграмКонтакты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ТелеграмОбработкаСообщенийИИАктивные</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТелеграмИИФайловыйМенеджер</xr:Item>
@@ -37,7 +37,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТелеграмКомпоновкаСообщенийГруппы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТелеграмИИТрансляцияКамеры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТелеграмРаботаСКартой</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">bb532b24-99ad-4972-bfdf-a02c12fbf40d</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

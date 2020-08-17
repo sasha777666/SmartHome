@@ -43,7 +43,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ТекущиеДанныеОборудованияМеханизмыПолучения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ИнтерфейсныеСхемы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПроксиСервера</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПроксиСервера_Приоритеты</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
