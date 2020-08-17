@@ -216,8 +216,8 @@
 		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="6af5dd4e-3635-44ab-a24e-b98a869cbad6.0" configVersion="fdef92f96485524fb09bfe8c133fda9000000000"/>
 		<Metadata name="CommonModule.СерверПривилегированный" id="c75b2d50-57f9-459d-b4d5-054f921c358c" configVersion="04d01a141b8fcb45b982e4619d28cde900000000"/>
 		<Metadata name="CommonModule.СерверПривилегированный.Module" id="c75b2d50-57f9-459d-b4d5-054f921c358c.0" configVersion="18be4c3cc5c5df468668107a44a1b1c500000000"/>
-		<Metadata name="CommonModule.ТелеграмМодуль" id="dc983fb5-9278-4c67-a610-9b74f0cd571a" configVersion="8f71b78149aadf45bdb3f876be4c5b1900000000"/>
-		<Metadata name="CommonModule.ТелеграмМодуль.Module" id="dc983fb5-9278-4c67-a610-9b74f0cd571a.0" configVersion="6086322581f854478b155de63374ba9200000000"/>
+		<Metadata name="CommonModule.ТелеграмМодуль" id="dc983fb5-9278-4c67-a610-9b74f0cd571a" configVersion="c8558e800e931b4ea5e0e3373922dbc100000000"/>
+		<Metadata name="CommonModule.ТелеграмМодуль.Module" id="dc983fb5-9278-4c67-a610-9b74f0cd571a.0" configVersion="b81c28834f93b940b1b46ad6d849d50a00000000"/>
 		<Metadata name="CommonModule.УправлениеОборудованием" id="e8550e71-4c92-4cfb-a3f4-a83416b626bb" configVersion="265fc1e05d48b44ba9223487b7593e6400000000"/>
 		<Metadata name="CommonModule.УправлениеОборудованием.Module" id="e8550e71-4c92-4cfb-a3f4-a83416b626bb.0" configVersion="511f16876729284d853ebe706c10d87900000000"/>
 		<Metadata name="CommonTemplate.AddInNative" id="e7384554-320c-4915-b428-250de1a9fe1b" configVersion="68d9ae07f2f3fd4dadcda921003d055300000000"/>
@@ -409,9 +409,7 @@
 		<Metadata name="DataProcessor.ОчисткаБазы" id="2492b973-6959-4392-84fd-9fcf2e6c9174" configVersion="8157747a1d38414388173009f53fe0b700000000"/>
 		<Metadata name="DataProcessor.ОчисткаБазы.Form.Форма" id="49a44e02-995f-42f8-b54a-9c0dd9e50459" configVersion="1ece1da962d24849adf3b7be5a565c2300000000"/>
 		<Metadata name="DataProcessor.ОчисткаБазы.Form.Форма.Form" id="49a44e02-995f-42f8-b54a-9c0dd9e50459.0" configVersion="f1427a37427df447b92d9876d37ea7ef00000000"/>
-		<Metadata name="DataProcessor.ПроксиСервера" id="32784b0f-823b-4e7c-a83e-5b575630c0ed" configVersion="ff5f908e773a084280a8ece887f9912e00000000">
-			<Metadata name="DataProcessor.ПроксиСервера.Attribute.Оборудование" id="7568100c-394c-412e-8719-9d0153789d0f"/>
-		</Metadata>
+		<Metadata name="DataProcessor.ПроксиСервера" id="32784b0f-823b-4e7c-a83e-5b575630c0ed" configVersion="ff5f908e773a084280a8ece887f9912e00000000"/>
 		<Metadata name="DataProcessor.ПроксиСервера.Form.Форма" id="67a16f23-ec59-471b-8fe5-201244b76473" configVersion="fd117ffb3391f34298d913fc174fd6f500000000"/>
 		<Metadata name="DataProcessor.ПроксиСервера.Form.Форма.Form" id="67a16f23-ec59-471b-8fe5-201244b76473.0" configVersion="a44f607f8844f148b1c1120e0055540000000000"/>
 		<Metadata name="DataProcessor.ПроксиСервера.ManagerModule" id="32784b0f-823b-4e7c-a83e-5b575630c0ed.2" configVersion="2ff859db18e64d4187b049540177c32e00000000"/>
