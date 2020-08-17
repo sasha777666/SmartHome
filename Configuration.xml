@@ -177,7 +177,6 @@
 			<Catalog>Скетчи</Catalog>
 			<Catalog>БиблиотекиСкетчей</Catalog>
 			<Catalog>IPУстройства</Catalog>
-			<Catalog>ТелеграмПараметры</Catalog>
 			<Catalog>ТелеграмКонтакты</Catalog>
 			<Catalog>ТелеграмОбработкаЧёткиеШаблоныСообщений</Catalog>
 			<Catalog>ВебИнтерфейсы</Catalog>
@@ -228,6 +227,7 @@
 			<InformationRegister>ТелеграмГруппыСообщенийСостояние</InformationRegister>
 			<InformationRegister>ТелеграмОбработкаСообщенийИИАктивные</InformationRegister>
 			<InformationRegister>ПрогрессВыполненияСерверныхПроцедур</InformationRegister>
+			<InformationRegister>ПроксиСервера_Приоритеты</InformationRegister>
 			<AccumulationRegister>ТелеграмСообщенияГруппыСообщений</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
