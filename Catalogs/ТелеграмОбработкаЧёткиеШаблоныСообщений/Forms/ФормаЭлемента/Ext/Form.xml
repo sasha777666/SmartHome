@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа7" id="68">
+			<Group>AlwaysHorizontal</Group>
+			<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="69"/>
+			<ChildItems>
+				<CheckBoxField name="Активность" id="25">
+					<DataPath>Объект.Активность</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="АктивностьКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="АктивностьРасширеннаяПодсказка" id="27"/>
+				</CheckBoxField>
+				<InputField name="ДоступУровеньОбработчика" id="10">
+					<DataPath>Объект.ДоступУровеньОбработчика</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоступУровеньОбработчикаКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ДоступУровеньОбработчикаРасширеннаяПодсказка" id="12"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="58">
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="59"/>
+			<ChildItems>
+				<UsualGroup name="Группа3" id="60">
+					<Group>Vertical</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="61"/>
+					<ChildItems>
+						<InputField name="Шаблон" id="13">
+							<DataPath>Объект.Шаблон</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<Height>1</Height>
+							<ContextMenu name="ШаблонКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ШаблонРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<InputField name="Наименование" id="4">
+							<DataPath>Объект.Description</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа4" id="62">
+					<Group>Vertical</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="63"/>
+					<ChildItems>
+						<UsualGroup name="Группа5" id="64">
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="65"/>
+							<ChildItems>
+								<InputField name="Код" id="1">
+									<DataPath>Объект.Code</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+									<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="Родитель" id="7">
+							<DataPath>Объект.Parent</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="56">
+			<Group>AlwaysHorizontal</Group>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="57"/>
+			<ChildItems>
+				<UsualGroup name="Группа6" id="66">
+					<Group>Vertical</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="67"/>
+					<ChildItems>
+						<InputField name="Действие" id="19">
+							<DataPath>Объект.Действие</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДействиеКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ДействиеРасширеннаяПодсказка" id="21"/>
+						</InputField>
+						<InputField name="ФиксированныйТекстовыйОтвет" id="22">
+							<DataPath>Объект.ФиксированныйТекстовыйОтвет</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>47</Width>
+							<ContextMenu name="ФиксированныйТекстовыйОтветКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ФиксированныйТекстовыйОтветРасширеннаяПодсказка" id="24"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<InputField name="Описание" id="16">
+					<DataPath>Объект.Описание</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОписаниеКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="18"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<CheckBoxField name="ВыполнятьКодПослеСовершенияДействия" id="28">
+			<DataPath>Объект.ВыполнятьКодПослеСовершенияДействия</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ВыполнятьКодПослеСовершенияДействияКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ВыполнятьКодПослеСовершенияДействияРасширеннаяПодсказка" id="30"/>
+		</CheckBoxField>
+		<InputField name="ВыполняемыйКодПослеСовершенияДействия" id="31">
+			<DataPath>Объект.ВыполняемыйКодПослеСовершенияДействия</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<Width>77</Width>
+			<Height>10</Height>
+			<ContextMenu name="ВыполняемыйКодПослеСовершенияДействияКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ВыполняемыйКодПослеСовершенияДействияРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<Table name="ПеременныеДляПроцедуры" id="34">
+			<Representation>List</Representation>
+			<Height>3</Height>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ПеременныеДляПроцедуры</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ПеременныеДляПроцедурыКонтекстноеМеню" id="35"/>
+			<AutoCommandBar name="ПеременныеДляПроцедурыКоманднаяПанель" id="36"/>
+			<ExtendedTooltip name="ПеременныеДляПроцедурыРасширеннаяПодсказка" id="37"/>
+			<SearchStringAddition name="ПеременныеДляПроцедурыСтрокаПоиска" id="38">
+				<AdditionSource>
+					<Item>ПеременныеДляПроцедуры</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПеременныеДляПроцедурыСтрокаПоискаКонтекстноеМеню" id="39"/>
+				<ExtendedTooltip name="ПеременныеДляПроцедурыСтрокаПоискаРасширеннаяПодсказка" id="40"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ПеременныеДляПроцедурыСостояниеПросмотра" id="41">
+				<AdditionSource>
+					<Item>ПеременныеДляПроцедуры</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПеременныеДляПроцедурыСостояниеПросмотраКонтекстноеМеню" id="42"/>
+				<ExtendedTooltip name="ПеременныеДляПроцедурыСостояниеПросмотраРасширеннаяПодсказка" id="43"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ПеременныеДляПроцедурыУправлениеПоиском" id="44">
+				<AdditionSource>
+					<Item>ПеременныеДляПроцедуры</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ПеременныеДляПроцедурыУправлениеПоискомКонтекстноеМеню" id="45"/>
+				<ExtendedTooltip name="ПеременныеДляПроцедурыУправлениеПоискомРасширеннаяПодсказка" id="46"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ПеременныеДляПроцедурыНомерСтроки" id="47">
+					<DataPath>Объект.ПеременныеДляПроцедуры.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПеременныеДляПроцедурыНомерСтрокиКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="ПеременныеДляПроцедурыНомерСтрокиРасширеннаяПодсказка" id="49"/>
+				</LabelField>
+				<InputField name="ПеременныеДляПроцедурыИмяПеременной" id="50">
+					<DataPath>Объект.ПеременныеДляПроцедуры.ИмяПеременной</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПеременныеДляПроцедурыИмяПеременнойКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="ПеременныеДляПроцедурыИмяПеременнойРасширеннаяПодсказка" id="52"/>
+				</InputField>
+				<InputField name="ПеременныеДляПроцедурыЗначение" id="53">
+					<DataPath>Объект.ПеременныеДляПроцедуры.Значение</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПеременныеДляПроцедурыЗначениеКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="ПеременныеДляПроцедурыЗначениеРасширеннаяПодсказка" id="55"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.ТелеграмОбработкаЧёткиеШаблоныСообщений</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

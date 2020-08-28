@@ -24,6 +24,82 @@
 			<Height>20</Height>
 			<ExtendedTooltip name="ВкладкиРасширеннаяПодсказка" id="18"/>
 			<ChildItems>
+				<Page name="КартаБД" id="151">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Карта БД</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Карта БД</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="КартаБДРасширеннаяПодсказка" id="152"/>
+					<ChildItems>
+						<UsualGroup name="Телеграм" id="153">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Телеграм</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Телеграм</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>StrongSeparation</Representation>
+							<ExtendedTooltip name="ТелеграмРасширеннаяПодсказка" id="154"/>
+							<ChildItems>
+								<UsualGroup name="Колонка1" id="155">
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Колонка1</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<ExtendedTooltip name="Колонка1РасширеннаяПодсказка" id="156"/>
+									<ChildItems>
+										<UsualGroup name="Группа1" id="166">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Сообщения:</v8:content>
+												</v8:item>
+											</Title>
+											<Representation>StrongSeparation</Representation>
+											<ThroughAlign>DontUse</ThroughAlign>
+											<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="167"/>
+											<ChildItems>
+												<LabelDecoration name="Телеграм_СообщенияВходящие" id="160">
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Входящие</v8:content>
+														</v8:item>
+													</Title>
+													<OnMainServerUnavalableBehavior>DontChangeBehavior</OnMainServerUnavalableBehavior>
+													<Hyperlink>true</Hyperlink>
+													<ContextMenu name="Телеграм_СообщенияВходящиеКонтекстноеМеню" id="161"/>
+													<ExtendedTooltip name="Телеграм_СообщенияВходящиеРасширеннаяПодсказка" id="162"/>
+													<Events>
+														<Event name="Click">Телеграм_СообщенияОбработкаНавигационнойСсылки</Event>
+													</Events>
+												</LabelDecoration>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
 				<Page name="ИнтерфейсныеСхемы" id="86">
 					<Title>
 						<v8:item>
