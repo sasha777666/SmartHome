@@ -691,11 +691,12 @@
 			<Metadata name="InformationRegister.ТелеграмСообщенияИсходящиеКОтправке.Resource.ВПроцессеОбработки" id="56c70432-14f5-44c5-8f59-8036cee2b14d"/>
 			<Metadata name="InformationRegister.ТелеграмСообщенияИсходящиеКОтправке.Dimension.Сообщение" id="9cd9ac3a-73e4-49ce-8794-fc4af35b1a0b"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ТелеграмСообщенияИсходящиеОтправленные" id="3eef6f3f-b4b3-49b8-9cc1-0e341f5bbe07" configVersion="506cd8ecaabedc418a8802f669da77bd00000000">
+		<Metadata name="InformationRegister.ТелеграмСообщенияИсходящиеОтправленные" id="3eef6f3f-b4b3-49b8-9cc1-0e341f5bbe07" configVersion="eb49987b7aea3941bb523a7f12c0e17900000000">
 			<Metadata name="InformationRegister.ТелеграмСообщенияИсходящиеОтправленные.Resource.СообщениеИД" id="0ed98f2a-4aba-4596-9724-93e108d29acf"/>
 			<Metadata name="InformationRegister.ТелеграмСообщенияИсходящиеОтправленные.Resource.ДатаОтправки" id="63f6d6d8-712e-4084-a308-0dbc6f0d8ece"/>
 			<Metadata name="InformationRegister.ТелеграмСообщенияИсходящиеОтправленные.Dimension.Сообщение" id="78db20a6-666a-470c-9d61-806f113f001e"/>
 		</Metadata>
+		<Metadata name="InformationRegister.ТелеграмСообщенияИсходящиеОтправленные.ManagerModule" id="3eef6f3f-b4b3-49b8-9cc1-0e341f5bbe07.2" configVersion="6555befe73c6a44ca2427f5e7742d6d200000000"/>
 		<Metadata name="Language.Русский" id="30802ca2-0b47-4c1a-a625-9f98eb01b9df" configVersion="4353290ca6b3714ab7980f960b815ea000000000"/>
 		<Metadata name="Report.ОтчётПоИсторииДанныхОборудования" id="0c8b1dbc-ee70-48aa-9490-53a8508e0540" configVersion="08f707e4b13af74ebc340cbdcdffdd2900000000"/>
 		<Metadata name="Report.ОтчётПоИсторииДанныхОборудования.Template.ОсновнаяСхемаКомпоновкиДанных" id="bdb2741b-7672-4052-aa5a-fea1edd472df" configVersion="94a3871a53b351469c20a7e55989114600000000"/>
