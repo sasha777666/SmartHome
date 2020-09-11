@@ -522,7 +522,7 @@
 		<Metadata name="Document.ТелеграмСообщенияВходящие.Form.ФормаСписка" id="7c259152-e44a-41a5-9c07-ea9350be1717" configVersion="53b7a0aff5a95c42be011d0e164f442900000000"/>
 		<Metadata name="Document.ТелеграмСообщенияВходящие.Form.ФормаСписка.Form" id="7c259152-e44a-41a5-9c07-ea9350be1717.0" configVersion="7f521957a6fd214da3860337742ec5a400000000"/>
 		<Metadata name="Document.ТелеграмСообщенияВходящие.ObjectModule" id="3946c688-1bfa-4781-8f83-0981f23c3010.0" configVersion="405c2b3f96d41147ab2f9878dca0a62700000000"/>
-		<Metadata name="Document.ТелеграмСообщенияИсходящие" id="1d686b34-ba9a-4d43-8b28-b1a1bb50adab" configVersion="43ea29fbddba8e4086246e5a49cc393100000000">
+		<Metadata name="Document.ТелеграмСообщенияИсходящие" id="1d686b34-ba9a-4d43-8b28-b1a1bb50adab" configVersion="1f2497e066450542853a92f38c80a67200000000">
 			<Metadata name="Document.ТелеграмСообщенияИсходящие.Attribute.Текст" id="374a8db4-2f49-4504-8e5e-92169f01d535"/>
 			<Metadata name="Document.ТелеграмСообщенияИсходящие.Attribute.ИДРедактируемогоСообщения" id="5475e974-af4e-4cc3-b1fe-1297fa9b6f68"/>
 			<Metadata name="Document.ТелеграмСообщенияИсходящие.Attribute.Клавиатура" id="63e0be87-1453-46cf-8571-1f1fed0f52fb"/>
@@ -534,6 +534,7 @@
 		</Metadata>
 		<Metadata name="Document.ТелеграмСообщенияИсходящие.Form.ФормаДокумента" id="85f5108f-86a4-4c3a-9311-e99c68f40f6c" configVersion="7a154075ec9c6d498ac980a73dda988200000000"/>
 		<Metadata name="Document.ТелеграмСообщенияИсходящие.Form.ФормаДокумента.Form" id="85f5108f-86a4-4c3a-9311-e99c68f40f6c.0" configVersion="ac67d2cbe189724bbaffce98b085150700000000"/>
+		<Metadata name="Document.ТелеграмСообщенияИсходящие.ManagerModule" id="1d686b34-ba9a-4d43-8b28-b1a1bb50adab.2" configVersion="0c156f0ee447fc499ee3fe69a245ef3f00000000"/>
 		<Metadata name="Document.ТелеграмСообщенияИсходящие.ObjectModule" id="1d686b34-ba9a-4d43-8b28-b1a1bb50adab.0" configVersion="25a52b490458d44fa69e056bceab27b600000000"/>
 		<Metadata name="HTTPService.Data_Exchange_Element" id="85aa530e-fb7f-455a-9b3b-9b32c8717b6b" configVersion="2276531b70584c43a74f2ff14f00f13700000000">
 			<Metadata name="HTTPService.Data_Exchange_Element.URLTemplate.ПриёмЭлемента.Method.Обработчик" id="ace8215e-608e-4899-b62a-c9e373aea9bd"/>
