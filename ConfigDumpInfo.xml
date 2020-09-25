@@ -453,8 +453,8 @@
 		<Metadata name="DataProcessor.ТелеграмУправлениеБотом" id="7dd1912b-2c6f-445d-a35d-d8734a5f5a69" configVersion="e3c9a86b9ab31a4fb4ae84bc313c77e900000000"/>
 		<Metadata name="DataProcessor.ТелеграмУправлениеБотом.Form.НачальнаяНастройкаБота" id="bbb4321c-b2b1-412a-b074-32b052ad484a" configVersion="c83884c9169a674d840c7f75145cc7e400000000"/>
 		<Metadata name="DataProcessor.ТелеграмУправлениеБотом.Form.НачальнаяНастройкаБота.Form" id="bbb4321c-b2b1-412a-b074-32b052ad484a.0" configVersion="6b972240147ee442b3ce30bb7e7685b900000000"/>
-		<Metadata name="DataProcessor.ТелеграмУправлениеБотом.Form.УпрвавлениеБотом" id="a77b25a8-36de-4f04-858c-ad9a4325a08e" configVersion="6a88a072814946418e8bbf97364eea7700000000"/>
-		<Metadata name="DataProcessor.ТелеграмУправлениеБотом.Form.УпрвавлениеБотом.Form" id="a77b25a8-36de-4f04-858c-ad9a4325a08e.0" configVersion="28a74937c1e78e40890a0ecae027f4ba00000000"/>
+		<Metadata name="DataProcessor.ТелеграмУправлениеБотом.Form.УпрвавлениеБотом" id="a77b25a8-36de-4f04-858c-ad9a4325a08e" configVersion="15db824866bbd64e865ae88c538ea2e300000000"/>
+		<Metadata name="DataProcessor.ТелеграмУправлениеБотом.Form.УпрвавлениеБотом.Form" id="a77b25a8-36de-4f04-858c-ad9a4325a08e.0" configVersion="b42b608d53361d41ab02323d745fcce900000000"/>
 		<Metadata name="DataProcessor.ТермоРезистор" id="104a5379-dd86-4a3b-a048-eb4cecdd5bc1" configVersion="7acd4f06b08ab9468f70f3a983962eee00000000">
 			<Metadata name="DataProcessor.ТермоРезистор.Attribute.ИнициирующийПроцесс" id="14440600-1f89-4b7e-884a-512720e91fb9"/>
 			<Metadata name="DataProcessor.ТермоРезистор.Attribute.СопротивлениеНаЗемлю" id="30098582-b68f-46d0-8c0f-865521ecb227"/>
